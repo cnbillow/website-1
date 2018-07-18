@@ -1,0 +1,17 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+footer
+    img
+        max-height: 75px
+    a
+        color: $lightest-gray // Light
+    p
+        color: $lightest-gray
+        font-weight: 400
+        font-size: .75em
+
+footer #footerAbout
+    line-height: 2
+    @include breakpoint(md)
+        font-size: .95em

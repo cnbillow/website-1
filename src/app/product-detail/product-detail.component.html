@@ -1,0 +1,453 @@
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+
+<ng-container *ngIf="product">
+	<div class="container pb-4">
+    	<!-- Breadcrumb Navigation -->		
+		<nav class="breadcrumb mt-2">
+			<a class="breadcrumb-item" routerLink="/">Home</a>
+			<a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item" [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Doors</a>
+			<a *ngIf="product.category === 'Steel Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/steel-security-doors']">Steel Security Doors</a>	
+			<a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Security Doors and Windows</a>
+			<a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" [routerLink]="['/about/door']">Security Doors</a>
+			<a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" [routerLink]="['/about/window-screens']">Security Windows</a>
+			<a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item" [routerLink]="['/about/chimney-services']">Security Doors and Windows</a>
+			<a *ngIf="product.category === 'Security Doors and Windows'" class="breadcrumb-item" [routerLink]="['/about/security-doors-and-windows']">Security Doors and Windows</a>
+			<a *ngIf="product.category === 'Security Doors'" class="breadcrumb-item" [routerLink]="['/about/security-doors']">Security Doors</a>
+			<a *ngIf="product.category === 'Security Windows'" class="breadcrumb-item" [routerLink]="['/about/security-windows']">Security Windows</a>
+			<a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" [routerLink]="['/about/awnings']">Awnings</a>
+			<span class="breadcrumb-item active">{{product.title}}</span>
+		</nav>
+    	<!-- /Breadcrumb Navigation -->
+		<div class="row">
+			<!-- GALLERY SECTION -->
+			<div class="col-12 col-md-7 pb-3">
+				<!-- Gallery for sliding security door -->
+				<ng-container *ngIf="product.slug === 'sliding-security-doors'">
+					<div class="col-12">
+						<div class="lower-zindex">
+							<!-- Nav tabs -->
+							<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+								<!--Panel 1-->
+								<mdb-tab heading="Single Stainless Steel Mesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/single-stainless-mesh.jpg" class="img-fluid centered-sq"/>
+										</div> 
+									</div>
+								</mdb-tab>
+								<!--Panel 2--> 
+								<mdb-tab heading="Double Stainless Steel Mesh">
+									<div class="row"> 
+										<div class="col-12">
+											<img src="/assets/images/security/sliding/double-stainless-mesh.jpg" class="img-fluid centered-sq"/>
+										</div> 
+									</div>
+								</mdb-tab>
+							</mdb-tabset>
+						</div>									
+					</div>
+					<div class="col-12">
+						<!-- Nav tabs -->
+						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
+							<!--Panel 1-->
+							<mdb-tab heading="Single Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/single-amplimesh.jpg" class="img-fluid centered-sq"/>
+									</div> 
+								</div>
+							</mdb-tab>
+							<!--Panel 2-->
+							<mdb-tab heading="Double Amplimesh">
+								<div class="row"> 
+									<div class="col-12">
+										<img src="/assets/images/security/sliding/double-amplimesh.jpg" class="img-fluid centered-sq"/>
+									</div> 
+								</div>
+							</mdb-tab>
+						</mdb-tabset>
+					</div>
+				</ng-container>
+				
+				<ng-container *ngIf="product.category === 'Steel Security Doors' || product.category === 'Swinging Screen Door'">
+					<!-- Modal Image for Swinging Screen Doors and Steel Security Doors -->				
+					<img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()"/>
+					<p class="text-center p-2">(Click Image to Enlarge)</p>
+					<div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doorModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close pull-right" aria-label="Close" (click)="doorModal.hide()">
+										<span aria-hidden="true">×</span>
+									</button>
+									<h4 class="modal-title w-100 text-center" id="myModalLabel">{{product.title}}</h4>
+								</div>
+								<div class="modal-body">
+									<img class="img-fluid z-depth-2 main-image-modal" src="{{product.tileImage}}" mdbRippleRadius/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</ng-container>
+
+				<!-- Normal Gallery for most Product Pages -->					
+				<ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
+					<ngx-gallery [options]="gallery_options" [images]="gallery_images"></ngx-gallery>
+				</ng-container>
+			</div>
+			<!-- /GALLERY SECTION -->
+
+			<div class="col-12 col-md-5" id="productInfo">
+				<h5 class="text-left">{{product.category}}</h5>
+				<h3 class="text-left">{{product.title}}</h3>
+				<ul class="pb-3">
+					<li *ngFor="let bullet of product.bullets" id="l2">{{bullet}}</li>
+				</ul>
+				<div class="flex-row" (click)="basicModal.show()">
+					<h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!</h4>
+				</div>
+				<div class="row" *ngIf="product.colorSet">
+					<div class="col-12">
+						<h4>Color Selection &nbsp; <span class="small">(click to zoom)</span></h4>
+						
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'stdColors'">Standard Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'stdColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of stdColors | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="stdColorModal.show()"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #stdColorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="stdColorModal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>						
+						</ng-container>
+						
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'screenFrameColors'">Screen Frame Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'screenFrameColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of screenFrameColors | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': url(color.value)}" placement="bottom" (click)="screenFrameColorsModal.show()"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #screenFrameColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="screenFrameModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="screenFrameColorsModal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': url(color.value)}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ng-container>
+
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'colorSetx4'">Custom Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'colorSetx4'">
+								<div class="col-3 col-md-2" *ngFor="let color of colorSetx4 | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="colorSetx4Modal.show()"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #colorSetx4Modal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="colorSetx4Modal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ng-container>
+
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'colorSetx6'">Custom Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'colorSetx6'">
+								<div class="col-3 col-md-2" *ngFor="let color of colorSetx6 | keys">
+									<div class="square" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="colorSetx6Modal.show()"></div>
+									<p id="square-p-{{i}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #colorSetx6Modal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="colorSetx6Modal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ng-container>
+
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'swingingDoorColors'">Custom Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'swingingDoorColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of swingingDoorColors | keys; index as j">
+									<div class="square" id="square-{{j}}" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="swingingDoorColorsModal.show()"></div>
+									<p id="square-p-{{j}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #swingingDoorColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="swingingDoorColorsModal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ng-container>
+
+						<ng-container *ngFor="let i of product.colorSet">
+							<p class="mb-0 mt-2 ml-1" style="font-weight:bold" *ngIf="i === 'slidingSecurityDoorColors'">Custom Colors</p>
+							<div class="row no-gutters" *ngIf="i === 'slidingSecurityDoorColors'">
+								<div class="col-3 col-md-2" *ngFor="let color of slidingSecurityDoorColors | keys; index as j">
+									<div class="square" id="square-{{j}}" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom" (click)="slidingSecurityDoorColorsModal.show()"></div>
+									<p id="square-p-{{j}}" class="pl-2 p-colors">{{color.key}}</p>
+									<div mdbModal #slidingSecurityDoorColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="slidingSecurityDoorColorsModal" aria-hidden="true">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title w-100 text-center" id="myModalLabel">{{color.key}}</h4>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="slidingSecurityDoorColorsModal.hide()">
+														<span aria-hidden="true">×</span>
+													</button>
+												</div>
+												<div class="modal-body">													
+													<div class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
+												</div>									
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ng-container>
+						<ng-container *ngFor="let colors of product.colorSet">
+							<p *ngIf="colors === 'swingingDoorColors' || colors === 'slidingSecurityDoorColors'" class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+							<p *ngIf="colors === 'swingingDoorColors' || colors === 'slidingSecurityDoorColors'" id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
+						</ng-container>
+
+						<ng-container *ngFor="let i of product.colorSet">
+							<div class="paintchips" *ngIf="i === 'securityDoorColors'" (click)="steelColorsModal.show()">
+								<img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>	
+								<img src="/assets/images/security/steel-security-doors/paintchips/row2.png" class="img-fluid"/>
+								<img src="/assets/images/security/steel-security-doors/paintchips/row3.png" class="img-fluid"/>
+								<div class="collapse" id="collapseSteelColors">
+									<img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row5.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row6.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row8.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row9.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row11.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row12.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row14.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row15.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row17.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row18.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>	
+									<img src="/assets/images/security/steel-security-doors/paintchips/row20.png" class="img-fluid"/>
+									<img src="/assets/images/security/steel-security-doors/paintchips/row21.png" class="img-fluid"/>
+								</div>
+								<a id="moreSteelColors" (click)="moreSteelToggle()">Show more/less colors</a>
+							</div>
+							<div mdbModal #steelColorsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="steelColorsModal" aria-hidden="true" style="overflow-y: auto">
+								<div class="modal-dialog modal-lg" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title w-100 text-center" id="myModalLabel">Steel Door Colors</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="steelColorsModal.hide()">
+												<span aria-hidden="true">×</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<div class="paintchipsModal">
+												<img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row2.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row3.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row5.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row6.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row8.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row9.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row11.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row12.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row14.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row15.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row17.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row18.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>	
+												<img src="/assets/images/security/steel-security-doors/paintchips/row20.png" class="img-fluid"/>
+												<img src="/assets/images/security/steel-security-doors/paintchips/row21.png" class="img-fluid"/>
+											</div>
+										</div>
+										<div class="model-footer">
+											<button type="button" class="btn orange centered-sq mb-2 w-75" (click)="steelColorsModal.hide()">
+												Close Colors
+											</button>
+										</div>							
+									</div>
+								</div>
+							</div>
+							
+
+						</ng-container>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container py-4" id="tab-section">
+		<div class="row">
+			<div class="col-md-12">
+				<nav>
+					<div class="nav blue nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab" href="#nav-overview" role="tab" aria-controls="nav-overview" aria-selected="true">Product Overview</a>
+						<a class="nav-item nav-link" id="nav-specs-tab" data-toggle="tab" href="#nav-specs" role="tab" aria-controls="nav-specs" aria-selected="false">Technical Specs</a>
+						<a class="nav-item nav-link" id="nav-options-tab" data-toggle="tab" href="#nav-options" role="tab" aria-controls="nav-options" aria-selected="false">Options</a>
+						<a class="nav-item nav-link" id="nav-related-tab" data-toggle="tab" href="#nav-related" role="tab" aria-controls="nav-related" aria-selected="false">Related Products</a>
+						<a class="nav-item nav-link" id="nav-warranty-tab" data-toggle="tab" href="#nav-warranty" role="tab" aria-controls="nav-warranty" aria-selected="false">Warranty</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
+						<p class="p-4" [innerHTML]="product.productOverview"></p>
+					</div>
+					<div class="tab-pane fade" id="nav-specs" role="tabpanel" aria-labelledby="nav-specs-tab">
+						<div class="p-4" [innerHTML]="product.technicalSpecs"></div>
+					</div>
+					<div class="tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab">
+						<div class="p-4" [innerHTML]="product.options"></div>
+					</div>
+					<div class="tab-pane fade" id="nav-related" role="tabpanel" aria-labelledby="nav-related-tab">
+						<ul class="p-4">
+							<li *ngFor="let i of product.relatedProducts | keys">
+								<a [routerLink]="[i.value]" >{{i.key}}</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-pane fade" id="nav-warranty" role="tabpanel" aria-labelledby="nav-warranty-tab">
+						<div class="p-4" [innerHTML]="product.warranty"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" *ngIf="product.recentInstallImages">
+		<!--Section: Features v.2-->
+		<section class="text-center section feature-box">
+			<!--Section heading-->
+			<h2 class="pt-3">View some of our recent installs</h2>
+			<hr/>
+			<!--Grid row-->
+			<div>
+				<ngx-gallery [options]="recent_install_images_options" [images]="recent_install_images"></ngx-gallery>
+		 	</div>
+		</section>
+	</div>
+
+
+</ng-container>
+
+<app-footer></app-footer>
+
+
+<!--QuoteForm Modal-->
+<div class="container">
+	<div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
+						<span aria-hidden="true">×</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <br/><span class="orange-text">1-877-520-3595</span></h4>
+				</div>
+				<div class="modal-body">
+					<!-- <div class="md-form form-sm">
+						<mdb-select [options]="groupOptionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
+					</div> -->
+
+					<div class="md-form form-sm">                        
+						<mdb-select [options]="groupOptionsSelect" placeholder="Choose your option" class="colorful-select dropdown-primary"></mdb-select>
+					</div>               
+					<div class="md-form form-sm">
+						<input mdbActive type="text" id="form1" class="form-control">
+						<label for="fullName" class="">Full Name</label>
+					</div>
+					<div class="md-form form-sm">
+						<input mdbActive type="text" id="form1" class="form-control">
+						<label for="city" class="">City</label>
+					</div>
+					<div class="md-form form-sm">
+						<input mdbActive type="text" id="form1" class="form-control">
+						<label for="phone" class="">Phone</label>
+					</div>
+					<div class="md-form form-sm">
+						<input mdbActive type="text" id="form1" class="form-control">
+						<label for="email" class="">Email</label>
+					</div>
+					<div class="md-form">
+						<textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
+						<label for="form7">How can we help</label>
+					</div>
+				</div>
+
+				<div class="d-flex flex-row">
+					<button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
+					<button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--/QuoteForm Modal-->
+	

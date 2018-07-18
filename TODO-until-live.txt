@@ -1,0 +1,25 @@
+--------------------------
+---- MD BOOTSTRAP KEY ----
+--------------------------
+zYzzGAPxVUe1Qx44c_6X
+--------------------------
+---- DO NOT DELETE -------
+--------------------------
+
+TODO until live
+
+Visual Fixes:
+-------------
+Blog page
+Contact page
+
+Quote Form (submit function): emailjs redirect on submitFomr
+Thank You page redirect after Quote form is completed
+
+
+SEO Fixes:
+----------
+? Google Analytics Conversions
+? Facebook Pixels Tracker
+
+IMAGES @ http://reyesmasonrycontractor.com
