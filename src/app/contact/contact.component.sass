@@ -51,10 +51,10 @@ select
     z-index: 9
     position: relative
     p
-        padding: 12px
-
+        font-size: 1rem
+    
 .pills-secondary .nav-link.active 
-    background-color: #00afef !important
+    background-color: $mmblue !important
         
 h3, .h3 
     font-size: 1.25rem
@@ -63,3 +63,7 @@ h3, .h3
     overflow-y: hidden
     margin-bottom: 5px
        
+.mobile-disappear
+	display: none
+	@include breakpoint(md)
+		display: block
