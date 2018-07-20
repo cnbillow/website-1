@@ -7,8 +7,13 @@
         <ul class="navbar-nav ml-auto">
             <div class="m-2" id="desktop-disappear"></div>
             <li class="nav-item px-1">
-                <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text display-desktop" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" id="navBtn" mdbRippleRadius>
-                    services
+                <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>Home<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item px-1">
+                <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text display-desktop no-pointer" (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" id="navBtn" mdbRippleRadius>
+                    Services
                 </a>
                 <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" pageScroll href="#services" id="display-mobile" mdbRippleRadius>
                     <i class="fa fa-globe pr-3" id="desktop-disappear" aria-hidden="true"></i>services<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
@@ -77,17 +82,17 @@
 
             <li class="nav-item px-1">
                 <a class="nav-link waves-dark blue-text nav-text"  [routerLink]="['/about']" href="#aboutMM" id="navBtn" mdbRippleRadius>
-                    <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>about<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    <i class="fa fa-users pr-3" id="desktop-disappear" aria-hidden="true"></i>About<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="nav-item px-1">
-                <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/']" pageScroll href="#contact" id="navBtn" mdbRippleRadius>
-                    <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                <a class="nav-link waves-dark blue-text nav-text" [routerLink]="['/contact']" pageScroll href="#contact" id="navBtn" mdbRippleRadius>
+                    <i class="fa fa-envelope pr-3" id="desktop-disappear" aria-hidden="true"></i>Contact<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="nav-item px-1">
                 <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" id="navBtn" mdbRippleRadius>
-                    <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
+                    <i class="fa fa-share-alt pr-3" id="desktop-disappear" aria-hidden="true"></i>Blog<i class="fa fa-angle-right float-right mt-1" id="desktop-disappear" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="nav-item px-1">

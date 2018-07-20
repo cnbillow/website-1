@@ -1,26 +1,18 @@
 <app-navigation></app-navigation>
-    <div class="info-box">
-        <!--Panel-->
-<div class="card">
-        <h3 class="card-header primary-color white-text">Mike’s Mobile<br>Screens and Chimney Service</h3>
-        <div class="card-body">
-            <h4 class="card-title">Get a Quote Now</h4>
-            <p class="card-text">Contacting us is as easy as filling out a form on our web site for giving us a call.</p>
-            <a class="btn btn-primary waves-light" (click)="basicModal.show()" mdbWavesEffect>Free Quote</a>
+    <!--info box above the map-->
+    <div class="mobile-disappear info-box" >
+        <div class="card">
+            <h3 class="card-header primary-color white-text">Mike’s Mobile<br>Screens and Chimney Service</h3>
+            <div class="card-body">
+                <h4 class="card-title" id="desktop-disappear">Get a Quote Now</h4>
+                <p class="card-text">8130 Lorraine Ave,<br>Suite 312 Stockton, CA 95210<br>Fax: (916) 358-7873 <br>
+                    Mikesmobilescreens@gmail.com</p>
+                <a class="btn btn-primary waves-light" (click)="basicModal.show()" mdbWavesEffect>Free Quote</a>
+            </div>
         </div>
     </div>
-    <!--/.Panel-->
-        <!-- <p>Mike’s Mobile Screens and Chimney Service
-            8130 Lorraine Ave., Suite 312
-            Stockton, CA 95210
-            <br><br>
-            Fax: (916) 358-7873
-            <br>
-            Email: Mikesmobilescreens@gmail.com
-            <br>
-            Toll Free 1-877-520-3595
-        </p> -->
-    </div>
+<!--/info box above the map-->
+
 <agm-map [latitude]="map.lat" [longitude]="map.lng" [zoom]="zoom" style="height: 600px">
     <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
  </agm-map>         
@@ -47,12 +39,10 @@
         <!--Panel 1-->
         <mdb-tab heading="<i class='fa fa-map'></i> Address">
             <div class="row">
-                <hr>
-                <div class="col-6">
+                <div class="col-12">
                         <img src="assets/images/main/single-chimney.jpg" alt="..." class="img-thumbnail">
-                </div>
-                <div class="col-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>     
+                        <br><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
                 </div>
             </div>
         </mdb-tab>
