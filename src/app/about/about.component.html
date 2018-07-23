@@ -1,6 +1,6 @@
 <app-navigation></app-navigation>
 
-<div class="container slideshow" id="slideshow">
+<div class="slideshow" id="slideshow">
     <!--Carousel Wrapper-->
     <mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="2500">
         <!--First slide-->
@@ -120,20 +120,6 @@
         </div>
         <!--Grid row-->
 
-        <!--Grid row-->
-        <div class="row mb-2">
-        <div class="col-2">
-            <i class="fa fa-2x fa-flask deep-purple-text"></i>
-        </div>
-        <div class="col-10 text-left">
-            <h5 class="font-weight-bold">Contact Us!</h5>
-            <p class="grey-text">Mike’s Mobile Screen & Chimney Service has never been easier to hire for all of your Screen, 
-                Security Door and Chimney needs. Simply visit  
-                <a [routerLink]="['/contact']"><button type="button" class="btn btn-lg peach-gradient btn-rounded waves-light" mdbRippleRadius>Contact</button></a> 
-                or fill our the web form to the right!</p>
-        </div>
-        </div>
-        <!--Grid row-->
 
     </div>
     <!--Grid column-->
@@ -150,18 +136,6 @@
         <!--Grid row-->
         <div class="row mb-2">
         <div class="col-2">
-            <i class="fa fa-2x fa-flash deep-purple-text"></i>
-        </div>
-        <div class="col-10 text-left">
-            <h5 class="font-weight-bold">Rapid growth</h5>
-            <p class="grey-text">Each year in October we start to see a shift to the our chimney side of the business</p>
-        </div>
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row mb-2">
-        <div class="col-2">
             <i class="fa fa-2x fa-magic deep-purple-text"></i>
         </div>
         <div class="col-10 text-left">
@@ -171,27 +145,35 @@
         </div>
         </div>
         <!--Grid row-->
-        
-        <!--Grid row-->
-        <div class="row mb-2">
-        <div class="col-2">
-            <i class="fa fa-2x fa-heart deep-purple-text"></i>
-        </div>
-        <div class="col-10 text-left">
-            <h5 class="font-weight-bold">Beloved</h5>
-            <p class="grey-text">Give us a call today and find out why our customers love us!</p>
-        </div>
-        </div>
-        <!--Grid row-->
 
     </div>
     <!--Grid column-->
 
+    <!--Grid column-->
+    <div class="col-md-4">
+        <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fa-flask deep-purple-text"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Contact Us!</h5>
+            <p class="grey-text">Mike’s Mobile Screen & Chimney Service has never been easier to hire for all of your Screen, 
+                Security Door and Chimney needs. Simply visit  
+                <a [routerLink]="['/contact']"><button type="button" class="btn btn-lg peach-gradient btn-rounded waves-light" mdbRippleRadius>Contact</button></a> 
+                or fill our the web form to the right!</p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+    </div>
+        <!--Grid column-->
+
     </div>
     <!--Grid row-->
 
-</section>
-<!--/Section: Features v.4-->
-</div>
-
+    </section>
+    <!--/Section: Features v.4-->
+    </div>
+</div>    
 <app-footer></app-footer>
