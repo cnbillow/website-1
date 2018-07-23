@@ -1,18 +1,19 @@
 <!-- Action Buttons -->
-<div class="container" id="action-buttons-container">
-    <div class="quote">
-        <button class="btn blue waves-light w-100" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only"><font size="3">Free Quote!</font></span></button>
-    </div>
-    <div class="tel">
-        <button class="btn blue waves-light w-100" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783"><font size="3">1-877-520-3595</font></a></button>
-    </div>
-    <div class="search">
-        <button id="search-button" class="btn orange waves-light w-100" (click)="hideShowSearch()" mdbRippleRadius><i style="font-size:25px" class="fa fa-search" aria-hidden="true"></i></button>
+    <div class="row">
+      <div class="col-sm nopadding">
+          <button class="btn blue waves-light w-100 nomargin" (click)="basicModal.show()" id="quoteBtn" mdbRippleRadius><span id="desktop-only"><font size="3">Free Quote!</font></span></button>
+      </div>
+      <div class="col-sm nopadding">
+          <button class="btn blue waves-light w-100 nomargin" id="telBtn" mdbRippleRadius><a class="white-text" href="tel:+1-916-372-8783"><font size="3">1-877-520-3595</font></a></button>
+      </div>
+      <div class="col-sm nopadding">
+          <button id="search-button" class="btn orange waves-light w-100 nomargin" (click)="hideShowSearch()" mdbRippleRadius><i style="font-size:25px" class="fa fa-search" aria-hidden="true"></i></button>
+      </div>
     </div>
     <app-search id="search-input" style="display: none"></app-search>
-</div>
+
 <!--/ Action Buttons -->
-<div class="row"><br/><br/></div>
+<!-- <div class="row"><br/><br/></div> -->
 
 <!--QuoteForm Modal-->
 <div class="container">

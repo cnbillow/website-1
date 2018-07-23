@@ -1,20 +1,17 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-.quote, .tel
-    width: 40%
-.search
-    width: 20%    
+// .quote, .tel
+//     width: 40%
 
-.quote, .tel, .search
-    float: left
-    button
-        border-radius: 0
-        box-shadow: none
-        margin: 0
-        &:hover
-            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 10px 0 rgba(0, 0, 0, 0.12)
-    .waves-effect
-        z-index: 0
-#search-input
+ #search-input
     clear: both
+
+.nopadding 
+    padding: 0px
+    margin: 0px
+
+.nomargin
+    margin: 0.375rem
+    @include breakpoint(sm)
+        margin: 0px !important
