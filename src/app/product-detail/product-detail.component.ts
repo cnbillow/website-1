@@ -136,7 +136,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         this.gallery_options = [
             {
                 width: '550px',
-                height: '520px',
+                height: '625px',
                 thumbnailSize: NgxGalleryImageSize.Cover,
                 thumbnailsColumns: 4,
                 thumbnailsRemainingCount: true,
