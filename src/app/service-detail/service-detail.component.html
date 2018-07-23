@@ -31,7 +31,7 @@
 					<iframe *ngIf="service.video; else tileImg" width="100%" height="400px" src="https://www.youtube.com/embed/WtENSdKQL5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<ng-template #tileImg>
 						<img *ngIf="service.slug !== 'pet-door' " src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">
-						<img *ngIf="service.slug === 'pet-door'" src="/assets/images/screens/pet-door/pet-door-main.jpg" class="img-fluid z-depth-2 main-image" />
+						<img *ngIf="service.slug === 'pet-door'" src="/assets/images/screens/pet-door/pet-door-main.png" class="img-fluid z-depth-2 main-image" />
 					</ng-template>
 					<h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
 		        </div>

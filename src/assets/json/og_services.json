@@ -527,7 +527,7 @@
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"services",
-        "tileImage":"/assets/images/screens/pet-door/pet-door-main-small.jpg",
+        "tileImage":"/assets/images/screens/pet-door/pet-door-main.png",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "images":{
             "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
