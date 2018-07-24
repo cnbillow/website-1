@@ -110,3 +110,26 @@ img#servicesImages
 
 .border-grey
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.35), 0 2px 10px 0 rgba(0, 0, 0, 0.25)
+
+
+
+    .imageScrollBox
+    width: 100%
+    overflow-x: auto
+    overflow-y: hidden
+
+
+ngx-gallery
+    padding: 10px 0 0 0
+    border: 1px solid #e3e3e3
+    @include breakpoint(md)
+        border: none
+
+ngx-gallery /deep/ .ngx-gallery-arrow
+    color: #000000
+
+/deep/ .ngx-gallery-thumbnail.ngx-gallery-active  
+    border: $mmblue solid 2px
+    border-radius: 5px
+    box-shadow: 0px 0px 15px 1px $mmblue
+    transition: 0.5s
