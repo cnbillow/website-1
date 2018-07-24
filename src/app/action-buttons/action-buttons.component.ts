@@ -71,7 +71,7 @@ export class ActionButtonsComponent implements OnInit {
           { value: 'CRL Guarda Fixed', label: 'CRL Guarda Fixed' },
           //{ value: 'CRL Guarda Casement', label: 'CRL Guarda Casement' },
           { value: '', label: 'AWNINGS', group: true },
-          { value: 'Retractable Pation Awnings', label: 'Retractable Pation Awnings' },
+          { value: 'Retractable Patio Awnings', label: 'Retractable Patio Awnings' },
           { value: 'Drop Roll Sunscreens', label: 'Drop Roll Sunscreens' },
           { value: 'Door and Window Awnings', label: 'Door and Window Awnings' },
       ];

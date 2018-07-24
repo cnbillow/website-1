@@ -35,7 +35,7 @@ export class FooterComponent implements OnInit {
       { value: '18', label: 'CRL Guarda Fixed' },
       //{ value: '19', label: 'CRL Guarda Casement' },
       { value: '', label: 'AWNINGS', group: true },
-      { value: '20', label: 'Retractable Pation Awnings' },
+      { value: '20', label: 'Retractable Patio Awnings' },
       { value: '21', label: 'Drop Roll Sunscreens' },
       { value: '22', label: 'Door and Window Awnings' },
     ];
