@@ -105,15 +105,19 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
     
     this.gallery_options = [
         { 
-            width: '600px', 
-            height: '500px', 
-            thumbnailsColumns: 3, 
-            thumbnailsRows: 2, 
-            thumbnailsPercent: 40, 
-            imagePercent: 60, 
-            thumbnailMargin: 2, 
-            thumbnailsMargin: 2, 
+            image: false, 
+            height: '200px',
+            width: '800px',
+            // width: '600px', 
+            // height: '500px', 
+            thumbnailsColumns: 5, 
+            // thumbnailsRows: 2, 
+            // thumbnailsPercent: 40, 
+            // imagePercent: 60, 
+            // thumbnailMargin: 2, 
+            // thumbnailsMargin: 2, 
             imageAutoPlay: true, 
+            thumbnailsSwipe: true,
             imageAutoPlayPauseOnHover: true, 
             previewAutoPlay: true, 
             previewAutoPlayPauseOnHover: true, 
@@ -121,16 +125,10 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
             previewCloseOnEsc: true
         },
         { 
-            breakpoint: 500, 
-            width: '300px', 
-            height: '300px', 
-            thumbnailsColumns: 3 
-        },
-        { 
-            breakpoint: 300, 
-            width: '100%', 
-            height: '200px', 
-            thumbnailsColumns: 2 
+          breakpoint: 990, 
+          width: "100%",
+          thumbnailsColumns: 3, 
+
         }
     ];
 
