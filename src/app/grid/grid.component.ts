@@ -51,15 +51,12 @@ export class GridComponent implements OnInit {
 
         this.gallery_options = [
             { 
-                width: '700px', 
-                height: '600px', 
-                thumbnailsColumns: 3, 
-                thumbnailsRows: 2, 
-                thumbnailsPercent: 40, 
-                imagePercent: 60, 
-                thumbnailMargin: 2, 
-                thumbnailsMargin: 2, 
+                image: false, 
+                height: '200px',
+                width: '800px',
+                thumbnailsColumns: 5, 
                 imageAutoPlay: true, 
+                thumbnailsSwipe: true,
                 imageAutoPlayPauseOnHover: true, 
                 previewAutoPlay: true, 
                 previewAutoPlayPauseOnHover: true, 
@@ -67,17 +64,11 @@ export class GridComponent implements OnInit {
                 previewCloseOnEsc: true
             },
             { 
-                breakpoint: 500, 
-                width: '300px', 
-                height: '300px', 
-                thumbnailsColumns: 3 
+                breakpoint: 990, 
+                width: "100%",
+                thumbnailsColumns: 3, 
             },
-            { 
-                breakpoint: 300, 
-                width: '100%', 
-                height: '200px', 
-                thumbnailsColumns: 2 
-            }
+            
         ]
 
     }
