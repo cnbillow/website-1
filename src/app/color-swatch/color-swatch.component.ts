@@ -96,6 +96,9 @@ slidingSecurityDoorColors ={
       case "slidingSecurityDoorColors":
           this.colors=this.slidingSecurityDoorColors;
           break;
+      default:
+        this.colors=null;
+        break;
       }
   }
   viewMoreColors(){
