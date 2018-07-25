@@ -88,6 +88,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 data.filter(item => {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
+
                         this.recent_install_images = this.product.recentInstallImages;                        
                         if (this.product.thumbImages && this.product.thumbImages.length > 1){
                             this.gallery_images = this.product.thumbImages;
@@ -208,36 +209,36 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
       this.req.unsubscribe();
     }
 
-    viewMoreColors(){
-        var viewMoreBtn = document.getElementById('more-colors').style.display="none";
-        var viewLessBtn = document.getElementById('less-colors').style.display="block";
+    // viewMoreColors(){
+    //     var viewMoreBtn = document.getElementById('more-colors').style.display="none";
+    //     var viewLessBtn = document.getElementById('less-colors').style.display="block";
 
-        for (var i=6; i<19; i++){
-            var el = document.getElementById("square-" + i);            
-            el.style.display = 'block';
-            if (screen.width < 992){
-                var ello = document.getElementById("square-p-" + i);
-                ello.style.display = 'block';
-            }            
-        }
+    //     for (var i=6; i<19; i++){
+    //         var el = document.getElementById("square-" + i);            
+    //         el.style.display = 'block';
+    //         if (screen.width < 992){
+    //             var ello = document.getElementById("square-p-" + i);
+    //             ello.style.display = 'block';
+    //         }            
+    //     }
         
-    }
-    viewLessColors(){
-        var viewLessBtn = document.getElementById('less-colors').style.display="none";
-        var viewMoreBtn = document.getElementById('more-colors').style.display="block";
+    // }
+    // viewLessColors(){
+    //     var viewLessBtn = document.getElementById('less-colors').style.display="none";
+    //     var viewMoreBtn = document.getElementById('more-colors').style.display="block";
 
-        for (var i=6; i<19; i++){
-            var el = document.getElementById("square-" + i);            
-            el.style.display = 'none';
-            if (screen.width < 992){
-                var ello = document.getElementById("square-p-" + i);
-                ello.style.display = 'none';
-            }            
-        }     
-    }
+    //     for (var i=6; i<19; i++){
+    //         var el = document.getElementById("square-" + i);            
+    //         el.style.display = 'none';
+    //         if (screen.width < 992){
+    //             var ello = document.getElementById("square-p-" + i);
+    //             ello.style.display = 'none';
+    //         }            
+    //     }     
+    // }
 
-    moreSteelToggle(){
-        var collapse = document.getElementById('collapseSteelColors').classList.toggle('collapse')
-    }
+    // moreSteelToggle(){
+    //     var collapse = document.getElementById('collapseSteelColors').classList.toggle('collapse')
+    // }
 
 }

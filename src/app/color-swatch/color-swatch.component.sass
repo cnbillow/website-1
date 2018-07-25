@@ -1,0 +1,58 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+.square
+    height: 100px
+    width: 100%
+    background: $light-gray
+    margin: 5px
+    @include breakpoint(md)
+        width: 75px
+        height: 75px
+
+.square-lg
+    height: 250px
+    width: 250px
+
+.centered-sq
+    position: relative
+    width: 100%
+    left: 50%
+    transform: translate(-50%, 0)
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+#more-colors
+    &:hover
+        color: $mmblue !important
+        cursor: pointer
+
+#less-colors
+    display: none
+    &:hover
+        cursor: pointer
+
+@for $i from 6 through 18
+    #square-#{$i}
+        display: none
+    #square-p-#{$i}
+        display: none
+
+.p-colors
+    font-size: .75em
+    @include breakpoint(md)
+        display: none    
+
+#std-color-1
+    background: #2D3017
+#std-color-2
+    background: #fff
+#color-1
+    background: #FAF9ED
+#color-2
+    background: #F4EDCA
+#color-3
+    background: #3F2823
+#color-4
+    background: #103427
+#color-5
+    background: #928A6F

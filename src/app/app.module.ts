@@ -32,6 +32,7 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
 
 import { KeysPipe } from './utility/keys.pipe';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
+import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 
 
 @NgModule({
@@ -58,6 +59,7 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
     ServiceListComponent,
     ServiceDetailComponent,
     SeoAdwordsLpComponent,
+    ColorSwatchComponent,
   ],
   imports: [
     AppRoutingModule,
