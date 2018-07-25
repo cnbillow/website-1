@@ -72,7 +72,14 @@ slidingSecurityDoorColors ={
       "Statuary Bronze":"#42372F"
       }
     }
-
+    screenFrameColors = {
+    "name":"Screen Frame Colors",
+    "values":{
+      Black:"/assets/images/colors/suntex-black.png",
+      Brown:"/assets/images/colors/suntex-brown.png",
+      Gray:"/assets/images/colors/suntex-grey.png",
+      Stucco:"/assets/images/colors/suntex-stucco.png"
+  }}
   constructor() { 
 
     
@@ -95,6 +102,9 @@ slidingSecurityDoorColors ={
           break;
       case "slidingSecurityDoorColors":
           this.colors=this.slidingSecurityDoorColors;
+          break;
+      case "screenFrameColors":
+          this.colors=this.screenFrameColors;
           break;
       default:
         this.colors=null;

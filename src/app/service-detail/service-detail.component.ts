@@ -13,61 +13,6 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
 })
 export class ServiceDetailComponent implements OnInit, OnDestroy {
 
-    stdColors = {
-        "Anodized Bronze":"#2D3017",
-        "White":"#ffffff"
-    }
-    screenFrameColors = {
-        Black:"//images/colors/suntex-black.png",
-        Brown:"//images/colors/suntex-brown.png",
-        Gray:"//images/colors/suntex-grey.png",
-        Stucco:"//images/colors/suntex-stucco.png"
-    }
-    colorSetx4 = {
-        "Almond":"#F3E7D3",
-        "Anodized Bronze":"#2D3017",
-        "Mill":"#999AA3",
-        "White":"#ffffff"
-    }
-    colorSetx6 = {
-        "Black":"#000000",
-        "Bronze":"#473428",
-        "Champagne":"#A69882",
-        "Desert Sand":"#F4EBD4",
-        "Mill":"#999AA3",
-        "White":"#ffffff"
-    }
-    swingingDoorColors = {
-        "Adobe":"#E0B17D",
-        "Almond":"#F3E7D3",
-        "Black":"#000000",
-        "Anodized Bronze":"#2D3017",
-        "Mill":"#999AA3",
-        "Anodized Satin":"#E1E2E8",
-        "Tan":"#AD8166",
-        "White":"#ffffff"
-    }
-    securityDoorColors = {
-        "Alabaster":"#FAF9ED",
-        "Almond":"#F4EDCA",
-        "Autumn Brown":"#3F2823",
-        "Bear Green":"#103427",
-        "Champagne Beige":"#928A6F",
-        "Charcoal Grey":"#535353",
-        "Country Blue":"#6C99B6",
-        "Desert Sand":"#E5E0B5",
-        "Flat Black":"#121412",
-        "New England Grey":"#B0BBB7",
-        "Post Office Blue":"#182F4D",
-        "Terra Cotta":"#671218",
-        "Chrome":"#EFEFEF",
-        "Evening Blue":"#1F4769",
-        "Forest Green":"#0E251B",
-        "Green Patina":"#435E57",
-        "New Bronze":"#40372D",
-        "Pacific Granite":"#707070",
-        "Statuary Bronze":"#42372F"
-    }
     private req:any;
     private routeSub:any;
 
