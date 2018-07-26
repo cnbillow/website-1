@@ -21,8 +21,10 @@ nav
 h5
 	font-weight: 900
 h6
-	color: $orange
+	color: $mmblue
 	font-weight: 900
+	@include breakpoint(md)
+		color: $orange
 
 .nav-text
 	font-weight: 400
@@ -32,6 +34,7 @@ li.nav-item .nav-link:hover
 	border-radius: 3px
 
 .dropdown-menu
+	border-radius: 1px
 	a:hover
 		color: $orange !important
 
@@ -46,15 +49,18 @@ li.nav-item .nav-link:hover
 .underline
 	border-bottom: 1px solid #f2f2f2
 
-.dropdown-menu
-	border-radius: 1px
+.mobile-submenu
+	width: 100% !important
+	font-weight: 900
+	font-size: 12px !important
+	
 
 #navBtn:hover
 	background: $mmblue !important
     
 
 	
-#display-mobile
+.display-mobile
     display: block !important
     @include breakpoint(md)
         display: none !important

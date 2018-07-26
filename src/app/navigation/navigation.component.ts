@@ -32,17 +32,24 @@ export class NavigationComponent implements OnInit {
 
   openDropdown(){
     var dropdown = document.getElementById('dropdown');
-
     if(screen.width > 992){
       dropdown.classList.add('show');
     }
-
   }
+
   closeDropdown(){
     var dropdown = document.getElementById('dropdown');
     dropdown.classList.remove('show');
   }
 
+  openDropdownMobile(){
+    var dropdown = document.getElementById('DropdownMobile');
+    if(screen.width < 992){
+      dropdown.classList.toggle('show');
+    }
+  }
+
+  
   public setTitle( newTitle: string) {
 		this.titleService.setTitle( newTitle );
 	}
