@@ -24,7 +24,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
     extra_images=[]
     info_graphics=[]
     groupOptionsSelect=[]
-
+    videoLink=null
     petImages = {}
   
     gallery_options: NgxGalleryOptions[];
@@ -45,7 +45,8 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
                     this.extra_images = this.service.extraImages;
                     this.petImages = this.service.images;
                     this.gallery_images = this.service.recentInstallImages;
-                    console.log(this.service.tileImage)
+                    this.videoLink=this.sanitizer.bypassSecurityTrustUrl(this.service.video)
+                    console.log(this.videoLink)
                 }
             })
         })
