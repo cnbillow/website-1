@@ -1,0 +1,10 @@
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+<div *ngFor="let section of faqSections">
+  <h2>{{section.category}}</h2>
+  <div *ngFor="let question of section.questions | keys" class="question and answer">
+    <h3>{{question.key}}</h3>
+    <p>{{question.value}}</p>
+  </div>
+</div>
+<app-footer></app-footer>

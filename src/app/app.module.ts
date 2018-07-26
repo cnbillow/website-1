@@ -34,6 +34,8 @@ import { KeysPipe } from './utility/keys.pipe';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { FaqListComponent } from './faq-list/faq-list.component';
+
 
 
 @NgModule({
@@ -62,6 +64,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     SeoAdwordsLpComponent,
     ColorSwatchComponent,
     QuoteFormComponent,
+    FaqListComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -79,6 +82,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
   providers: [
       MDBSpinningPreloader,
       Title,
+      
   ],
   bootstrap: [AppComponent],
   schemas: [ NO_ERRORS_SCHEMA ],
