@@ -16,7 +16,7 @@
         <div class="col-lg-4 mb-4">
             <!--Featured image-->
             <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
-                <img src="{{post.images[0]}}" alt="{{Blog.title}}">
+                <img src="{{post.images[0]}}" alt="{{post.slug}}">
                 <a>
                     <div class="mask"></div>
                 </a>
@@ -27,7 +27,7 @@
         <!--Grid column-->
         <div class="col-lg-7 mb-4">
             <!--Excerpt-->
-            <a href="" class="orange-text"><h6 class="pb-1"><i class="fa fa-folder"></i><strong>{{post.category}}</strong></h6></a>
+            <a [routerLink]="[post.slug]" class="orange-text"><h6 class="pb-1"><i class="fa fa-folder"></i><strong>{{post.category}}</strong></h6></a>
             <h4 class="mb-4"><strong>{{post.title}}</strong></h4>
             <p>{{ (post.content[0].length>75)? (post.content[0] | slice:0:75)+'...':(post.content[0]) }}</p>
             <p>by <a><strong>{{post.user}}</strong></a>, {{post.postdate}}</p>

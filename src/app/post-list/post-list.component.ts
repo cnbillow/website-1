@@ -12,12 +12,13 @@ export class PostListComponent implements OnInit, OnDestroy {
 
   private req:any
   blogPostList:[BlogPost]
-  
+  title="Mike's Mobile"
   constructor(private _service:PostService) { }
 
   ngOnInit() {
     this.req = this._service.list().subscribe(data=>{
       this.blogPostList = data as [BlogPost];
+      console.log(this.blogPostList)
     })
 
   }
