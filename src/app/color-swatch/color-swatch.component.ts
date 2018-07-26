@@ -79,7 +79,17 @@ slidingSecurityDoorColors ={
       Brown:"/assets/images/colors/suntex-brown.png",
       Gray:"/assets/images/colors/suntex-grey.png",
       Stucco:"/assets/images/colors/suntex-stucco.png"
-  }}
+  }
+}
+  petDoorColors = {
+    "name":"Pet Door Frames",
+    "values":{
+      "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
+      "Bronze":"/assets/images/screens/pet-door/bronze-frame.jpg",
+      "Mill":"/assets/images/screens/pet-door/mill-frame.jpg",
+      "White":"/assets/images/screens/pet-door/white-frame.jpg"
+    }
+  }
   constructor() { 
 
     
@@ -106,6 +116,9 @@ slidingSecurityDoorColors ={
       case "screenFrameColors":
           this.colors=this.screenFrameColors;
           break;
+      case "petDoorColors":
+        this.colors=this.petDoorColors;
+        break;
       default:
         this.colors=null;
         break;

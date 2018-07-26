@@ -1,9 +1,10 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 import { DomSanitizer } from '@angular/platform-browser';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-service-detail',
@@ -28,7 +29,10 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   
     gallery_options: NgxGalleryOptions[];
     gallery_images: NgxGalleryImage[];
-
+    @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
+    toggleQuoteForm(){
+      this.quoteForm.show()
+  }
     constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
 
   ngOnInit() {
@@ -41,6 +45,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
                     this.extra_images = this.service.extraImages;
                     this.petImages = this.service.images;
                     this.gallery_images = this.service.recentInstallImages;
+                    console.log(this.service.tileImage)
                 }
             })
         })
@@ -105,6 +110,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
         { value: '21', label: 'Drop Roll Sunscreens' },
         { value: '22', label: 'Door and Window Awnings' },
     ];
+    
   }
 
   ngOnDestroy(){

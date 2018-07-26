@@ -27,13 +27,12 @@
 		    <div class="row">
 		        <!--Grid column-->
 		        <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
-					<h2 class="pb-3 text-center animated pulse infinite orange-text" (click)="basicModal.show()">Get started today!</h2>
-					<iframe *ngIf="service.video; else tileImg" width="100%" height="400px" src="https://www.youtube.com/embed/WtENSdKQL5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					<ng-template #tileImg>
-						<img *ngIf="service.slug !== 'pet-door' " src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">
-						<img *ngIf="service.slug === 'pet-door'" src="/assets/images/screens/pet-door/pet-door-main.png" class="img-fluid z-depth-2 main-image" />
-					</ng-template>
+					<h2 class="pb-3 text-center animated pulse infinite orange-text" id="ptr" (click)="toggleQuoteForm()">Get started today!</h2>					
+					<img *ngIf="service.tileImage" src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">				
 					<h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
+					<div *ngIf="service.video" class="row">
+							<iframe *ngIf="service.video" width="100%" height="400px" src="https://www.youtube.com/embed/WtENSdKQL5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
 		        </div>
 		        <!--Grid column-->
 
@@ -118,54 +117,32 @@
 							</div>
 						</div>
 						<br/>
-						<h4 class="p-2">Pet Door Frames</h4>
-						<div class="row">
-							<div class="col-3" *ngFor="let img of petImages | keys">
-								<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" (click)="petFramesModal.show()"/>
-								<p class="text-center">{{img.key}}</p>
-
-								<div mdbModal #petFramesModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="petFramesModal" aria-hidden="true">
+					</ng-container>				
+					<ng-container *ngIf="service.extraImages">
+						<h4 class="p-2" *ngIf="service.extraImagesTitle;else defaultImageTitle">{{service.extraImagesTitle}}</h4>
+						<ng-template #defaultImageTitle ><h4 class="p-2">Informational Graphics</h4></ng-template>
+						<div class="row" *ngIf="service.extraImages">
+							<div class="col-12" *ngFor="let img of extra_images | keys">
+								<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" (click)="infoGraphicsModal.show()" />
+								
+								<div mdbModal #infoGraphicsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="infoGraphicsModal" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
-												<h4 class="modal-title w-100 text-center" id="myModalLabel">{{img.key}}</h4>
-												<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="petFramesModal.hide()">
+												<h4 class="modal-title w-100 text-center" id="myModalLabel">Beat the Heat!</h4>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="infoGraphicsModal.hide()">
 													<span aria-hidden="true">×</span>
 												</button>
 											</div>
 											<div class="modal-body">													
-												<img src="{{img.value}}" class="img-fluid centered-sq" alt="{{img.value}}"/>
+												<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" />
 											</div>									
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</ng-container>				
-					
-					<h4 class="p-2" *ngIf="service.extraImages">Informational Graphics</h4>
-					<div class="row" *ngIf="service.extraImages">
-						<div class="col-9" *ngFor="let img of extra_images | keys">
-							<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" (click)="infoGraphicsModal.show()" />
-							
-							<div mdbModal #infoGraphicsModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="infoGraphicsModal" aria-hidden="true">
-								<div class="modal-dialog" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h4 class="modal-title w-100 text-center" id="myModalLabel">Beat the Heat!</h4>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="infoGraphicsModal.hide()">
-												<span aria-hidden="true">×</span>
-											</button>
-										</div>
-										<div class="modal-body">													
-											<img src="{{img.value}}" class="img-fluid" alt="{{img.value}}" />
-										</div>									
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
+					</ng-container>
 		        </div>
 		        <!--Grid column-->
 		    </div>
@@ -220,64 +197,8 @@
 			</section>
 			<!--Section: Features v.1-->
 		</div>
-	<!--
-		<div class="row" *ngIf="service.slug === 'chimney-inspections'">
-			<!--Section: Features v.3-
-			<section class="section feature-box">
-				<!--Section heading-
-				<h1 class="py-md-4">How are we so good?</h1>
-				<!--Section description-
-				<p class="section-description lead grey-text">We have created our own custom applications to be able to provide the highest quality Chimney Reports. We can take care of everything with just a few clicks.</p>
-				<!--Grid row-
-				<div class="row features-small pt-2">						
-					<!--Grid column-
-					<div class="col-lg-5 mb-r center-on-small-only">
-						<img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/ipad-portfolio2.png" alt="" class="img-fluid z-depth-0">
-					</div>
-					<!--Grid column-						
-					<!--Grid column-
-					<div class="col-lg-7">						
-						<!--Grid row-
-						<div class="row pb-3">
-							<div class="col-2 col-md-1">
-								<i class="fa fa-bank blue-text"></i>
-							</div>
-							<div class="col-10">
-								<h5 class="feature-title">Safety</h5>
-								<p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-							</div>
-						</div>
-						<!--Grid row-						
-						<!--Grid row-
-						<div class="row pb-3">
-							<div class="col-2 col-md-1">
-								<i class="fa fa-code blue-text"></i>
-							</div>
-							<div class="col-10">
-								<h5 class="feature-title">Technology</h5>
-								<p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-							</div>
-						</div>
-						<!--Grid row-						
-						<!--Grid row-
-						<div class="row pb-3">
-							<div class="col-2 col-md-1">
-								<i class="fa fa-money blue-text"></i>
-							</div>
-							<div class="col-10">
-								<h5 class="feature-title">Finance</h5>
-								<p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-							</div>
-						</div>
-						<!--Grid row-						
-					</div>
-					<!--Grid column-						
-				</div>
-				<!--Grid row-						
-			</section>
-			<!--Section: Features v.3-				
-		</div>
-	-->
+		<!--Optional Video section-->
+
 		<div class="container" *ngIf="service.recentInstallImages">
 			<!--Section: Features v.2-->
 			<section class="text-center section feature-box">
@@ -296,52 +217,5 @@
 <app-footer></app-footer>
 
 <!--QuoteForm Modal-->
-<div class="container">
-    <div mdbModal #basicModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
-                        <span aria-hidden="true">×</span>
-                    </button>
-					<h4 class="modal-title" id="myModalLabel">Get a Free Quote Now! <span class="orange-text pl-4">1-877-520-3595</span></h4>
-                </div>
-                <div class="modal-body">
-					<!-- <div class="md-form form-sm">
-                        <mdb-select [options]="optionsSelect" [multiple]="true" placeholder="What service were you interested in?"></mdb-select>
-					</div> -->
-					<div class="md-form form-sm">                        
-						<mdb-select [options]="groupOptionsSelect" placeholder="Choose your option" class="colorful-select dropdown-primary"></mdb-select>
-					</div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="fullName" class="">Full Name</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="city" class="">City</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="phone" class="">Phone</label>
-                    </div>
-                    <div class="md-form form-sm">
-                        <input mdbActive type="text" id="form1" class="form-control">
-                        <label for="email" class="">Email</label>
-                    </div>
-                    <div class="md-form">
-                        <textarea mdbActive type="text" id="form7" class="md-textarea"></textarea>
-                        <label for="form7">How can we help</label>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-row">
-                    <button type="button" class="btn gray waves-light w-100" aria-label="Close" (click)="basicModal.hide()" mdbRippleRadius>Close</button>
-                    <button type="button" class="btn blue relative waves-light w-100" mdbRippleRadius>Save changes</button>
-                </div>
-				<!-- <div class="g-recaptcha" data-sitekey="6LcuVE8UAAAAANjXntZdTLaVVXI0vBbv8yk8jdTw"></div> -->
-            </div>
-        </div>
-    </div>
-</div>
+<app-quote-form></app-quote-form>
 <!--/QuoteForm Modal-->

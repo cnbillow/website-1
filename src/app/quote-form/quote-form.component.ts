@@ -1,26 +1,25 @@
-import { Component, OnInit,ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
-import { QuoteFormComponent } from '../quote-form/quote-form.component';
-
+import { ModalDirective } from '../../../node_modules/ng-mdb-pro/free';
 @Component({
-  selector: 'app-action-buttons',
-  templateUrl: './action-buttons.component.html',
-  styleUrls: ['./action-buttons.component.sass'],
-  providers: [ServicesService]
+  selector: 'app-quote-form',
+  templateUrl: './quote-form.component.html',
+  styleUrls: ['./quote-form.component.sass']
 })
-export class ActionButtonsComponent implements OnInit {
-  toppings = new FormControl();
-  toppingList = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
+export class QuoteFormComponent implements OnInit {
+  visible=false;
+  @ViewChild('basicModal') public basicModal:ModalDirective;
+  show(){
+    this.basicModal.show();
+  }
+  hide(){
+    this.basicModal.hide();
+  }
+  constructor(private _service:ServicesService) { }
   optionsSelect=[]
   groupOptionsSelect=[]
   emailForm:FormGroup
-  @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
-  toggleQuoteForm(){
-    this.quoteForm.show()
-}
-  constructor(private _service:ServicesService) { }
-
   ngOnInit() {
       this.emailForm = new FormGroup({
         'name': new FormControl("",[
@@ -121,30 +120,12 @@ export class ActionButtonsComponent implements OnInit {
         })
         emailDir.resetForm({})
     }
-
   }
- 
-  hideShowSearch(){
-      var searchInput = document.getElementById('search-input');
-
-      document.getElementById('search-button').classList.toggle("orange");
-
-      if (searchInput.style.display === "none") {
-          searchInput.style.display="inline";
-          searchInput.style.width="100%";
-      } else {
-          searchInput.style.display="none"
-      }
-
-  }
-
-  growActionBtns(){
+    growActionBtns(){
       if(screen.width < 992){
         var container = document.getElementById('action-buttons-container');
         container.classList.remove('container', 'mt-3');
         container.classList.add('row');
       }
   }
-
-
 }

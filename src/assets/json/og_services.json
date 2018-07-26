@@ -479,7 +479,7 @@
         "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "video":"WtENSdKQL5k",
-        "colorSet":["colorSetx4", "screenFrameColors"],
+        "colorSet":["screenFrameColors","colorSetx4" ],
         "textList":[
             {
                 "title":"Pet proof- no need for a pet guard on your patio door.",
@@ -494,6 +494,7 @@
                 "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
             }
         ],
+        "extraImagesTitle":"Save in the Shade!",
         "extraImages": {
             "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
         },
@@ -529,6 +530,7 @@
         "type":"services",
         "tileImage":"/assets/images/screens/pet-door/pet-door-main.png",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "colorSet":["petDoorColors"],
         "images":{
             "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
             "Bronze":"/assets/images/screens/pet-door/bronze-frame.jpg",

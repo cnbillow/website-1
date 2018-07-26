@@ -1,10 +1,11 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
 
 import * as $ from 'jquery';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-product-detail',
@@ -78,7 +79,10 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         "Forest Green":"#0E251B",
         "Statuary Bronze":"#42372F"
     }
-
+    @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
+    toggleQuoteForm(){
+      this.quoteForm.show()
+    }
     constructor(private route: ActivatedRoute, private _service:ServicesService) { }
     
     ngOnInit() {
