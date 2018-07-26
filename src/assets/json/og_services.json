@@ -1802,24 +1802,24 @@
         "tileText":"Your security screen door will be the first point of protection for keeping your home safe and secure.",
         "thumbImages":[
             {
-                "small":"/assets/images/security/viewguard/viewguard_main.png",
-                "medium":"/assets/images/security/viewguard/viewguard_main.png",
-                "big":"/assets/images/security/viewguard/viewguard_main.png"
+                "small":"/assets/images/security/viewguard/Black-French-Set-Viewguard-Security-Door.jpg",
+                "medium":"/assets/images/security/viewguard/Black-French-Set-Viewguard-Security-Door.jpg",
+                "big":"/assets/images/security/viewguard/Black-French-Set-Viewguard-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-diagram-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-diagram-medium.png"
+                "small":"/assets/images/security/viewguard/Black-Viewguard-Security-Door.jpg",
+                "medium":"/assets/images/security/viewguard/Black-Viewguard-Security-Door.jpg",
+                "big":"/assets/images/security/viewguard/Black-Viewguard-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-bottom-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-bottom-medium.png"
+                "small":"/assets/images/security/viewguard/Bronze-Viewguard-Security-Door.jpg",
+                "medium":"/assets/images/security/viewguard/Bronze-Viewguard-Security-Door.jpg",
+                "big":"/assets/images/security/viewguard/Bronze-Viewguard-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
-                "medium":"/assets/images/security/viewguard/viewguard-height-guide-medium.png",
-                "big":"/assets/images/security/viewguard/viewguard-height-guide-medium.png"
+                "small":"/assets/images/security/viewguard/Red-Viewguard-Security-Door.jpg",
+                "medium":"/assets/images/security/viewguard/Red-Viewguard-Security-Door.jpg",
+                "big":"/assets/images/security/viewguard/Red-Viewguard-Security-Door.jpg"
             }
         ],
         "productOverview":"REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Guarda has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details.",
@@ -1832,7 +1832,16 @@
             "Sliding Security Doors": "/products/sliding-security-doors"
         },
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
-        "colorSet":["stdColors", "slidingSecurityDoorColors"]
+        "colorSet":["stdColors", "slidingSecurityDoorColors"],
+        "recentInstallImages":[
+            {"small": "/assets/images/security/viewguard/footer/Purple-Viewguard-Security-Door.jpg", "medium":"/assets/images/security/viewguard/footer/Purple-Viewguard-Security-Door.jpg", "big":"/assets/images/security/viewguard/footer/Purple-Viewguard-Security-Door.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg", "medium":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg", "big":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg", "medium":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg", "big":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg"},
+            {"small": "/assets/images/security/viewguard/footer/White-Viewguard-Security-Door.jpg", "medium":"/assets/images/security/viewguard/footer/White-Viewguard-Security-Door.jpg", "big":"/assets/images/security/viewguard/footer/White-Viewguard-Security-Door.jpg"}
+        ]
     },
     {
         "title":"TRU-View Security Doors",

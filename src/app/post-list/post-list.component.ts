@@ -12,7 +12,6 @@ export class PostListComponent implements OnInit, OnDestroy {
 
   private req:any
   blogPostList:[BlogPost]
-  title="Mike's Mobile"
   constructor(private _service:PostService) { }
 
   ngOnInit() {
