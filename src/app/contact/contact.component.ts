@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-contact',
@@ -9,7 +10,10 @@ import { ServicesService } from '../services/service.service';
   providers: [ServicesService]
 })
 export class ContactComponent implements OnInit {
-
+    @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
+    toggleQuoteForm(){
+      this.quoteForm.show()
+    }
   public map: any = { lat: 38.577009, lng: -121.324027 };
   public mapp: any = { lat: 38.023547, lng: -121.280482 };
   zoom: number = 12;
