@@ -1,7 +1,8 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 import { Title }     									from '@angular/platform-browser';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-navigation',
@@ -11,7 +12,10 @@ import { Title }     									from '@angular/platform-browser';
 })
 
 export class NavigationComponent implements OnInit {
-
+  @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
+  toggleQuoteForm(){
+    this.quoteForm.show()
+  }
   categories = ['Screens', 'Chimney', 'Security', 'Awnings', 'Home Improvement']
   gridType = ['swinging-screen-doors', 'accessories', 'repairs', 'resources', 'masonry-services', 'steel-security-doors']
 
