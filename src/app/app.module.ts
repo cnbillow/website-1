@@ -38,6 +38,7 @@ import { FaqListComponent } from './faq-list/faq-list.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,6 +66,7 @@ import { FaqListComponent } from './faq-list/faq-list.component';
     ColorSwatchComponent,
     QuoteFormComponent,
     FaqListComponent,
+ 
   ],
   imports: [
     AppRoutingModule,

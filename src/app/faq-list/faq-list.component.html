@@ -1,10 +1,22 @@
 <app-navigation></app-navigation>
 <app-action-buttons></app-action-buttons>
-<div *ngFor="let section of faqSections">
-  <h2>{{section.category}}</h2>
-  <div *ngFor="let question of section.questions | keys" class="question and answer">
-    <h3>{{question.key}}</h3>
-    <p>{{question.value}}</p>
+<h2>Click to Jump to a Section!</h2>>
+<ul mdbSticky sticky-after="#backToTop">
+  <li *ngFor="let section of faqSections; let i = index">
+      <h5>
+        <a mdbPageScroll [pageScrollOffset]="50" href="#section{{i}}">{{section.category}}</a>
+      </h5>
+  </li>
+</ul>
+<div>
+  <div  *ngFor="let section of faqSections; let i = index">
+    <div id="section{{i}}"></div>
+
+    <h2 >{{section.category}}</h2>    
+    <div *ngFor="let question of section.questions | keys" class="question and answer">
+      <h3>{{question.key}}</h3>
+      <p>{{question.value}}</p>  
+    </div>
   </div>
 </div>
 <app-footer></app-footer>
