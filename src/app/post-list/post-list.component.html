@@ -13,7 +13,7 @@
     <div class="row" *ngFor="let post of blogPostList">
 
         <!--Grid column-->
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-4">
         <div class="view overlay">
             <!--Featured image-->
             <!-- <div class="view overlay hm-white-slight waves-light" mdbRippleRadius> -->
@@ -25,7 +25,7 @@
         <!--/Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8">
             <div class="blog-text">
                 <!--Excerpt-->
                 <a [routerLink]="[post.slug]"><h4 class="mb-4"><strong>{{post.title}}</strong></h4></a>
