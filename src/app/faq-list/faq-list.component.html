@@ -1,22 +1,24 @@
 <app-navigation></app-navigation>
 <app-action-buttons></app-action-buttons>
-<h2>Click to Jump to a Section!</h2>>
-<ul mdbSticky sticky-after="#backToTop">
-  <li *ngFor="let section of faqSections; let i = index">
-      <h5>
-        <a mdbPageScroll [pageScrollOffset]="50" href="#section{{i}}">{{section.category}}</a>
-      </h5>
-  </li>
-</ul>
-<div>
-  <div  *ngFor="let section of faqSections; let i = index">
-    <div id="section{{i}}"></div>
-
-    <h2 >{{section.category}}</h2>    
-    <div *ngFor="let question of section.questions | keys" class="question and answer">
-      <h3>{{question.key}}</h3>
-      <p>{{question.value}}</p>  
+<h1 class="py-5 font-weight-bold text-center title">FAQs</h1>
+<h5 class="text-center">Select To display the questions</h5>
+<div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item" *ngFor="let section of faqSections; let i = index">
+            <a class="nav-link" data-toggle="tab" href="#{{i}}" role="tab">{{section.category}}</a>
+        </li>
+    </ul>
+    <!-- Tab panels -->
+    <div class="tab-content card">
+        <!--Panel-->
+        <div *ngFor="let section of faqSections; let i = index" class="tab-pane fade" id="{{i}}" role="tabpanel" >
+            <div *ngFor="let question of section.questions | keys" class="question and answer">
+              <div *ngIf="section"></div>   
+            <h3>{{question.key}}</h3>
+            <p>{{question.value}}</p>
+            </div>
+        </div>
+        <!--/.Panel -->
     </div>
-  </div>
-</div>
-<app-footer></app-footer>
+    </div>
