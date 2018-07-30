@@ -91,34 +91,24 @@
         "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
         "thumbImages":[
             {
-                "small": "/assets/images/screens/sliding/4.png",
-                "medium":"/assets/images/screens/sliding/4.png",
-                "big":"/assets/images/screens/sliding/4.png"
+                "small": "/assets/images/screens/sliding/Sliding-Screen-Door.jpg",
+                "medium":"/assets/images/screens/sliding/Sliding-Screen-Door.jpg",
+                "big":"/assets/images/screens/sliding/Sliding-Screen-Door.jpg"
             },
             {
-                "small":"/assets/images/screens/sliding/1.png",
-                "medium":"/assets/images/screens/sliding/1.png",
-                "big":"/assets/images/screens/sliding/1.png"
+                "small":"/assets/images/screens/sliding/Sliding-Screen-Door-2.jpg",
+                "medium":"/assets/images/screens/sliding/Sliding-Screen-Door-2.jpg",
+                "big":"/assets/images/screens/sliding/Sliding-Screen-Door-2.jpg"
             },
             {
-                "small":"/assets/images/screens/sliding/2.png",
-                "medium":"/assets/images/screens/sliding/2.png",
-                "big":"/assets/images/screens/sliding/2.png"
+                "small":"/assets/images/screens/sliding/Sliding-Solar-Screen-Door.jpg",
+                "medium":"/assets/images/screens/sliding/Sliding-Solar-Screen-Door.jpg",
+                "big":"/assets/images/screens/sliding/Sliding-Solar-Screen-Door.jpg"
             },
             {
-                "small": "/assets/images/screens/sliding/3.png",
-                "medium":"/assets/images/screens/sliding/3.png",
-                "big":"/assets/images/screens/sliding/3.png"
-            },
-            {
-                "small":"/assets/images/screens/sliding/5.png",
-                "medium":"/assets/images/screens/sliding/5.png",
-                "big":"/assets/images/screens/sliding/5.png"
-            },
-            {
-                "small":"/assets/images/screens/sliding/6.png",
-                "medium":"/assets/images/screens/sliding/6.png",
-                "big":"/assets/images/screens/sliding/6.png"
+                "small": "/assets/images/screens/sliding/Sliding-Solar-Screen-Door-2.jpg",
+                "medium":"/assets/images/screens/sliding/Sliding-Solar-Screen-Door-2.jpg",
+                "big":"/assets/images/screens/sliding/Sliding-Solar-Screen-Door-2.jpg"
             }
         ],
         "productOverview":"Our sliding screen door offers an all- metal construction with steel wheels, bearings and a metal lock.  Many of our customers opt for Solar Screen in their doors to take advantage of the added durability it offers, and because of the fact that we sell it with a 10 year warranty.  The doors are built with inside corners and adjustable wheels for a perfect fit. For more information check out the tabs above.",
@@ -1836,7 +1826,6 @@
             {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door.jpg"},
             {"small": "/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg", "medium":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg", "big":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door.jpg"},
             {"small": "/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg", "medium":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg", "big":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-2.jpg"},
-            {"small": "/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-3.jpg", "medium":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-3.jpg", "big":"/assets/images/security/viewguard/footer/Black-Viewguard-Security-Door-3.jpg"},
             {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-2.jpg"},
             {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-3.jpg"},
             {"small": "/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg", "medium":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg", "big":"/assets/images/security/viewguard/footer/Bronze-Viewguard-Security-Door-4.jpg"}
