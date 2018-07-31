@@ -5,7 +5,7 @@
 <div class="container">
 <mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
     <mdb-tab *ngFor="let section of faqSections; let i = index" heading="{{section.category}}">
-        <div class="row">
+        <div class="row content">
             <div *ngFor="let question of section.questions | keys" class="col-12 question and answer">
                 <div *ngIf="section"></div>
                 <h3>{{question.key}}</h3>
