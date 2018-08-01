@@ -73,5 +73,15 @@ li.nav-item .nav-link:hover
 .quote
 	background-color: $mmblue
 	color: white
-	padding: 10px
-	margin: -15px 0px -15px 10px
+	padding: 6px
+	margin: -5px
+	@include breakpoint(md)
+		background-color: $mmblue
+		color: white
+		padding: 10px
+		margin: -15px 0px -15px 10px
+
+.quote-text
+	display: inline
+	@include breakpoint(md)
+		display: block
