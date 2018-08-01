@@ -152,7 +152,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 imageSize: NgxGalleryImageSize.Contain,
                 imageAnimation: NgxGalleryAnimation.Zoom,
                 previewCloseOnClick: true, 
-                previewCloseOnEsc: true
+                previewCloseOnEsc: true,
+                imageSwipe: true
             },
             // max-width 800
             {
@@ -169,7 +170,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
             // max-width 400
             {
                 breakpoint: 400,
-                preview: false,
+                imageSwipe: true
             }
         ];
 

@@ -1,8 +1,9 @@
 [
     {
-        "title":"Retractable Screen Door",
-        "slug":"retractable-screen-door",
+        "title":"Window Screen Repair",
+        "slug":"window-screen-repair",
         "category":"Door and Window Screens",
+<<<<<<< HEAD
         "subcategory":"Door",
         "type":"products",
         "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
@@ -76,10 +77,83 @@
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg"
+=======
+        "subcategory":"Window",
+        "type":"services",
+        "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
+        "textList":[
+            {
+                "title":"Fast",
+                "description":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
+            },
+            {
+                "title":"Friendly",
+                "description":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
+            },
+            {
+                "title":"Affordable",
+                "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
             }
         ],
-        "colorSet":["colorSetx6"]
+        "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+        "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
+        "video":""
     },
+    {
+        "title":"Solar Screens",
+        "slug":"solar-screens",
+        "category":"Door and Window Screens",
+        "subcategory":"Window",
+        "type":"services",
+        "tileImage":"/assets/images/screens/solar-screens/solar-screen2.jpg",
+        "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
+        "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
+        "video":"https://www.youtube.com/embed/WtENSdKQL5k",
+        "colorSet":["screenFrameColors","colorSetx4" ],
+        "textList":[
+            {
+                "title":"Pet proof- no need for a pet guard on your patio door.",
+                "description":"Suntex solar screen generally covers the entire window and also provides insect protection like regular screening. Suntex solar screen exterior shading is made of strong vinyl-coated polyester fabric. Suntex solar screen is mildew and fade resistant and needs only an occasional cleaning with mild soap and water."
+            },
+            {
+                "title":"10 Year Warranty on Materials and Installation.",
+                "description":"Our Solar Screens come with strength enhancing and aesthetic spreader bars or we can even do custom grid patterns to match your windows. Solar Screens are framed in 7/16 x 1” extruded aluminum- mitered with hidden corners (We NEVER use the weaker plastic corners that become brittle and break after a few years) Frame colors are White, Bronze, Mill (raw aluminum) or Beige."
+            },
+            {
+                "title":"Solar Screens offer daytime privacy",
+                "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
+>>>>>>> 5c0c05d5c9e766fdf623f4cf436883bfb5316462
+            }
+        ],
+        "extraImagesTitle":"Save in the Shade!",
+        "extraImages": {
+            "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
+        },
+        "recentInstallImages":[
+            {"small":"/assets/images/screens/solar-screens/1.jpg","medium":"/assets/images/screens/solar-screens/1.jpg","big":"/assets/images/screens/solar-screens/1.jpg"},
+            {"small":"/assets/images/screens/solar-screens/2.jpg","medium":"/assets/images/screens/solar-screens/2.jpg","big":"/assets/images/screens/solar-screens/2.jpg"},
+            {"small":"/assets/images/screens/solar-screens/3.jpg","medium":"/assets/images/screens/solar-screens/3.jpg","big":"/assets/images/screens/solar-screens/3.jpg"},
+            {"small":"/assets/images/screens/solar-screens/4.jpg","medium":"/assets/images/screens/solar-screens/4.jpg","big":"/assets/images/screens/solar-screens/4.jpg"},
+            {"small":"/assets/images/screens/solar-screens/5.jpg","medium":"/assets/images/screens/solar-screens/5.jpg","big":"/assets/images/screens/solar-screens/5.jpg"},
+            {"small":"/assets/images/screens/solar-screens/6.jpg","medium":"/assets/images/screens/solar-screens/6.jpg","big":"/assets/images/screens/solar-screens/6.jpg"},
+            {"small":"/assets/images/screens/solar-screens/7.jpg","medium":"/assets/images/screens/solar-screens/7.jpg","big":"/assets/images/screens/solar-screens/7.jpg"},
+            {"small":"/assets/images/screens/solar-screens/8.jpg","medium":"/assets/images/screens/solar-screens/8.jpg","big":"/assets/images/screens/solar-screens/8.jpg"},
+            {"small":"/assets/images/screens/solar-screens/9.jpg","medium":"/assets/images/screens/solar-screens/9.jpg","big":"/assets/images/screens/solar-screens/9.jpg"},
+            {"small":"/assets/images/screens/solar-screens/10.jpg","medium":"/assets/images/screens/solar-screens/10.jpg","big":"/assets/images/screens/solar-screens/10.jpg"},
+            {"small":"/assets/images/screens/solar-screens/11.jpg","medium":"/assets/images/screens/solar-screens/11.jpg","big":"/assets/images/screens/solar-screens/11.jpg"},
+            {"small":"/assets/images/screens/solar-screens/12.jpg","medium":"/assets/images/screens/solar-screens/12.jpg","big":"/assets/images/screens/solar-screens/12.jpg"},
+            {"small":"/assets/images/screens/solar-screens/13.jpg","medium":"/assets/images/screens/solar-screens/13.jpg","big":"/assets/images/screens/solar-screens/13.jpg"},
+            {"small":"/assets/images/screens/solar-screens/14.jpg","medium":"/assets/images/screens/solar-screens/14.jpg","big":"/assets/images/screens/solar-screens/14.jpg"},
+            {"small":"/assets/images/screens/solar-screens/15.jpg","medium":"/assets/images/screens/solar-screens/15.jpg","big":"/assets/images/screens/solar-screens/15.jpg"},
+            {"small":"/assets/images/screens/solar-screens/16.jpg","medium":"/assets/images/screens/solar-screens/16.jpg","big":"/assets/images/screens/solar-screens/16.jpg"},
+            {"small":"/assets/images/screens/solar-screens/17.jpg","medium":"/assets/images/screens/solar-screens/17.jpg","big":"/assets/images/screens/solar-screens/17.jpg"},
+            {"small":"/assets/images/screens/solar-screens/18.jpg","medium":"/assets/images/screens/solar-screens/18.jpg","big":"/assets/images/screens/solar-screens/18.jpg"},
+            {"small":"/assets/images/screens/solar-screens/19.jpg","medium":"/assets/images/screens/solar-screens/19.jpg","big":"/assets/images/screens/solar-screens/19.jpg"},
+            {"small":"/assets/images/screens/solar-screens/20.jpg","medium":"/assets/images/screens/solar-screens/20.jpg","big":"/assets/images/screens/solar-screens/20.jpg"},
+            {"small":"/assets/images/screens/solar-screens/21.jpg","medium":"/assets/images/screens/solar-screens/21.jpg","big":"/assets/images/screens/solar-screens/21.jpg"}
+        ]
+    },
+
     {
         "title":"Sliding Screen Door",
         "slug":"sliding-screen-door",
@@ -427,89 +501,90 @@
         "warranty":"Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw.",
         "colorSet":["swingingDoorColors"]
     },
-
-
-
     {
-        "title":"Window Screen Repair",
-        "slug":"window-screen-repair",
+        "title":"Retractable Screen Door",
+        "slug":"retractable-screen-door",
         "category":"Door and Window Screens",
-        "subcategory":"Window",
-        "type":"services",
-        "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
-        "textList":[
+        "subcategory":"Door",
+        "type":"products",
+        "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
+        "bullets":["Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.","The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.","Imagine a screen door that’s only there when you need it! The Rollaway mounts inside the door frame for minimal intrusion and most people don’t notice it until you are using it!"],
+        "tileImage":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
+        "thumbImages":[
             {
-                "title":"Fast",
-                "description":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
+                "description":"",
+                "small":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
+                "medium":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
+                "big":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg"
             },
             {
-                "title":"Friendly",
-                "description":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
+                "small":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg",
+                "medium":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg",
+                "big":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg"
             },
             {
-                "title":"Affordable",
-                "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
+                "small":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg",
+                "medium":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg",
+                "big":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg",
+                "medium":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg",
+                "big":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg"
             }
         ],
-        "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
-        "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-        "video":""
-    },
-    {
-        "title":"Solar Screens",
-        "slug":"solar-screens",
-        "category":"Door and Window Screens",
-        "subcategory":"Window",
-        "type":"services",
-        "tileImage":"/assets/images/screens/solar-screens/solar-screen2.jpg",
-        "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "video":"https://www.youtube.com/embed/WtENSdKQL5k",
-        "colorSet":["screenFrameColors","colorSetx4" ],
-        "textList":[
-            {
-                "title":"Pet proof- no need for a pet guard on your patio door.",
-                "description":"Suntex solar screen generally covers the entire window and also provides insect protection like regular screening. Suntex solar screen exterior shading is made of strong vinyl-coated polyester fabric. Suntex solar screen is mildew and fade resistant and needs only an occasional cleaning with mild soap and water."
-            },
-            {
-                "title":"10 Year Warranty on Materials and Installation.",
-                "description":"Our Solar Screens come with strength enhancing and aesthetic spreader bars or we can even do custom grid patterns to match your windows. Solar Screens are framed in 7/16 x 1” extruded aluminum- mitered with hidden corners (We NEVER use the weaker plastic corners that become brittle and break after a few years) Frame colors are White, Bronze, Mill (raw aluminum) or Beige."
-            },
-            {
-                "title":"Solar Screens offer daytime privacy",
-                "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
-            }
-        ],
-        "extraImagesTitle":"Save in the Shade!",
-        "extraImages": {
-            "img":"/assets/images/screens/solar-screens/solar-screens-infographic.png"
+        "productOverview":"We are one of the only independent disappearing screen door installers in Northern California. Have outward opening doors? Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them! We sell our doors with an industry leading 10 Year Warranty <br/><br/> Our Retractable screen doors are an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” (protrudes 5+ inches outside your door frame) doors which most other manufacturers sell. Our installers have the combined knowledge of thousands of disappearing screen door installations and we would be happy to come out and show you a display of an actual door. We offer color matching all the way around the door (often your threshold is a different color than your door frame) so the finished product blends in seamlessly with your house. <br/><br/> Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them!we have examined every door on the market and only offer the best. We sell our doors with an industry leading 10 Year Warranty* so it is in our best interest to sell the best door on the market. The door we offer is called the Rollaway, manufactured by the R.Lang Company here in California. <br/><br/> Rollaway doors are completely powder coated and offer springs and rollers on the door slides to ensure a lifetime of trouble free operation.",
+        "technicalSpecs":"<li>Concealed Clean Installation Hinge Our installation hinge hides mounting screws</li><li>Low Profile Designer Housing Spring system and impact bumper provide trouble free operation</li><li>Smooth Gliding Roller System Patented spring loaded roller keeps the Roll-Away door in adjustment for a lifetime even in out-of-square openings</li><li>Secure Latch or Magnetic Closure Locking latch provides safety and assurance or full length magnetic closure allows ease of use</li><li>Click here for the parts list of the Rollaway Retractable Screen Door</li><li>Click here for a diagram of the retractable screen door from R. Lang</li>",
+        "options":"<li>Choose from 6 popular colors (See below)</li><li>Available in inside and surface mount</li><li>Latch Series</li><li>Magnetic Series</li><li>French Doors</li>",
+        "relatedProducts":{
+            "Sliding Screen Doors": "/products/sliding-screen-doors",
+            "Retractable Screen Doors": "/products/retractable-screen-doors",
+            "Door and Window Screens": "/about/door-and-window-screens",
+            "Screen Doors": "/about/door-screens",
+            "Window Screens": "/about/window-screens",
+            "Swinging Screen Doors": "/products/swinging-screen-doors",
+            "Security Door and Windows":"/about/security-doors-and-windows",
+            "Security Door":"/about/security-doors",
+            "Security Windows":"/about/security-windows"
         },
+        "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
         "recentInstallImages":[
-            {"small":"/assets/images/screens/solar-screens/1.jpg","medium":"/assets/images/screens/solar-screens/1.jpg","big":"/assets/images/screens/solar-screens/1.jpg"},
-            {"small":"/assets/images/screens/solar-screens/2.jpg","medium":"/assets/images/screens/solar-screens/2.jpg","big":"/assets/images/screens/solar-screens/2.jpg"},
-            {"small":"/assets/images/screens/solar-screens/3.jpg","medium":"/assets/images/screens/solar-screens/3.jpg","big":"/assets/images/screens/solar-screens/3.jpg"},
-            {"small":"/assets/images/screens/solar-screens/4.jpg","medium":"/assets/images/screens/solar-screens/4.jpg","big":"/assets/images/screens/solar-screens/4.jpg"},
-            {"small":"/assets/images/screens/solar-screens/5.jpg","medium":"/assets/images/screens/solar-screens/5.jpg","big":"/assets/images/screens/solar-screens/5.jpg"},
-            {"small":"/assets/images/screens/solar-screens/6.jpg","medium":"/assets/images/screens/solar-screens/6.jpg","big":"/assets/images/screens/solar-screens/6.jpg"},
-            {"small":"/assets/images/screens/solar-screens/7.jpg","medium":"/assets/images/screens/solar-screens/7.jpg","big":"/assets/images/screens/solar-screens/7.jpg"},
-            {"small":"/assets/images/screens/solar-screens/8.jpg","medium":"/assets/images/screens/solar-screens/8.jpg","big":"/assets/images/screens/solar-screens/8.jpg"},
-            {"small":"/assets/images/screens/solar-screens/9.jpg","medium":"/assets/images/screens/solar-screens/9.jpg","big":"/assets/images/screens/solar-screens/9.jpg"},
-            {"small":"/assets/images/screens/solar-screens/10.jpg","medium":"/assets/images/screens/solar-screens/10.jpg","big":"/assets/images/screens/solar-screens/10.jpg"},
-            {"small":"/assets/images/screens/solar-screens/11.jpg","medium":"/assets/images/screens/solar-screens/11.jpg","big":"/assets/images/screens/solar-screens/11.jpg"},
-            {"small":"/assets/images/screens/solar-screens/12.jpg","medium":"/assets/images/screens/solar-screens/12.jpg","big":"/assets/images/screens/solar-screens/12.jpg"},
-            {"small":"/assets/images/screens/solar-screens/13.jpg","medium":"/assets/images/screens/solar-screens/13.jpg","big":"/assets/images/screens/solar-screens/13.jpg"},
-            {"small":"/assets/images/screens/solar-screens/14.jpg","medium":"/assets/images/screens/solar-screens/14.jpg","big":"/assets/images/screens/solar-screens/14.jpg"},
-            {"small":"/assets/images/screens/solar-screens/15.jpg","medium":"/assets/images/screens/solar-screens/15.jpg","big":"/assets/images/screens/solar-screens/15.jpg"},
-            {"small":"/assets/images/screens/solar-screens/16.jpg","medium":"/assets/images/screens/solar-screens/16.jpg","big":"/assets/images/screens/solar-screens/16.jpg"},
-            {"small":"/assets/images/screens/solar-screens/17.jpg","medium":"/assets/images/screens/solar-screens/17.jpg","big":"/assets/images/screens/solar-screens/17.jpg"},
-            {"small":"/assets/images/screens/solar-screens/18.jpg","medium":"/assets/images/screens/solar-screens/18.jpg","big":"/assets/images/screens/solar-screens/18.jpg"},
-            {"small":"/assets/images/screens/solar-screens/19.jpg","medium":"/assets/images/screens/solar-screens/19.jpg","big":"/assets/images/screens/solar-screens/19.jpg"},
-            {"small":"/assets/images/screens/solar-screens/20.jpg","medium":"/assets/images/screens/solar-screens/20.jpg","big":"/assets/images/screens/solar-screens/20.jpg"},
-            {"small":"/assets/images/screens/solar-screens/21.jpg","medium":"/assets/images/screens/solar-screens/21.jpg","big":"/assets/images/screens/solar-screens/21.jpg"}
-        ]
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg"
+            },
+            {
+                "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
+                "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
+                "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg"
+            }
+        ],
+        "colorSet":["colorSetx6"]
     },
+
     {
-        "title":"Pet Door",
+        "title":"Pet doors",
         "slug":"pet-door",
         "category":"Door and Window Screens",
         "subcategory":"Door",
@@ -544,118 +619,27 @@
         ]
     },
     {
-        "title":"Accessories",
-        "slug":"chimney-accessories",
+        "title":"Inspections",
+        "slug":"chimney-inspections",
         "category":"Chimney Services",
-        "type":"grid",
-        "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
-        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
-        "thumbImages":[
-            {
-                "small":"",
-                "medium":"",
-                "big":""
-            }
-        ]
-    },
-    {
-        "title":"Chimney Caps and Spark Arrestor",
-        "slug":"chimney-caps-and-spark-arrestor",
-        "category":"Accessories",
         "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Keep animals and leaves out of your chimney.",
+        "tileImage":"/assets/images/chimneys/inspections/inspections.jpg",
+        "tileText":"Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
         "textList":[
             {
-                "title":"Reasons EVERY chimney needs a cap",
-                "description":"Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
+                "title":"Level One Chimney Inspection – FREE with a cleaning",
+                "description":"If your chimney performance, appliance or venting system has not changed and you simply want to be confident in the continued safe use of the system, you will need the Level 1 chimney inspection done on an annual schedule. We usually combine this service with the annual cleaning and sweeping that should be scheduled to guarantee continued safe use of your stove, chimney or furnace."
             },
             {
-                "title":"Animal Protection",
-                "description":"Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, swuirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
+                "title":"Level Two Chimney Inspection",
+                "description":"A Level 2 chimney inspection is recommended when you have had any changes done to your system. If you have changed fuel type, or had the chimney relined, if you have replaced your furnace or appliance -especially if the rating or efficiency differs from what was there prior. If you recently bought the home and are not familiar with the system performance, plan to do modifications to your chimney, stove or heating system or have had a chimney fire recently a Level 2 chimney inspection is in order."
             },
             {
-                "title":"Spark Protection",
-                "description":"Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
+                "title":"Level Three Chimney Inspection",
+                "description":"Level 1 and 2 methods are included with Level 3 chimney inspections, but with this type of chimney inspection, portions of the structure or chimney will be required to fully investigate the deficiencies that exist. Many areas that are concealed from visual examination may need to be opened up by removing bricks, masonry, metal flue pipes, interior chimney walls, chimney crowns or other components of your system. These chimney inspections are only required when the earlier chimney inspection Level 1 or 2 reveals a serious problem and we need to gain access to the problem areas hidden from view. Level 3 chimney inspections are needed on less than 2% of all chimney inspections when serious problems are suspected that require immediate action."
             }
         ]
     },
-    {
-        "title":"Fireplace Grate",
-        "slug":"fireplace-grate",
-        "category":"Accessories",
-        "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"One of the most overlooked chimney parts is a quality fireplace grate. ",
-        "textList":[
-            {
-                "title":"Better Quality Burn",
-                "description":"Better quality burn – The  fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient."
-            },
-            {
-                "title":"More Complete Burn",
-                "description":"More complete burn – Burned pieces of wood fall to the fireplace floor through the spaces in the fireplace grate creating a bed of super hot coals. This allows the wood above to be burned from the bottom up so you don’t need to adjust and move the wood once placed on the fireplace grate."
-            },
-            {
-                "title":"Protection of your Fireplace Floor",
-                "description":"Protection of your fireplace floor – The fireplace grate keeps the real heat up off the floor protecting your concrete from the extreme heat of the fire. This will add life to your fireplace."
-            },
-            {
-                "title":"Better Drafting",
-                "description":"Better drafting – When you lift the fire off of the floor you do two things, lift the fire closer to the chimney and allow air to move under the fire. By doing this you not only supercharge your fire but you also help it draft smoke and fumes out the chimney instead of into your home. Sometimes a smoking fireplace can be cured by the use of a fireplace grate."
-            },
-            {
-                "title":"Less Work",
-                "description":"Less work – Most fireplace grates have a front and back that curl up. This helps to cradle your firewood to keep it in one location and also helps to continuously force the wood to the middle of the fireplace grate. Instead of having to move the wood around all the time you simply add more when needed. This can help reduce hot embers from popping out and burning your floor as well."
-            },
-            {
-                "title":"Easier to Light",
-                "description":"Easier to light – Using a fireplace grate allows air to get under the wood making the fire much easier to start."
-            }
-        ]
-    },
-    {
-        "title":"Fireplace Glass Doors",
-        "slug":"fireplace-glass-doors",
-        "category":"Accessories",
-        "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "textList":[
-            {
-                "title":"Masonry Fireplace Glass Door Sets",
-                "description":"We can properly fit your fireplace with a quality, trouble-free glass door set. We have many suppliers and can get custom sets made up for a fraction of the price you may find elsewhere. We run into many cases where glass door sets were improperly installed, usually on zero-clearance chimneys blocking the ventilation holes required to be open to cool the chimney system while burning. This is a serious fire hazard and there are specific regulations concerning how glass door sets must be installed on these units to provide proper airflow and ventilation."
-            }
-        ]
-    },
-    {
-        "title":"Radiant Fireback",
-        "slug":"radiant-fireback",
-        "category":"Accessories",
-        "type":"services",
-        "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-        "serviceImgCaption":"Keep more of the heat from your fire back in your home",
-        "textList":[
-            {
-                "title":"Radiant Fireback in a Zero-Clearance fireplace",
-                "description":"Heat from each fire you burn places a lot of strain on your rear refractory panel. In the event that your rear panel starts to crack, you still have time before this crack gets larger. We recommend patching refractory panels with cement patching and installing a radiant fireback to assist in further cracking of the panel. Not only will this repair be less expensive, it will also provide a higher efficiency of heat output with the radiant fireback reflecting more of the heat back into the home. With only sheet metal behind your refractory panels, protecting these panels is of the highest priority when it comes to resisting high temperatures during a fire. Keep your home and your family safe."
-            },
-            {
-                "title":"Radiant Fireback in an open masonry fireplace",
-                "description":"Approximately 80% of the heat in a firebox gets absorbed in the rear firewall causing heat damage to even the best built masonry fireplace. When installed in conjunction with a professional repair of a rear firewall a fireback can virtually stop this kind of damage. Constructed of 14 gauge, 304-alloy stainless steel, the lightweight radiant fireback will effectively reflect heat back into your room at a fraction of the cost of a traditional cast iron fireback. With open fireplaces being less efficient than a fireplace insert, anything to increase this inefficiency is high recommended! Multiple sizes are available to fit your fireplace."
-            },
-            {
-                "title":"Efficiency beyond an open fireplace",
-                "description":"If you are looking for your fireplace to put out more heat in the winter time and serve as a bit more than just decoration, we highly recommend asking us about having a fireplace insert installed in your home. Various rebates are available to make this process more affordable and we work with the best companies to ensure you get the best fireplace insert to fit your needs. Give us a call and we can get you started!"
-            }
-        ]
-    },
-
-
-
     {
         "title":"Cleaning",
         "slug":"chimney-cleaning",
@@ -676,28 +660,6 @@
             {
                 "title":"How often should you have your chimney cleaned?",
                 "description":"Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself."
-            }
-        ]
-    },
-    {
-        "title":"Inspections",
-        "slug":"chimney-inspections",
-        "category":"Chimney Services",
-        "type":"services",
-        "tileImage":"/assets/images/chimneys/inspections/inspections.jpg",
-        "tileText":"Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
-        "textList":[
-            {
-                "title":"Level One Chimney Inspection – FREE with a cleaning",
-                "description":"If your chimney performance, appliance or venting system has not changed and you simply want to be confident in the continued safe use of the system, you will need the Level 1 chimney inspection done on an annual schedule. We usually combine this service with the annual cleaning and sweeping that should be scheduled to guarantee continued safe use of your stove, chimney or furnace."
-            },
-            {
-                "title":"Level Two Chimney Inspection",
-                "description":"A Level 2 chimney inspection is recommended when you have had any changes done to your system. If you have changed fuel type, or had the chimney relined, if you have replaced your furnace or appliance -especially if the rating or efficiency differs from what was there prior. If you recently bought the home and are not familiar with the system performance, plan to do modifications to your chimney, stove or heating system or have had a chimney fire recently a Level 2 chimney inspection is in order."
-            },
-            {
-                "title":"Level Three Chimney Inspection",
-                "description":"Level 1 and 2 methods are included with Level 3 chimney inspections, but with this type of chimney inspection, portions of the structure or chimney will be required to fully investigate the deficiencies that exist. Many areas that are concealed from visual examination may need to be opened up by removing bricks, masonry, metal flue pipes, interior chimney walls, chimney crowns or other components of your system. These chimney inspections are only required when the earlier chimney inspection Level 1 or 2 reveals a serious problem and we need to gain access to the problem areas hidden from view. Level 3 chimney inspections are needed on less than 2% of all chimney inspections when serious problems are suspected that require immediate action."
             }
         ]
     },
@@ -826,6 +788,116 @@
             {
                 "title":"The best way to avoid needing a chimney de-glazing is proper burning",
                 "description":"If you have an attached stove, make sure the vent opening on the appliance is the same size as the chimney and your draft control is not set too low or else the fire will smolder. Make sure to also burn with dry and seasoned wood only! Any pieces that are wet or unseasoned typically create more creosote. Our approach to chimney de-glazing begins with assessing the situation. Once we have found evidence of chimney glazing we will leave you with the proper chemicals needed to begin the de-glazing process. After an application of this chemical, we have you burn while using this for the next 1-2 weeks before we return to sweep out the broken-down glaze. Any remaining glaze will be attended to with either chemical or physical agitation with some requiring both. Once the chimney de-glazing process is complete we will instruct you on the probable cause of the glaze and further prevention."
+            }
+        ]
+    },
+    {
+        "title":"Accessories",
+        "slug":"chimney-accessories",
+        "category":"Chimney Services",
+        "type":"grid",
+        "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
+        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
+        "thumbImages":[
+            {
+                "small":"",
+                "medium":"",
+                "big":""
+            }
+        ]
+    },
+    {
+        "title":"Chimney Caps and Spark Arrestor",
+        "slug":"chimney-caps-and-spark-arrestor",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Keep animals and leaves out of your chimney.",
+        "textList":[
+            {
+                "title":"Reasons EVERY chimney needs a cap",
+                "description":"Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
+            },
+            {
+                "title":"Animal Protection",
+                "description":"Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, swuirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
+            },
+            {
+                "title":"Spark Protection",
+                "description":"Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
+            }
+        ]
+    },
+    {
+        "title":"Fireplace Grate",
+        "slug":"fireplace-grate",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"One of the most overlooked chimney parts is a quality fireplace grate. ",
+        "textList":[
+            {
+                "title":"Better Quality Burn",
+                "description":"Better quality burn – The  fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient."
+            },
+            {
+                "title":"More Complete Burn",
+                "description":"More complete burn – Burned pieces of wood fall to the fireplace floor through the spaces in the fireplace grate creating a bed of super hot coals. This allows the wood above to be burned from the bottom up so you don’t need to adjust and move the wood once placed on the fireplace grate."
+            },
+            {
+                "title":"Protection of your Fireplace Floor",
+                "description":"Protection of your fireplace floor – The fireplace grate keeps the real heat up off the floor protecting your concrete from the extreme heat of the fire. This will add life to your fireplace."
+            },
+            {
+                "title":"Better Drafting",
+                "description":"Better drafting – When you lift the fire off of the floor you do two things, lift the fire closer to the chimney and allow air to move under the fire. By doing this you not only supercharge your fire but you also help it draft smoke and fumes out the chimney instead of into your home. Sometimes a smoking fireplace can be cured by the use of a fireplace grate."
+            },
+            {
+                "title":"Less Work",
+                "description":"Less work – Most fireplace grates have a front and back that curl up. This helps to cradle your firewood to keep it in one location and also helps to continuously force the wood to the middle of the fireplace grate. Instead of having to move the wood around all the time you simply add more when needed. This can help reduce hot embers from popping out and burning your floor as well."
+            },
+            {
+                "title":"Easier to Light",
+                "description":"Easier to light – Using a fireplace grate allows air to get under the wood making the fire much easier to start."
+            }
+        ]
+    },
+    {
+        "title":"Fireplace Glass Doors",
+        "slug":"fireplace-glass-doors",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "textList":[
+            {
+                "title":"Masonry Fireplace Glass Door Sets",
+                "description":"We can properly fit your fireplace with a quality, trouble-free glass door set. We have many suppliers and can get custom sets made up for a fraction of the price you may find elsewhere. We run into many cases where glass door sets were improperly installed, usually on zero-clearance chimneys blocking the ventilation holes required to be open to cool the chimney system while burning. This is a serious fire hazard and there are specific regulations concerning how glass door sets must be installed on these units to provide proper airflow and ventilation."
+            }
+        ]
+    },
+    {
+        "title":"Radiant Fireback",
+        "slug":"radiant-fireback",
+        "category":"Accessories",
+        "type":"services",
+        "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
+        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "serviceImgCaption":"Keep more of the heat from your fire back in your home",
+        "textList":[
+            {
+                "title":"Radiant Fireback in a Zero-Clearance fireplace",
+                "description":"Heat from each fire you burn places a lot of strain on your rear refractory panel. In the event that your rear panel starts to crack, you still have time before this crack gets larger. We recommend patching refractory panels with cement patching and installing a radiant fireback to assist in further cracking of the panel. Not only will this repair be less expensive, it will also provide a higher efficiency of heat output with the radiant fireback reflecting more of the heat back into the home. With only sheet metal behind your refractory panels, protecting these panels is of the highest priority when it comes to resisting high temperatures during a fire. Keep your home and your family safe."
+            },
+            {
+                "title":"Radiant Fireback in an open masonry fireplace",
+                "description":"Approximately 80% of the heat in a firebox gets absorbed in the rear firewall causing heat damage to even the best built masonry fireplace. When installed in conjunction with a professional repair of a rear firewall a fireback can virtually stop this kind of damage. Constructed of 14 gauge, 304-alloy stainless steel, the lightweight radiant fireback will effectively reflect heat back into your room at a fraction of the cost of a traditional cast iron fireback. With open fireplaces being less efficient than a fireplace insert, anything to increase this inefficiency is high recommended! Multiple sizes are available to fit your fireplace."
+            },
+            {
+                "title":"Efficiency beyond an open fireplace",
+                "description":"If you are looking for your fireplace to put out more heat in the winter time and serve as a bit more than just decoration, we highly recommend asking us about having a fireplace insert installed in your home. Various rebates are available to make this process more affordable and we work with the best companies to ensure you get the best fireplace insert to fit your needs. Give us a call and we can get you started!"
             }
         ]
     },
@@ -1842,6 +1914,7 @@
                 "small":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "big":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg"
+<<<<<<< HEAD
             },
             {
                 "small":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
@@ -1854,6 +1927,20 @@
                 "big":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
             },
             {
+=======
+            },
+            {
+                "small":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+                "medium":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+                "big":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
+            },
+            {
+                "small":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+                "medium":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+                "big":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
+            },
+            {
+>>>>>>> 5c0c05d5c9e766fdf623f4cf436883bfb5316462
                 "small":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "big":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg"
@@ -2370,7 +2457,7 @@
         "category":"Awnings",
         "type":"services",
         "bullets":[],
-        "tileImage":"/assets/images/awnings/wet.jpg",
+        "tileImage":"/assets/images/awnings/door-and-window-awnings-for-house.png",
         "tileText":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it.",
         "thumbImages":[
             {

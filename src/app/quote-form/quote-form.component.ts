@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from '../../../node_modules/ng-mdb-pro/free';
@@ -8,6 +8,7 @@ import { ModalDirective } from '../../../node_modules/ng-mdb-pro/free';
   styleUrls: ['./quote-form.component.sass']
 })
 export class QuoteFormComponent implements OnInit {
+  @Input() product:string ;
   visible=false;
   @ViewChild('basicModal') public basicModal:ModalDirective;
   show(){
@@ -17,6 +18,7 @@ export class QuoteFormComponent implements OnInit {
     this.basicModal.hide();
   }
   constructor(private _service:ServicesService) { }
+
   optionsSelect=[]
   groupOptionsSelect=[]
   emailForm:FormGroup

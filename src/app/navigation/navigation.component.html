@@ -26,16 +26,15 @@
                                 <div class="col">
                                     <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Window and Door Screens')" mdbRippleRadius [routerLink]="['/about/door-and-window-screens']"><h5>SCREENS</h5></a>
                                     <div class="divider dropdown-divider pt-0 mt-0"></div>
+                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Window Screens')"mdbRippleRadius [routerLink]="['/about/window-screens']"><h6><strong>Window Screens</strong></h6></a>
+                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Repair')" mdbRippleRadius [routerLink]="['/services/window-screen-repair']">Screen Repair</a>
+                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Solar Screens')" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</a>
     
                                     <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Doors')"mdbRippleRadius [routerLink]="['/about/door-screens']"><h6><strong>Screen Doors</strong></h6></a>
                                     <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Retractable Screen Door')" mdbRippleRadius [routerLink]="['/products/retractable-screen-door']">Retractable Screen Door</a>
                                     <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Sliding Screen Door')" mdbRippleRadius [routerLink]="['/products/sliding-screen-door']">Sliding Screen Door</a>
                                     <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Swinging Screen Door')" mdbRippleRadius [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Door</a>
                                     <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Pet Door')" mdbRippleRadius [routerLink]="['/services/pet-door']">Pet Doors</a>
-    
-                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Window Screens')"mdbRippleRadius [routerLink]="['/about/window-screens']"><h6><strong>Window Screens</strong></h6></a>
-                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Screen Repair')" mdbRippleRadius [routerLink]="['/services/window-screen-repair']">Screen Repair</a>
-                                    <a class="dropdown-item waves-dark blue-text" (click)="setTitle('Solar Screens')" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</a>
                                 </div>
                                 <div class="col">
                                     <a class="dropdown-item waves-dark pb-0 mb-0" (click)="setTitle('Chimney Services')" mdbRippleRadius [routerLink]="['/about/chimney-services']"><h5>CHIMNEY</h5></a>
@@ -115,8 +114,7 @@
     
             </ul>
             <ul class="navbar-nav quote text-center" (click)="toggleQuoteForm()">
-                <a>FREE
-                    <br>Quote</a>
+                <a>FREE<span class="quote-text">Quote</span></a>
             </ul>
         </links>
     </mdb-navbar>
