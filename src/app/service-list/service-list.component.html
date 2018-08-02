@@ -13,7 +13,7 @@
 				<h1 *ngIf="category === 'Security Doors and Windows'" class="text-center py-3" id="Security-Doors-and-Windows"><a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Security Doors'" class="text-center py-3"><a class="orange-text"[routerLink]="['/about/security-doors']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Security Windows'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-windows']">{{category}}</a></h1>
-				<h1 *ngIf="category === 'Awnings'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/awnings']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Awnings'" class="text-center py-3" id="awnings"><a class="orange-text" [routerLink]="['/about/awnings']">{{category}}</a></h1>
 			</div>
 			<!-- /ServiceList Title -->
 			<!-- Angular For Loop -->
@@ -61,3 +61,34 @@
 	</div>
 	<!-- /Screens ServiceList -->
 </ng-container>
+
+<!-- this was in og_services.jason file moved it here to be useed in the future -->
+<!--{
+	"title":"Door and Window Awnings",
+	"slug":"door-and-window-awnings",
+	"category":"Awnings",
+	"type":"services",
+	"bullets":[],
+	"tileImage":"/assets/images/awnings/door-and-window-awnings-for-house.png",
+	"tileText":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it.",
+	"thumbImages":[
+			{
+					"small":"",
+					"medium":"",
+					"big":""
+			}
+	],
+	"textList":[
+			{
+					"title":"Customized Window & Door Awnings",
+					"description":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it. Sunesta prides itself on offering total customization, and the Sunbrero is available in many shapes and sizes, helping us ensure that each of your Sunbrero Retractable Window and Door Awnings is made to fit your home’s style."
+			},
+			{
+					"title":"Get started today!",
+					"description":"Not only will your window and door awnings match your home, but they will also lower your energy bills, protect you from the weather while you open your door, and improve the appearance of your home. What are you waiting for? Invest in window and door awnings today and you will not be disappointed."
+			}
+	],
+	"extraImages": {
+			"img":"/assets/images/awnings/door-and-window-awnings/sunbrero-back-of-brochure-all.jpg"
+	}
+}, -->
