@@ -15,10 +15,12 @@ import { SearchDetailComponent } 	from './search-detail/search-detail.component'
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { SeoLocationLpComponent } 	from './seo-location-lp/seo-location-lp.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 const appRoutes: Routes = [
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
-  { path: 'faq',                   component: FaqListComponent,                      data: { title:"Mike's Mobile FAQ"}},
+  { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
+  { path: 'faq',                   component: FaqListComponent,                 data: { title:"Mike's Mobile FAQ"}},
   { path: 'about/:slug', 		      component: LandingPageComponent, 	  			    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'blog', 				        component: PostListComponent, 						    data: { title: "Mike's Mobile Blog" }},
   { path: 'blog/:slug',           component:PostDetailComponent,                data: { title: "Mike's Mobile Blog Post"}},
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
   { path: 'sem/:slug', 			      component: SeoLocationLpComponent, 				    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
   { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
+
 ];
 
 @NgModule({

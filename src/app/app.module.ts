@@ -35,6 +35,7 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
 import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 
 
@@ -66,6 +67,7 @@ import { FaqListComponent } from './faq-list/faq-list.component';
     ColorSwatchComponent,
     QuoteFormComponent,
     FaqListComponent,
+    ThankYouComponent,
  
   ],
   imports: [
