@@ -1,13 +1,15 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input, OnDestroy } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from '../../../node_modules/ng-mdb-pro/free';
+import { ActivatedRoute, Router } from '../../../node_modules/@angular/router';
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
   styleUrls: ['./quote-form.component.sass']
 })
-export class QuoteFormComponent implements OnInit {
+export class QuoteFormComponent implements OnInit, OnDestroy{
+  @Input() product:string ;
   visible=false;
   @ViewChild('basicModal') public basicModal:ModalDirective;
   show(){
@@ -16,7 +18,8 @@ export class QuoteFormComponent implements OnInit {
   hide(){
     this.basicModal.hide();
   }
-  constructor(private _service:ServicesService) { }
+  constructor(private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
+
   optionsSelect=[]
   groupOptionsSelect=[]
   emailForm:FormGroup
@@ -42,8 +45,7 @@ export class QuoteFormComponent implements OnInit {
         'message': new FormControl("",[
             Validators.required,
             Validators.maxLength(280)
-        ]),
-        'option': new FormControl("", Validators.required)
+        ])
       })
 
       this.groupOptionsSelect = [
@@ -104,19 +106,28 @@ export class QuoteFormComponent implements OnInit {
   get option(){
     return this.emailForm.get("option")
   }
+  ngOnDestroy(){
 
+  }
   handleSubmit(event:any, emailDir:NgForm, emailForm:FormGroup){
     event.preventDefault()
+
     if (emailDir.submitted){
-        console.log(emailForm.value)
+        let url = this.route.snapshot.url.pop();
+        let option;
+        console.log("snapshot:"+this.route.snapshot.url.pop())
         let name = emailForm.value['name']
         let city = emailForm.value['city']
         let phone = emailForm.value['phone']
         let email = emailForm.value['email']
         let message = emailForm.value['message']
-        let option = emailForm.value['option']
+        if(url === undefined)
+          option = 'Homepage';
+        else
+          option = url.toString();   
         this._service.create(name, city, phone, email, message, option).subscribe(data=>{
-          console.log(data)
+          console.log(data);
+          this.router.navigate(['/thank-you']);
         })
         emailDir.resetForm({})
     }

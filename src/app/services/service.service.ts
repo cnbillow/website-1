@@ -12,11 +12,17 @@ import 'rxjs/add/operator/filter';
 
 // const endpoint = '/assets/json/services.json'
 const endpoint = 'assets/json/og_services.json'
-
+const httpOptions={
+	headers: new HttpHeaders({
+		'content-type':'application/json',
+		'day':'Thursday',
+		'x-amz-docs-region': 'us-west-2'
+	})
+}
 @Injectable()
 export class ServicesService {
 
-  private baseURL = 'http://127.0.0.1:8000/'
+  private baseURL = 'https://mh24vgs0vi.execute-api.us-west-2.amazonaws.com/Development'
 
   constructor(private httpClient:HttpClient, private http:Http) { }
 
@@ -25,16 +31,20 @@ export class ServicesService {
 	}
 
   create(name:string, city:string, phone:string, email:string, message:string, option:string): Observable<any>{
-    let apiSendMessageEndpoint = `${this.baseURL}send-message/`
+    let apiSendMessageEndpoint = `${this.baseURL}/`
     let data = {
       'name':name,
       'city':city,
       'phone':phone,
       'email':email,
-      'message':message
+			'message':message,
+			'option':option
     }
-    return this.httpClient.post(apiSendMessageEndpoint, data)
-  }
+    return this.httpClient.post(apiSendMessageEndpoint, data, {
+			headers: new HttpHeaders().set("content-type","application/json")
+			})
+	}
+
 
   // get(slug):Observable<any>{
 	//   return this.http.get(endpoint).map(response=>{

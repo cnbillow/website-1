@@ -16,14 +16,6 @@
                       </div> -->
 
                       <div class="md-form form-sm">
-                          <mdb-select [options]="groupOptionsSelect" placeholder="Choose your option" class="colorful-select dropdown-primary" formControlName='option'></mdb-select>
-                          <div *ngIf='option.invalid && (option.dirty || option.touched)'>
-                            <div *ngIf='option.errors.required'>
-                              Please choose an option.
-                            </div>
-                          </div>
-                      </div>
-                      <div class="md-form form-sm">
                           <input mdbActive type="text" id="name" name="name" class="form-control" formControlName='name'>
                           <div *ngIf='name.invalid && (name.dirty || name.touched)'>
                             <div *ngIf='name.errors.required'>
