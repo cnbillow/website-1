@@ -3,7 +3,6 @@
         "title":"Window Screen Repair",
         "slug":"window-screen-repair",
         "category":"Door and Window Screens",
-<<<<<<< HEAD
         "subcategory":"Door",
         "type":"products",
         "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
@@ -77,52 +76,6 @@
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg"
-=======
-        "subcategory":"Window",
-        "type":"services",
-        "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
-        "textList":[
-            {
-                "title":"Fast",
-                "description":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
-            },
-            {
-                "title":"Friendly",
-                "description":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
-            },
-            {
-                "title":"Affordable",
-                "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
-            }
-        ],
-        "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
-        "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-        "video":""
-    },
-    {
-        "title":"Solar Screens",
-        "slug":"solar-screens",
-        "category":"Door and Window Screens",
-        "subcategory":"Window",
-        "type":"services",
-        "tileImage":"/assets/images/screens/solar-screens/main-display/solar-screen-for-balcony.jpg",
-        "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "video":"https://www.youtube.com/embed/WtENSdKQL5k",
-        "colorSet":["screenFrameColors","colorSetx4" ],
-        "textList":[
-            {
-                "title":"Pet proof- no need for a pet guard on your patio door.",
-                "description":"Suntex solar screen generally covers the entire window and also provides insect protection like regular screening. Suntex solar screen exterior shading is made of strong vinyl-coated polyester fabric. Suntex solar screen is mildew and fade resistant and needs only an occasional cleaning with mild soap and water."
-            },
-            {
-                "title":"10 Year Warranty on Materials and Installation.",
-                "description":"Our Solar Screens come with strength enhancing and aesthetic spreader bars or we can even do custom grid patterns to match your windows. Solar Screens are framed in 7/16 x 1” extruded aluminum- mitered with hidden corners (We NEVER use the weaker plastic corners that become brittle and break after a few years) Frame colors are White, Bronze, Mill (raw aluminum) or Beige."
-            },
-            {
-                "title":"Solar Screens offer daytime privacy",
-                "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
->>>>>>> 5c0c05d5c9e766fdf623f4cf436883bfb5316462
             }
         ],
         "extraImagesTitle":"Save in the Shade!",
@@ -1162,34 +1115,74 @@
         "tileText":"Custom Steel Security Doors can take your home to the next level of style and security.",
         "recentInstallImages":[
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-dakota.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-artisan.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-longevity.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-paradise-french.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-sunburst.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg"
             },
             {
-                "small":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/custom-steel-security-door-vineyard.png"
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg"
+            },
+            {
+                "small":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
+                "medium":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
+                "big":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg"
             }
         ]
     },
@@ -1866,7 +1859,6 @@
                 "small":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "big":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg"
-<<<<<<< HEAD
             },
             {
                 "small":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
@@ -1879,20 +1871,6 @@
                 "big":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
             },
             {
-=======
-            },
-            {
-                "small":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-                "medium":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-                "big":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
-            },
-            {
-                "small":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
-                "medium":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
-                "big":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
-            },
-            {
->>>>>>> 5c0c05d5c9e766fdf623f4cf436883bfb5316462
                 "small":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "big":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg"
