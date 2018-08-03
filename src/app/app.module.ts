@@ -36,6 +36,8 @@ import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { FooterGalleryComponent } from './footer-gallery/footer-gallery.component';
+import { MainGalleryComponent } from './main-gallery/main-gallery.component';
 
 
 
@@ -68,6 +70,8 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     QuoteFormComponent,
     FaqListComponent,
     ThankYouComponent,
+    FooterGalleryComponent,
+    MainGalleryComponent,
  
   ],
   imports: [
