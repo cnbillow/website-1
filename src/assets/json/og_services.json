@@ -3,23 +3,6 @@
         "title":"Window Screen Repair",
         "slug":"window-screen-repair",
         "category":"Door and Window Screens",
-<<<<<<< HEAD
-        "subcategory":"Window",
-        "type":"services",
-        "serviceImgCaption":"Fast, friendly, and affordable window screen & frame replacement!",
-        "textList":[
-            {
-                "title":"Fast",
-                "description":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
-            },
-            {
-                "title":"Friendly",
-                "description":"Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
-            },
-            {
-                "title":"Affordable",
-                "description":"We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
-=======
         "subcategory":"Door",
         "type":"products",
         "tileText":"Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
@@ -93,7 +76,6 @@
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg"
->>>>>>> 70bd9be1368a463f55da5af653de367d51616064
             }
         ],
         "extraImagesTitle":"Save in the Shade!",
@@ -2019,7 +2001,7 @@
         "technicalSpecs":"Screening: The Tru-Frame door comes Standard with a charcoal aluminum screen; upgrade to a pet and child proof screen material for added durabilit, privacy, and sun protection.<br/><br/>Hardware: Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws. Slim Line Handle set shown right. Click image to enlarge.",
         "options":"THRESHOLD EXTENDER: Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/><br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>Solar Screen: See Colors listed below",
         "relatedProducts":{
-            "Tru Frame Security Doors": "/products/tru-frame-security-doors",
+            "Viewguard Security Doors": "/products/viewguard-security-doors",
             "Tru View Security Doors": "/products/tru-view-security-doors",
             "Steel Security Doors": "/grid/steel-security-doors",
             "Sliding Security Doors": "/products/sliding-security-doors"
@@ -2187,12 +2169,6 @@
         "tileImage":"/assets/images/security/guarda-escape/2.png",
         "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
-<<<<<<< HEAD
-            {                
-                "small":"/assets/images/security/guarda-escape/2.png",
-                "medium":"/assets/images/security/guarda-escape/2.png",
-                "big":"/assets/images/security/guarda-escape/2.png"
-=======
             {
                 "small":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
@@ -2202,7 +2178,6 @@
                 "small":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
                 "big":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg"
->>>>>>> 70bd9be1368a463f55da5af653de367d51616064
             },
             {
                 "small":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",

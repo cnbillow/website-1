@@ -94,32 +94,8 @@
 				<!-- Normal Gallery for most Product Pages -->					
 				<ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
 					<!--Carousel Wrapper-->
-	<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'">
-		<!--First slide-->
-		
-		<mdb-slide *ngFor="let image of gallery_images">
-			<img class="d-block w-100" src="{{image.small}}" alt="{{image.alt}}" (click)="galleryModal.show()">
-			<div mdbModal #galleryModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="galleryModal" aria-hidden="true">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h4 class="modal-title w-100 text-center" id="myModalLabel">Beat the Heat!</h4>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="galleryModal.hide()">
-									<span aria-hidden="true">×</span>
-								</button>
-							</div>
-							<div class="modal-body">													
-								<img src="{{image.small}}" class="img-fluid" alt="{{image.small}}" />
-							</div>									
-						</div>
-					</div>
-				</div>
-		</mdb-slide>
-		<!--/First slide-->
-		<!--Second slide-->
-		<!--/Third slide-->
-	</mdb-carousel>
-	<!--/.Carousel Wrapper-->
+					<app-main-gallery [Images]="gallery_images"></app-main-gallery>
+					<!--/.Carousel Wrapper-->
 				</ng-container>
 			</div>
 			<!-- /GALLERY SECTION -->

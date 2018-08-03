@@ -1,3 +1,29 @@
-<p>
-  main-gallery works!
-</p>
+<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'">
+		<!--First slide-->
+		
+		<mdb-slide *ngFor="let image of Images">
+			<img class="d-block w-100" type="image"  src="{{image.big}}" data-toggle="modal" data-target="#exampleModal"  (click)="show( image.big )" mdbWavesEffect>
+
+		</mdb-slide>
+		<!--/First slide-->
+		<!--Second slide-->
+		<!--/Third slide-->
+	</mdb-carousel>
+  <mdbModal #content class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class=" modal-dialog" role="img">
+          <div class="modal-content w-100">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="content.hide()">
+                      <span aria-hidden="true">×</span>
+                  </button>
+              </div>
+              <div class="text-center modal-body">
+                  <img src="{{name}}" alt = "{{name}}">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary waves-light" data-dismiss="modal" (click)="content.hide()" mdbWavesEffect>Close</button>
+                  
+              </div>
+          </div>
+      </div>
+  </mdbModal>

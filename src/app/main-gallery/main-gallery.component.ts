@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-main-gallery',
@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainGalleryComponent implements OnInit {
 
+  @Input() Images
+  @ViewChild('content') public contentModal;
+  public name: string;
+
+  public source:string;
   constructor() { }
 
   ngOnInit() {
+    console.log(this.Images);
   }
+  
 
+    show(value:string){
+        this.name = value;
+        this.contentModal.show();
+    }
 }
