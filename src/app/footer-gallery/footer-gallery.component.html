@@ -1,16 +1,17 @@
-<div class="bd-example">
-    <img *ngFor="let image of Images" type="image" class="" src="{{image.big}}" data-toggle="modal" data-target="#footerModal"  (click)="show( image.big )" mdbWavesEffect>
-  
+<div class="container bd-example">
+    <h2>View some of our recent installs</h2>
+    <hr>
+    <img *ngFor="let image of Images" type="image" class="footerThumb" src="{{image.big}}" data-toggle="modal" data-target="#footerModal"  (click)="show( image.big )" mdbWavesEffect>
 
     <div mdbModal #footerContent="mdb-modal" class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class=" modal-dialog" role="img">
             <div class="modal-content w-100">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="footerContent.hide()">
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="footerContent.hide()">
                         <span aria-hidden="true">×</span>
-                    </button>
+                    </button> -->
                 </div>
-                <div class="text-center modal-body">
+                <div class="text-center modalImg">
                     <img src="{{name}}" alt = "{{name}}">
                 </div>
                 <div class="modal-footer">
