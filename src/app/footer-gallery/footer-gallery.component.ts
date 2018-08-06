@@ -1,3 +1,4 @@
+
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit, Input, ViewChild } from '@angular/core';
 })
 export class FooterGalleryComponent implements OnInit {
   @Input() Images
-  @ViewChild('content') public contentModal;
+  @ViewChild('footerContent') public footerModal;
   public name: string;
 
   public source:string;
@@ -20,7 +21,7 @@ export class FooterGalleryComponent implements OnInit {
 
     show(value:string){
         this.name = value;
-        this.contentModal.show();
+        this.footerModal.show();
+        console.log(value);
     }
 }
-

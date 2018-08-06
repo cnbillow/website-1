@@ -75,6 +75,7 @@ import { MainGalleryComponent } from './main-gallery/main-gallery.component';
  
   ],
   imports: [
+    MDBBootstrapModules.forRoot(),
     AppRoutingModule,
     BrowserModule,
     FormsModule,
@@ -82,7 +83,7 @@ import { MainGalleryComponent } from './main-gallery/main-gallery.component';
     HttpClientModule,
     Ng2PageScrollModule,
     NgxGalleryModule,
-    MDBBootstrapModules.forRoot(),
+
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     }),
