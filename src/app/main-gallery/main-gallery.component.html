@@ -2,7 +2,7 @@
 		<!--First slide-->
 		
 		<mdb-slide *ngFor="let image of Images">
-			<img class="d-block w-100" type="image"  src="{{image.big}}" data-toggle="modal" data-target="#mainModal"  (click)="show( image.big )" mdbWavesEffect>
+			<img class="d-block w-100" type="image" alt = "{{image.alt}}" src="{{image.big}}" data-toggle="modal" data-target="#mainModal"  (click)="show( image.big )" mdbWavesEffect>
 
 		</mdb-slide>
 		<!--/First slide-->
@@ -18,7 +18,7 @@
                   </button> -->
               </div>
               <div class="text-center modalImg">
-                  <img src="{{name}}" alt = "{{name}}">
+                  <img src="{{name}}" >
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainContent.hide()" mdbWavesEffect>Close</button>
