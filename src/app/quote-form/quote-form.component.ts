@@ -81,7 +81,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
           { value: 'Door and Window Awnings', label: 'Door and Window Awnings' },
       ];
 
-      this.growActionBtns();
+      //this.growActionBtns();
 
       if (screen.width < 992) {
           document.getElementById('desktop-only').style.display="none";
