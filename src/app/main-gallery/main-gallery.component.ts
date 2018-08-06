@@ -8,7 +8,7 @@ import { Component, OnInit, Input, ViewChild } from '@angular/core';
 export class MainGalleryComponent implements OnInit {
 
   @Input() Images
-  @ViewChild('content') public contentModal;
+  @ViewChild('mainContent') public contentModal;
   public name: string;
 
   public source:string;
