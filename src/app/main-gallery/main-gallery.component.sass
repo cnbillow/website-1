@@ -1,17 +1,31 @@
-.modal-body
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
 
+.modal
 
 .modal-dialog
-    max-width: 608px
     display:none
+    @include breakpoint(xs)
+        max-width: 550px
+        max-height: 480px
+    @include breakpoint(sm)
+        max-width: 717px 
+        max-height: 650px
+    @include breakpoint(md)
+        max-width: 990px
+        max-height: 894px
+    @include breakpoint(lg)
+        max-width: 1100px
+        max-height: 992px
 
 .modalImg
     float: left
 
+
 .modalImg img
     display: block
     width: 100%
-
+ 
 .modal-content .close 
     position: relative
     right: 0px
