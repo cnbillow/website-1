@@ -1,6 +1,8 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { ViewEncapsulation } from '@angular/core'
 
 @Component({
+  encapsulation: ViewEncapsulation.None,
   selector: 'app-main-gallery',
   templateUrl: './main-gallery.component.html',
   styleUrls: ['./main-gallery.component.sass']
