@@ -21,9 +21,9 @@ export class MainGalleryComponent implements OnInit {
   }
   
 
-    show(value:number){
-        this.index=value
-        this.name = this.Images[value].big;
+    show(value:string){
+        
+        this.name = value
         this.contentModal.show();
     }
     increment(event){

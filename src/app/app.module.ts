@@ -38,7 +38,7 @@ import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { FooterGalleryComponent } from './footer-gallery/footer-gallery.component';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
-import { NgxImageGalleryModule } from '../../node_modules/ngx-image-gallery';
+
 
 
 
