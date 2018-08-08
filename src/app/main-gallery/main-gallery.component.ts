@@ -10,7 +10,7 @@ export class MainGalleryComponent implements OnInit {
   @Input() Images
   @ViewChild('mainContent') public contentModal;
   public name: string;
-
+  public index=0;
   public source:string;
   constructor() { }
 
@@ -19,8 +19,13 @@ export class MainGalleryComponent implements OnInit {
   }
   
 
-    show(value:string){
-        this.name = value;
+    show(value:number){
+        this.index=value
+        this.name = this.Images[value].big;
         this.contentModal.show();
+    }
+    increment(event){
+      //event.preventdefault();
+ 
     }
 }
