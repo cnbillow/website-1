@@ -1,30 +1,30 @@
-    <div class="row col-12 carousel-wrap">
-    <mdb-carousel [isControls]="true" class="carousel carousel-fade" [interval]="0" [type]="'carousel-thumbnails'" [animation]="'fade'">
-		<!--First slide-->
-		
-		<mdb-slide *ngFor="let image of Images">
-			<img class="d-block w-100" type="image" alt = "{{image.alt}}" src="{{image.big}}" data-toggle="modal" data-target="#mainModal"  (click)="show( image.big )" mdbWavesEffect>
-		</mdb-slide>
-		<!--/First slide-->
-		<!--Second slide-->
-		<!--/Third slide-->
-    </mdb-carousel>
-</div>
-  <div mdbModal #mainContent="mdb-modal" class="modal fade " id="mainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-lg modal-dialog   modal-dialog-centered" role="img">
-          <div class="modal-content w-100">
-              <div class="modal-header">
-                  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="mainContent.hide()">
+<mdb-carousel [isControls]="true" class="carousel slide carousel-fade" [type]="'carousel-thumbnails'" [animation]="'fade'">
+    <!--First slide-->
+
+    <mdb-slide *ngFor="let image of Images">
+        <img class="d-block w-100" type="image" alt="{{image.alt}}" src="{{image.big}}" data-toggle="modal" data-target="#mainModal"
+            (click)="show( image.big )" mdbWavesEffect>
+    </mdb-slide>
+    <!--/First slide-->
+    <!--Second slide-->
+    <!--/Third slide-->
+</mdb-carousel>
+<div mdbModal #mainContent="mdb-modal" class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class=" modal-dialog" role="img">
+        <div class="modal-content w-100">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="mainContent.hide()">
                       <span aria-hidden="true">×</span>
                   </button> -->
-              </div>
-              <div class="text-center modalImg">
-                  <img src="{{name}}" >
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainContent.hide()" mdbWavesEffect>Close</button>
-                  
-              </div>
-          </div>
-      </div>
-    </div> 
+            </div>
+            <div class="text-center modalImg">
+                <img src="{{name}}">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainContent.hide()" mdbWavesEffect>Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>

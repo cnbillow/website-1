@@ -1,8 +1,11 @@
-.carousel-wrap 
-    max-width: 600px
-    
-    float: right
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+.modal-body
+
+
 .modal-dialog
+    max-width: 608px
     display:none
 
 .modalImg
@@ -20,3 +23,38 @@
 .modalImg .btn-secondary 
     background-color:  !important
     color: #fff !important
+
+
+.carousel-control-prev, .carousel-control-next a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover 
+    background-color: #000000
+
+.carousel-control-prev, .carousel-control-next 
+    width: 8%
+
+.carousel-thumbnails .carousel-indicators img
+    max-width: 100%
+    height: auto
+    @include breakpoint(md)
+    max-width: auto
+    height: auto
+
+.carousel-thumbnails .carousel-indicators li 
+    height: auto
+    width: auto
+    border: 2px solid
+    border-radius: 2px
+    opacity: 0.5
+    background-color: rgba(255, 255, 255, 0) !important
+    margin-bottom: -10px
+    @include breakpoint(md)
+        height: auto
+        width: auto
+        border: 2px solid
+        border-radius: 2px
+        opacity: 0.5
+        background-color: rgba(255, 255, 255, 0) !important
+        margin-bottom: -30px
+     
+.carousel-thumbnails .carousel-indicators .active 
+    opacity: 1
+    border: 2px solid 
