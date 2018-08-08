@@ -11,7 +11,7 @@ export class MainGalleryComponent implements OnInit,OnChanges {
   @Input() Images
   @ViewChild('mainContent') public contentModal:any;
   @ViewChild('mainCarousel') public contentCarousel; 
-  @ViewChild('modalImage') public modalImage;
+  @ViewChild('mainModalImage') public modalImage;
   public name: string;
   public reload: boolean = false;
   public index: number = 0;
@@ -23,21 +23,16 @@ export class MainGalleryComponent implements OnInit,OnChanges {
     this.imagesSize= this.Images.length
   }
   ngOnChanges(changes: SimpleChanges){
-    console.log(changes)
+    // console.log(changes)
   }
   
   activeSlideChange(event: any){
-    console.log(event);
+    // console.log(event);
 }
 
   hideCheck(event){
-    console.log(event)
+    // console.log(event)
 
-    this.contentCarousel.selectSlide(0);
-    if(this.reload){
-    this.contentModal.show();
-    this.reload=false;
-  }
   }
   show(){
         
@@ -45,11 +40,9 @@ export class MainGalleryComponent implements OnInit,OnChanges {
         this.contentModal.show();
     }
   next(){
-      console.log(this.contentCarousel._currentActiveSlide);
-      
-
+      // console.log(this.contentCarousel._currentActiveSlide);
       this.contentCarousel.nextSlide();
-      console.log(this.modalImage)
+      // console.log(this.modalImage)
        this.modalImage.nativeElement.setAttribute('src',this.Images[(this.contentCarousel._currentActiveSlide+1)%this.imagesSize].big)
     }
     previous(){
