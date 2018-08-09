@@ -90,6 +90,20 @@ slidingSecurityDoorColors ={
       "White":"/assets/images/screens/pet-door/white-frame.jpg"
     }
   }
+  quickEscapeColors = {
+    "name":"Custom Colors",
+    "values":{
+      "AlabAlmond":"#f7debf",
+      "Black":"#000000",
+      "Brown":"#7e5455",
+      "Bronze":"#65524f",
+      "Light Gray":"#cad3d7",
+      "Sahara Brown":"#7b6d5d",
+      "Sahara Gray":"#92989b",
+      "Silver":"#e9e9eb",
+      "White":"#ffffff"
+      }
+  }
   constructor() { 
 
     
@@ -118,6 +132,9 @@ slidingSecurityDoorColors ={
           break;
       case "petDoorColors":
         this.colors=this.petDoorColors;
+        break;
+      case "quickEscapeColors":
+        this.colors=this.quickEscapeColors;
         break;
       default:
         this.colors=null;
