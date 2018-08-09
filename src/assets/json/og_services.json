@@ -2452,39 +2452,7 @@
             }
         ]
     },
-    {
-        "title":"Door and Window Awnings",
-        "slug":"door-and-window-awnings",
-        "category":"Awnings",
-        "type":"services",
-        "bullets":[],
-        "tileImage":"/assets/images/awnings/door-and-window-awnings-for-house.png",
-        "tileText":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it.",
-        "thumbImages":[
-            {
-                "alt":"",
-                "small":"",
-                "medium":"",
-                "big":""
-            }
-        ],
-        "textList":[
-            {
-                "title":"Customized Window & Door Awnings",
-                "description":"Your home is one-of-a-kind, and your window and door awnings should match and compliment it. Sunesta prides itself on offering total customization, and the Sunbrero is available in many shapes and sizes, helping us ensure that each of your Sunbrero Retractable Window and Door Awnings is made to fit your home’s style."
-            },
-            {
-                "title":"Get started today!",
-                "description":"Not only will your window and door awnings match your home, but they will also lower your energy bills, protect you from the weather while you open your door, and improve the appearance of your home. What are you waiting for? Invest in window and door awnings today and you will not be disappointed."
-            }
-        ],
-        "extraImages": {
-            "img":"/assets/images/awnings/door-and-window-awnings/sunbrero-back-of-brochure-all.jpg"
-        }
-    },
-
-
-
+    
     {
         "title":"Chimney Services in Sacramento",
         "slug":"sacramento",
