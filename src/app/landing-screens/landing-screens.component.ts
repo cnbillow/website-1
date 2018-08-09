@@ -6,13 +6,15 @@ import { ServicesService } from '../services/service.service';
 @Component({
   selector: 'app-landing-screens',
   templateUrl: './landing-screens.component.html',
-  styleUrls: ['./landing-screens.component.sass']
+  styleUrls: ['./landing-screens.component.sass'],
+  providers: [ServicesService]
 })
 export class LandingScreensComponent implements OnInit {
   private req:any
 	serviceList:[ServiceItem]
     private routeSub:any;
-	slug:string;
+  slug:string;
+  title="Window Products and Services in"
 	cities:[string];
     region:ServiceItem;
 	constructor(private route: ActivatedRoute,private _service:ServicesService) { }
@@ -36,7 +38,8 @@ export class LandingScreensComponent implements OnInit {
                     if(item.slug == this.slug){
                         this.region = item as ServiceItem;
 						console.log(this.region)
-						this.cities=this.regionList[this.region.region]
+            this.cities=this.regionList[this.region.region]
+            this.title+=this.region.region
 						console.log(this.cities)
                         }
                     }
