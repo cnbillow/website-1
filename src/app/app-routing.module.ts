@@ -16,6 +16,7 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
 import { SeoLocationLpComponent } 	from './seo-location-lp/seo-location-lp.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
 
 const appRoutes: Routes = [
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
@@ -32,8 +33,10 @@ const appRoutes: Routes = [
   { path: 'sem/:slug', 			      component: SeoLocationLpComponent, 				    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path:'region/:slug',         component:LandingChimneyComponent,            data:{title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
   { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
+
 
 ];
 
