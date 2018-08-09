@@ -38,6 +38,9 @@ import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { FooterGalleryComponent } from './footer-gallery/footer-gallery.component';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
+import { LandingSecurityComponent } from './landing-security/landing-security.component';
+import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
+import { LandingScreensComponent } from './landing-screens/landing-screens.component';
 
 
 
@@ -73,6 +76,9 @@ import { MainGalleryComponent } from './main-gallery/main-gallery.component';
     ThankYouComponent,
     FooterGalleryComponent,
     MainGalleryComponent,
+    LandingSecurityComponent,
+    LandingChimneyComponent,
+    LandingScreensComponent,
  
   ],
   imports: [
