@@ -19,6 +19,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
 import { LandingScreensComponent } from './landing-screens/landing-screens.component';
 import { LandingSecurityComponent } from './landing-security/landing-security.component';
+import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 
 const appRoutes: Routes = [
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
@@ -26,6 +27,7 @@ const appRoutes: Routes = [
   { path: 'faq',                   component: FaqListComponent,                 data: { title:"Mike's Mobile FAQ"}},
   { path: 'about/:slug', 		      component: LandingPageComponent, 	  			    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'blog', 				        component: PostListComponent, 						    data: { title: "Mike's Mobile Blog" }},
+  {path:'chimney-glossary',       component: ChimneyGlossaryComponent,          data: {title:"Mike's Mobile Chimney Glossary"}},
   { path: 'blog/:slug',           component:PostDetailComponent,                data: { title: "Mike's Mobile Blog Post"}},
   { path: 'contact', 			        component: ContactComponent,					        data: { title: "Contact Mike's Mobile" }},
   { path: 'grid/:slug', 		      component: GridComponent, 					  	      data: { title: "Mike's Mobile Screen and Chimney Service" }},
