@@ -2232,7 +2232,8 @@
                 "medium":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg"
             }
-        ]    
+        ],
+        "colorSet":["quickEscapeColors"]    
     },
     {
         "title":"CRL Guarda™ Fixed",
