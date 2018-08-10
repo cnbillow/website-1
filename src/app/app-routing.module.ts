@@ -22,6 +22,7 @@ import { LandingSecurityComponent } from './landing-security/landing-security.co
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
+
 const appRoutes: Routes = [
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
@@ -39,6 +40,7 @@ const appRoutes: Routes = [
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'chimney-questions',    component: ChimneyFaqComponent,               data: { title: "Chimney Frequently Asked Questions"}},
+
   { path:'chimneys/:slug',        component: LandingChimneyComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'windows/:slug',         component: LandingScreensComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'security/:slug',        component: LandingSecurityComponent,          data: {title:" Mikes Mobile Screen and Chimney Service"}                  },

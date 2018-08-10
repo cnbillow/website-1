@@ -48,6 +48,7 @@ import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -83,6 +84,7 @@ import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
     LandingScreensComponent,
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,
+    
  
   ],
   imports: [
