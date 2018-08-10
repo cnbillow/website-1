@@ -18,7 +18,7 @@
         "ANSI":"American National Standards Institute. The coordinating organization for federated national standards system, consisting of 900 companies and 200 trade, technical, professional, labor; and consumer organizations.",
         "APPLIANCE":"Equipment, usually built in standardized sizes or&nbsp;types ~ installed or connected as a unit to perform&nbsp;one or more functions .",
         "APPLIANCE REGULATOR":"The appliance component, usually part of the combination valve, that maintains constant gas pressure.",
-        "APPROVED":"Acceptable to the authority having jurisdiction.&nbsp;Appliances or installations are not approved unless&nbsp;accepted by the authority having jurisdiction,&nbsp;whether or not they are &#8220;tested or listed:&#8217;",
+        "APPROVED":"Acceptable to the authority having jurisdiction.&nbsp;Appliances or installations are not approved unless&nbsp;accepted by the authority having jurisdiction,&nbsp;whether or not they are &#8220;tested or listed:&'",
         "AROMATIC HYDROCARBON":"A group of hydrocarbon compounds, including&nbsp;benzene and its derivatives, which are among the&nbsp;many compounds found in wood smoke. Consistent&nbsp;exposure to aromatic hydrocarbons has been&nbsp;identified as a cause of cancer.",
         "ASH":"The solid residue left when combustible material&nbsp;is thoroughly burned or is oxidized by chemical&nbsp;means.",
         "ASH DOOR":"A door, with a frame, providing access to the ash&nbsp;dump, through which collected ashes can be&nbsp;removed.",
@@ -87,7 +87,7 @@
                 "CHIMNEY PRODUCTS":"Products related to servicing, maintaining, repairing, or cosmetically improving chimneys.",
                 "CHIMNEY RELINING":"The process of replacing the inner wall of the chimney flue. Typically removing the old damaged liner, whether clay or metal, and installing a new metal liner appropriate for the appliance being served does this. Usually chimneys are relined with stainless steel of an alloy suitable for the fuel being burned.",
                 "CHIMNEY REPAIR":"The process of restoring broken or damaged chimneys to service. This can involve tuckpointing loose brickwork, rebuilding or resealing the crown, or relining the chimney when the chimney liner is cracked, perforated, or broken.",
-                "CHIMNEY SAFETY INSTITUTE OF&nbsp;AMERICA":"A non-profit, tax-exempt educational organization&nbsp;dedicated to chimney safety through public&nbsp;education and the development of technical&nbsp;knowledge and educational programs for America&#8217;s&nbsp;chimney service professionals.",
+                "CHIMNEY SAFETY INSTITUTE OF&nbsp;AMERICA":"A non-profit, tax-exempt educational organization&nbsp;dedicated to chimney safety through public&nbsp;education and the development of technical&nbsp;knowledge and educational programs for America&'s&nbsp;chimney service professionals.",
                 "CHIMNEY SERVICE":"A professional company that cleans, inspects, repairs, evaluates, and maintains chimneys.",
                 "CHIMNEY SUPPLIES":"Products and tools related to chimney repair, maintenance, and service.",
                 "CHIMNEY SWEEP":"The inner portion of the chimney that contains the products of combustion. It can be made of clay tiles or of metal. For flues to be serviceable, they must remain in tact, free from perforations, cracks or damage of any kind that could allow the products of combustion to pass into the living spaces of the home, or the heat from the products of combustion to endanger combustible materials near the flue such as framing, walls, ceilings, insulation, or floors.",
@@ -97,13 +97,13 @@
                 "CHIMNEY SWEEPING":"Refers to the mechanical cleaning of chimneys to remove soot, creosote, and debris. Usually done with brushes and mechanical scraping tools.",
                 "CHIMNEY SWEEPS":"A group of professionals who make their living cleaning, inspecting, repairing, and maintaining chimneys. Also, chimney sweepers.",
                 "CHLORIDE":"A form of salt tested for in APFI pellet fuel standards.",
-                "CIRCULATING STOVE":"A stove which draws in cool air near the stove base,&nbsp;heats the air between the firebox walls and the unit&#8217;s&nbsp;outer jacket, and then emits the warmed air to the&nbsp;living space through grating or louvers in the stove&nbsp;covering.",
+                "CIRCULATING STOVE":"A stove which draws in cool air near the stove base,&nbsp;heats the air between the firebox walls and the unit&'s&nbsp;outer jacket, and then emits the warmed air to the&nbsp;living space through grating or louvers in the stove&nbsp;covering.",
                 "CLASS A, FACTORY-BUILT CHIMNEY":"A chimney composed entirely of listed manufactured components, designed to be assembled as an entire system in accordance with the terms of the listing.",
                 "CLEAN-OUT OPENING":"An opening or hole in a chimney designed to allow&nbsp;access to the flue or ash dump for purposes of&nbsp;removing ash, creosote, soot and other extraneous&nbsp;matter.",
                 "CLEAN-OUT DOORS":"Devices installed in a masonry chimney to allow access to the interior chimney for the purposes of inspection, routine sweeping and creosote removal, or removal of debris. They can be made of steel, cast aluminum, or clay.",
                 "CLEARANCE":"Distance between a heat producing appliance,&nbsp;chimney, chimney connector, vent, vent connector,&nbsp;or plenum, and other surfaces.",
                 "CLINKER":"Hard pieces of fused ash that can form in the firebox&nbsp;of a coal-burning appliance.",
-                "CMHC":"Canadian Mortgage and Housing Corporation. It&nbsp;is the government of Canada&#8217;s National Housing&nbsp;Agency.",
+                "CMHC":"Canadian Mortgage and Housing Corporation. It&nbsp;is the government of Canada&'s National Housing&nbsp;Agency.",
                 "COLD JUNCTION":"Non-heated end of the thermocouple/thermopile.",
                 "COMBUSTIBLE MATERIAL":"Material made of or surfaced with wood, compressed&nbsp;paper, plant fibers, plastics or other materials that&nbsp;can ignite and burn, whether flame-proofed or not,&nbsp;or whether plastered or unplastered.",
                 "COMBUSTION":"Rapid oxidation of fuel accompanied by the&nbsp;production of heat and light.",
@@ -223,121 +223,271 @@
 
     },
     {
-        "section":"E",
+        "section":"H",
         "terms":{
-            
+            "HEARTH":"Floor area within the firebox of a fireplace or a&nbsp;fireplace stove.",
+            "HEARTH EXTENSION":"Noncombustible surfacing applied to the floor area&nbsp;extending in front of and at the sides of the hearth&nbsp;opening of a fireplace or a fireplace stove; also as&nbsp;applied to the floor area beneath a fireplace stove or&nbsp;beneath an elevated overhanging fireplace hearth.",
+            "HEARTH STOVE":"Stoves which are either specifically designed or&nbsp;adapted for connection to a fireplace.",
+            "HEAT EXCHANGER":"Chamber in a heating appliance where heat resulting&nbsp;from combustion of fuel is transferred through the&nbsp;walls of the chamber to air or water passing through&nbsp;the exchanger.",
+            "HEAT LOSS CALCULATION":"Calculation to determine house Btu loss; factors include conduction through construction materials, air infiltration losses and the difference between actual or projected outside temperatures and desired temperature inside the house. Used for determining necessary heat output from the heating appliance.",
+            "HEAT OUTPUT":"The amount of usable heat produced by a heating appliance; expressed in Btu (for solid fuel and most conventional fuel appliances).",
+            "HEAT RECLAIMER":"Stovepipe accessory designed to extract heat from&nbsp;flue gases.",
+            "HEAT TRANSFER EFFICIENCY":"The percentage of useful heat released in the fire&nbsp;which becomes useful heat in the home.",
+            "HEAT VALUE":"Amount of heat potential of one cubic foot of gas when burned. Also known as caloric value.",
+            "HEATFORM TYPE FIREPLACES":"See steel fireplace liner",
+            "HEATILATOR-TYPE FIREPLACE":"Brand name describing either a factory built&nbsp;fireplace or steel fireplace liner.",
+            "HEATING SYSTEM":"Heat-producing appliance with a combustion&nbsp;chamber and a heat exchanger.",
+            "HEAVY FLEX":"Interlocked flexible stainless steel relining pipe constructed from stainless steel of at least .007&#8243; thickness. Its weight and thick outer walls make it more impervious to damage and therefore easier to clean and easier to install in most masonry chimneys.",
+            "HIGH-EFFICIENCY FURNACE":"A heating device that returns to the heating environment more than 90% of the heat it generates. Such a device has, therefore, relatively low flue gas temperatures. The lower flue gas temperatures result in more moisture that condenses on the interior flue walls. This situation significantly increases the opportunity for corrosion within the flue.",
+            "HISTOPLASMISOSIS":"A fungal infection of the lungs caused by breathing&nbsp;in dust from soil enriched by bird dung, i.e., soil&nbsp;from chicken coops or fireplace smoke shelves.",
+            "HOT AIR PLENUM":"Sheet metal chamber mounted to the furnace, into which hot air is directed, and to which ducts are attached for hot air distribution into the house.",
+            "HOT JUNCTION":"Joined, heated end of thermocouple/thermopile.",
+            "HOT SURFACE IGNITER":"Type of electronic ignition system in which a glow bar is heated by electrical means to a temperature of about 2,500 degrees Fahrenheit to provide the heat to ignite main burner gas.",
+            "HOT WATER BOILER":"A closed vessel for heating a liquid or water or for&nbsp;generating vapor or steam by direct application of&nbsp;heat."
         }
 
     },
     {
-        "section":"",
+        "section":"I",
         "terms":{
-            
+            "IBC":"International Building Code",
+            "ICBO":"International Conference of Building Officials,&nbsp;an organization which develops model building&nbsp;codes.",
+            "IGNITION SYSTEMS":"Devices that ignite the pilot burner and/or the main burner assembly.",
+            "IGNITION TEMPERATURE":"The lowest temperature at which combustion occurs. Varies widely with reference to the variety of flammable gases spontaneously combusting in a solid fuel appliance.",
+            "IMC":"International Mechanical Code",
+            "INADEQUATE FLOW":"Chimney performance problem occurring when the&nbsp;flow of gases through a venting system is insufficient&nbsp;to handle the amount of flue gas produced by the&nbsp;fire.",
+            "INCINERATOR":"An appliance or combustion chamber which burns&nbsp;garbage, rubbish and other wastes.",
+            "INCOMPLETE COMBUSTION":"Improper air/fuel mixture or inadequate temperatures resulting in less than complete burning of fuel. May produce aldehydes and/or carbon monoxide.",
+            "INCREASER":"Chimney connector component that permits the transition from smaller to larger connector, thimble, liner, or chimney.",
+            "INFRARED RADIATION":"A form of light, beyond the visible part of the&nbsp;spectrum, which is given off by warm or hot objects&nbsp;and is converted to sensible heat when absorbed by&nbsp;another object.",
+            "INNER HEARTH":"Floor area within the firebox or fire chamber where&nbsp;the fire is built.",
+            "INTERIOR CHIMNEY":"A chimney that has any part of its structure inside&nbsp;the exterior wall of a building.",
+            "INTERMITTENT IGNITION SYSTEM":"Means of lighting the pilot or main burner without the use of a standing pilot, by electronic spark or hot surface ignition. Also known as electronic ignition device.",
+            "INTERNATIONAL FUEL GAS CODE":"A standard for the installation of gas appliances, piping, and venting.",
+            "IN-we&nbsp;":"Inches of Water Column. Measure of pressure.",
+            "IRC":"International Residential Code"
         }
 
     },
     {
-        "section":"",
+        "section":"J",
         "terms":{
-            
+            "JOB-MADE LADDER":"A ladder that is fabricated, typically at the&nbsp;construction site; non-commercially&nbsp;manufactured.",
+            "JOINT COMPOUNDS":"Non-hardening materials used on pipe threads to insure a proper seal."
         }
 
     },
     {
-        "section":"",
+        "section":"L",
         "terms":{
-            
+            "LABELED":"Materials or equipment to which has been attached&nbsp;a label, symbol or other identifying mark of an&nbsp;organization acceptable to the &#8220;authority having&nbsp;jurisdiction&#8221; and concerned with product evaluation,&nbsp;that maintains periodic inspection of production&nbsp;of labeled equipment or materials and by whose&nbsp;labeling the manufacturer indicates compliance&nbsp;with appropriate standards or performance in a&nbsp;specified manner.",
+            "LATENT HEAT":"Energy used to change a liquid (such as water) to a gas (such as steam) that is released as sensible heat&nbsp;when the gas condenses to its liquid state.",
+            "LEAKAGE TESTING":"Procedure to ensure that there is no uncontrolled flow of fuel gas in the gas piping system and/or the appliance.",
+            "LIFTING FLAMES":"An unstable burner condition in which flames rise above or blow off the burner port.",
+            "LIMIT SWITCH":"Bimetallic device set to react to excessive temperature by causing gas flow to be cut off.",
+            "LINTEL":"When referring to masonry fireplaces, the horizontal&nbsp;noncombustible member, usually of masonry or&nbsp;steel, spanning the opening of a masonry fireplace&nbsp;to support the load above.",
+            "LISTED":"Materials or equipment included in a list published&nbsp;by an organization acceptable to the &#8220;authority&nbsp;having jurisdiction&#8221; and concerned with product&nbsp;evaluation, that maintains periodic inspection of&nbsp;production of listed equipment or materials and&nbsp;whose listing states either that the equipment or&nbsp;material meets appropriate standards or has been&nbsp;tested and found suitable for use in a specified&nbsp;manner.",
+            "LIQUEFIED PETROLEUM GAS(LPG)":"Colorless, odorless, and non-toxic gas separated from wet natural gas, light crude oil, and oil refinery gases. Composed predominantly of following hydrocarbons or mixtures thereof: propane, propylene, normal butane or isobutane and butylenes.",
+            "LOW-EFFICIENCY FURNACE":"A heating device that returns to the heating environment less than 90% of the heat it generates. Such a device has a warm enough flue gas temperature to allow for the vaporization and release to the environment most of the moisture created in the combustion process. This allows for a flue gas environment that is substantially less corrosive than that created by a high-efficiency gas furnace.",
+            "LOW PRESSURE STEAM BOILER":"Boiler which heats water under pressure to above&nbsp;boiling point and circulates the water to radiators&nbsp;where it is allowed to turn to steam and condense,&nbsp;releasing latent heat."
         }
 
     },
     {
-        "section":"",
+        "section":"M",
         "terms":{
-            
+            "MAIN GAS BURNER":"Device for the final conveyance of gas or a mixture of gas and air to the combustion zone. Consists of burner orifice, air shutter, mixer, and burner head.",
+            "MANIFOLD":"The conduit of an appliance that supplies gas to the individual burners.",
+            "MANIFOLD PRESSURE":"Gas pressure between the gas control valve and the burner orifice.",
+            "MANOMETER":"An instrument for measuring the pressures of gases&nbsp;and vapors.",
+            "MANTEL":"A shelf or facing ornament above a fireplace&nbsp;opening.",
+            "MANUFACTURER&'S INSTALLATION INSTRUCTIONS":"Instructions and recommendations for proper assembly, adjustment, and installation of listed equipment.",
+            "MASONRY CHIMNEY":"A field-constructed chimney of solid masonry&nbsp;units, bricks, stones, listed masonry chimney units,&nbsp;or reinforced Portland cement concrete, lined with&nbsp;suitable chimney flue liners built in accordance with&nbsp;applicable building code requirements.",
+            "MASONRY FIREPLACE":"A hearth and firebox of solid masonry units such as bricks, stones, listed masonry units, or reinforced&nbsp;concrete, provided with a suitable chimney.",
+            "METHANE":"Main constituent of natural gas.",
+            "MILLIVOLT(mv)":"Unit of electromotive force equal to one one-thousandth of a volt.",
+            "MIXER":"Component of a main burner where gas mixes with air. Consists of mixer face, mixer head, and mixing tube (venturi).",
+            "MOBILE HOME APPLIANCE":"Solid fuel appliance specifically designed to meet HUD standards for installation into mobile homes. Includes outside combustion air, floor mountings, substantially reduced clearances, and designated venting systems.",
+            "MODULAR/MASONRY CHIMNEY":"A factory-built, listed chimney system composed of&nbsp;engineered, pre-cast masonry units, assembled in&nbsp;the field to form a completed chimney.",
+            "MODULAR/MASONRY FIREPLACE":"Fireplace or fireplace liner constructed of engineered&nbsp;pre-cast masonry units.",
+            "MOISTURE CONTENT":"The percentage of the fuel&'s weight that is water in comparison to the total weight of the water and wood in the wet method; in comparison to the weight of the oven dried fuel in the dry basis.",
+            "MULTI-FLUE CHIMNEY":"A single chimney containing more than one flue.",
+            "MULTIMETER":"A device consisting of one or more meters used to measure two or more electrical quantities in an electrical circuit, such as voltage, resistance, and current."
         }
 
     },
     {
-        "section":"",
+        "section":"N",
         "terms":{
-            
+            "NATIONAL FUEL GAS CODE (ANSI Z23.1, NFPA 54)":"A standard for the installation of gas appliances, piping, and venting.",
+            "NATURAL GAS":"Colorless, highly flammable gas found in porous geologic formations beneath the earth&#8217;s surface. Consists mainly of methane.",
+            "NCSG":"National Chimney Sweep Guild, a non-profit trade&nbsp;association of chimney service companies dedicated&nbsp;to the education of consumers in chimney and&nbsp;venting safety and to professionalism in the chimney&nbsp;service trade.",
+            "NFGC":"National Fuel Gas Code, also known as NFPA 54",
+            "NFPA":"National Fire Protection association, a non-profit,&nbsp;technical, and educational organization to promote&nbsp;the science and improve the methods of fire&nbsp;protection and prevention, to obtain and circulate&nbsp;information on these subjects, and to secure the&nbsp;cooperation of its members and the public in&nbsp;establishing proper safety against loss of life and&nbsp;property by fire .",
+            "NFPA 31":"Standard for the Installation of Oil-Burning&nbsp;Equipment",
+            "NFPA 211":"National Fire Protection Association standard for&nbsp;chimneys, fireplaces, vents, and solid fuel burning&nbsp;appliances.",
+            "NFPA 97M":"Glossary of Terms Related to Chimneys, Vents, and&nbsp;Heat Producing Appliances, a standard published&nbsp;by the National Fire Protection Association.",
+            "NONCOMBUSTIBLE MATERIAL":"Material that, in the form in which it is used and&nbsp;under the conditions anticipated, will not ignite,&nbsp;burn, support combustion, or release flammable&nbsp;vapors when subjected to fire or heat."
         }
 
     },
     {
-        "section":"",
+        "section":"O",
         "terms":{
-            
+            "ODS MONITOR":"Oxygen Depletion Sensor.",
+            "ODORANT":"Material added to natural gas or propane in small concentrations to impart a detectable distinct odor. Usually mercaptans.",
+            "OFFSET":"That portion of a chimney located between two completely vertical portions that bends away from vertical for architectural reasons. This bend can be as much 45 degrees. Offsets in chimney are often difficult to negotiate when relining a chimney with stainless steel relining pipe. That&#8217;s why flexible relining pipe is so often used in the relining process.",
+            "OFFSET FLUE":"A flue that is not completely vertical.",
+            "OPACITY":"Thickness of smoke. An indicator of combustion efficiency.",
+            "ORIFICE":"The opening in a cap, spud, or other device whereby the flow of gas is limited and/or controlled and through which the gas is discharged to either a pilot burner or main burner.",
+            "ORIFICE SPUD":"A removable plug or cap containing an orifice.",
+            "OUTSIDE AIR COMBUSTION KITS":"A duct with a valve for directing outside air to the&nbsp;firebox for use during combustion.",
+            "OVALFLEX":"Interlocked flexible stainless steel relining pipe made by HomeSaver and constructed of at least .007&#8243; thickness stainless steel and shaped into the form of an oval for a more optimal fit into certain types of masonry chimneys.",
+            "OVEN DRY WOOD":"Wood dried at 217 degrees Fahrenheit to a constant weight; defined as having &#8220;zero moisture content.&#8221;"
         }
 
     },
     {
-        "section":"",
+        "section":"P",
         "terms":{
-            
+            "PARGING":"A thin coat of mortar applied to the inside of&nbsp;a masonry chimney or to the walls of a smoke&nbsp;chamber.",
+            "PARTICULATE":"Tiny pieces of solid or liquid matter which form the&nbsp;visible components of smoke.",
+            "PARTITION":"The masonry wall that must separate flue liners in a masonry chimney. Also referred to as Wythe.",
+            "PASCAL":"A metric measure of pressure. 25 Pa= .l &nbsp;IN-wc",
+            "PELLETS":"Compressed biomass (wood fibers, sawdust or other&nbsp;organic material) used as fuel in pellet stoves.",
+            "PELLET HOPPERS":"Fuel storage unit from which fuel is conveyed to a&nbsp;fire pot in pellet stoves.",
+            "PELLET STOVES":"Solid fuel appliance fueled with pellets.",
+            "PIEZO STARTER":"A device that delivers an igniting spark by means of pressure on a crystal.",
+            "PILOT":"A small flame used to ignite the gas at the main burner. May be standing (constantly burning) or intermittent (on and during demand for heat).",
+            "PLENUM":"An enclosure that serves as a gathering point for the&nbsp;distribution of air in the ducting system.",
+            "PORTABLE LADDER":"A ladder that can be readily moved or carried.",
+            "POSITIVE CONNECT OR POSITIVE&nbsp;CONNECTION":"A liner from a hearth stove or insert to the top of&nbsp;the chimney.",
+            "PRESSURE ADJUSTMENT SCREW":"Part of a pressure regulator located directly under a cap screw on top of the regulator. Means of adjusting gas pressure on some regulators. Note: some pressure regulators are not subject to adjustment. Check manufacturer&#8217;s instructions.",
+            "PRESSURE REGULATOR":"A device for controlling and maintaining a uniform outlet gas pressure. Service regulators reduce high street pressure of natural gas or reduce propane storage tank pressure. Appliance regulator&#8217;s usually part of the combination valve, reduce and maintain constant pressure to be used in an appliance.",
+            "PRESSURE DROP TEST":"Method of checking for leaks in the gas supply line prior to installation of appliances.",
+            "PRIMARY AIR":"Combustion air directed to the firebox where the fuel is located; supports all stages of combustion.",
+            "PROPANE":"A colorless, odorless, non-toxic LPG containing more heat value than natural gas.",
+            "PSI":"Pounds of pressure per square inch.",
+            "PYROLYSIS":"Chemical alteration of wood, coal, or other&nbsp;combustible materials as a result of the application&nbsp;of heat."
         }
 
     },
     {
-        "section":"",
+        "section":"Q",
         "terms":{
-            
+            "QUALIFIED AGENCY":"Any individual, firm, corporation or company that,&nbsp;either in person or through a representative, is&nbsp;engaged in and is responsible for the connection,&nbsp;venting, installation, inspection, repair or&nbsp;servicing of heat-produceing appliances and who&nbsp;is experienced in such work, is familiar with all&nbsp;precautions required, and has complied with all the&nbsp;requirements of the authority having jurisdiction."
         }
 
     },
     {
-        "section":"",
+        "section":"R",
         "terms":{
-            
+            "RADIANT HEAT":"See infrared radiation.",
+            "RADIANT STOVE":"Stove that has its outer firebox walls exposed to the&nbsp;area to be heated; radiant stoves transfer most of&nbsp;their heat in the form of infrared radiation.",
+            "RAIN CAP":"Cap placed above the flue to prevent rain from&nbsp;entering the flue. See chimney cap.",
+            "RECTANGLEFLEX":"Interlocked flexible stainless steel relining pipe made by HomeSaver and constructed of at least .007&#8243; thickness stainless steel and shaped into the form of a rectangle for more optimal fit into larger chimneys serving fireplaces.",
+            "REDUCER":"Also known as decreaser: Chimney connector component that permits the transition from a larger to smaller diameter chimney connector; thimble, liner or chimney. Not normally recommended because of potential smoke spillage and poor appliance performance. May violate code and/or manufacturer&#8217;s instructions.",
+            "REFRACTORY MORTAR":"High temperature masonry mortar used primarily to join flue liners. Required by NFPA as medium duty, nonwater-soluble calcium aluminate refractory cement mixture, or its equivalent.",
+            "RESIDENCE TIME":"The length of time smoke remains in the venting&nbsp;system.",
+            "RESIDENTIAL TYPE CHIMNEY":"A chimney that vents residential-type gas, liquid,&nbsp;and solid fuel burning appliances. This class of&nbsp;service is based on a maximum continuous appliance&nbsp;outlet flue gas temperature of not greater than 1000&nbsp;degrees Fahrenheit.",
+            "RESIDENTIAL TYPE HEATING APPLIANCE":"A heating appliance that vents into a residential&nbsp;type chimney.",
+            "RIGID RELINING PIPE":"Non-flexible stainless steel pipe used for relining masonry chimneys. Used primarily in chimneys that do not have offsets.",
+            "ROOF BRACING KIT":"Apparatus attached to the factory-built chimney above the roof that has braces, or legs, that attach to the roof to stabilize the chimney. Required by manufacturers for chimneys above a specified height above the roof.",
+            "ROOM HEATER":"Self-contained appliance designed to heat the area&nbsp;in which it is located."
         }
 
     },
     {
-        "section":"",
+        "section":"S",
         "terms":{
-            
+            "SADDLE":"See cricket.",
+            "SAFETY SHUTOFF":"A system, usually powered by a thermocouple/thermopile or by an electronic control module, designed to shut off the gas supply to the pilot and/or main burner flame is lost unexpectedly.",
+            "SBCCI":"Southern Building Codes Congress International, an&nbsp;organization that develops model building codes.",
+            "SCREENING":"Wire mesh installed at the top of the chimney to&nbsp;prevent animals and birds from entering the flue .",
+            "SECONDARY AIR":"Combustion air directed downstream of the primary combustion zone (but still in the appliance) to support the combustion of remaining combustible gases; does not directly influence the rate of primary combustion.",
+            "SECONDARY AIR INLET":"A second air inlet in a solid fuel burning stove&nbsp;designed to supply sufficient additional oxygen to&nbsp;combustible volatiles so that they will burn.",
+            "SEDIMENT TRAP":"In gas piping, a tee device to intercept or hold solid foreign particles to prevent them from blocking valves or orifices. If not part of an appliance, must be installed as close to appliance inlet as possible.",
+            "SENSIBLE HEAT":"Heat which can be sensed, as by the skin; heat which&nbsp;causes a sensible temperature rise in a material.",
+            "SINGLE-FLUE CHIMNEY CAP":"A chimney cap designed to attach to and cover one clay tile flue.",
+            "SMOKE":"Solid, liquid and gaseous products of combustion&nbsp;that leave the combustion zone unburned and are&nbsp;carried through the venting system by draft. Often&nbsp;the term is used to refer only to the visible portion&nbsp;of the appliance exhaust. See particulate and smoke&nbsp;density.",
+            "SMOKE CHAMBER":"Chamber in a fireplace directly above the smoke&nbsp;shelf and extending to the base of the flue.",
+            "SMOKE CHAMBER ASSEMBLY":"The section of a masonry fireplace containing the&nbsp;smoke chamber walls and the smoke shelf, located&nbsp;above the throat and below the flue.",
+            "SMOKE DENSITY":"The amount of unburned hydrocarbons in the flue&nbsp;gas.",
+            "SMOKE SHELF":"The area at the bottom of the smoke chamber created&nbsp;as the back wall of the firebox arches forward. The&nbsp;shelf is located at the intersection of the smoke&nbsp;chamber and the firebox. A damper is normally&nbsp;located on the forward side of the smoke shelf.",
+            "SMOKE TEST":"A procedure for ascertaining the tightness of a&nbsp;chimney and for detecting any cracks in a masonry&nbsp;chimney flue or deterioration or breaks in the&nbsp;integrity of a factory-built or metal chimney flue.&nbsp;The procedure involves igniting a smoke bomb&nbsp;or building a smoky fire in a fireplace or a solid-fuel&nbsp;burning appliance, covering the chimney&nbsp;termination, and checking for smoke escaping&nbsp;through the chimney walls.",
+            "SOLENOID":"Coil of wire that pulls an iron core within it magnetically when electricity flows through it. In use, known as electromagnet.",
+            "SOLID FUEL":"Coal, wood, and other similar organic materials and&nbsp;any combination of them.",
+            "SOOT":"Soft, black or brown, velvety carbon particle&nbsp;deposits inside appliances, chimneys or connectors,&nbsp;originating in oxygen-poor flames.",
+            "SOUR GAS":"Gas containing amounts of sulfur that prevent its use as a fuel unless purified.",
+            "SPACE HEATER":"See room heater.",
+            "SPALL":"To chip or flake, usually associated with masonry&nbsp;construction.",
+            "SPARK ARRESTER":"Screening material or screening device attached to&nbsp;a chimney termination to prevent the passage of&nbsp;sparks to the outside atmosphere.",
+            "SPECIFIC GRAVITY":"The weight of one substance compared to the weight of another substance, both of equal volume.",
+            "SPILLAGE":"Condition of flue gases failing to exit the venting system properly and instead flowing out into the dwelling. Condition calls for immediate examination of appliance and venting system and corrective action.",
+            "SPILLAGE TEST":"Method of detecting spillage. Flame or smoke applied at draft hood being blown out (away from draft hood) indicates spillage problem that should be remedied without delay.",
+            "STACK EFFECT":"The tendency for warmer air to rise within a&nbsp;structure, creating lower pressure in the lower&nbsp;areas of the building. Stack effect often works&nbsp;against chimney draft, causing poor performance&nbsp;or smoking in appliances situated in the lower levels&nbsp;of the building.",
+            "STAINLESS STEEL CHIMNEY LINERS":"Stainless steel pipe, either rigid or flexible, made for relining flues of masonry chimneys when the original clay liner has cracked or broken. May also be used to create a lining in a masonry chimney that was made without a clay liner.",
+            "STANDARD CEILING":"A ceiling where the ceiling and the roof line are two&nbsp;separate units, usually separated by an attic.",
+            "STEEL FIREPLACE UNIT":"A unit consisting of a steel firebox, and an air&nbsp;chamber adjacent to the sides and rear of the&nbsp;firebox, used to construct a masonry fireplace. The&nbsp;unit usually has ducts to circulate air to and heated&nbsp;air from the air chamber to the living space.",
+            "STEEL LINED FIREPLACE":"Masonry fireplace with prefabricated metal firebox that has all the components of traditional fireplaces; may have double walls to provide circulating air passage behind the fire chamber.",
+            "STOVEPIPE":"Single wall metal pipe used as a general purpose&nbsp;chimney connector.",
+            "STORM COLLAR":"Metal plate or collar fastened and sealed with high temperature sealant around the chimney just above the roof flashing. Prevents water from entering the space between the chimney and the roof flashing.",
+            "SUBSTRATE":"Catalytic combustor component that carries washcoat and catalyst. Must be inert, stable, porous material providing large surface area. Almost exclusively ceramic in solid fuel combustors.",
+            "SWEET GAS":"Gas in its natural state containing such small amounts of sulfur that it can be used without purification processes."
         }
 
     },
     {
-        "section":"",
+        "section":"T",
         "terms":{
-            
+            "TEE":"Chimney connector or factory-built chimney component that provides a 90 degree turn in the venting system; has a removable plate at the bottom for inspection and chimney cleaning convenience.",
+            "TEMPERATURE DIFFERENTIAL":"The difference in temperature between two areas, such as inside and outside the chimney or house. (Example if it is 90 degrees Fahrenheit outside the house and 70 degrees Fahrenheit inside the house, the temperature differential is 20 degrees Fahrenheit).",
+            "TERMINATION":"Components at the top of the chimney.",
+            "THERM":"Unit of heating value equivalent to 100,000 Btu.",
+            "THERMOCOUPLE":"A device consisting of two pieces of dissimilar metals joined together at one end (hot junction). When the hot junction is heated, the thermocouple produces DC voltage across the other end. Used to power thermoelectric gas valves.",
+            "THERMOPILE":"A number of thermocouples connected in series to produce a higher voltage than a single thermocouple.",
+            "THERMOSYPHON":"Referring to factory-built chimneys, a type of design&nbsp;that uses naturally moving air to cool the inner liner&nbsp;of the flue.",
+            "THIMBLE":"Fixed or removable ring, tube, or lining usually&nbsp;located in the hole where the chimney connector or&nbsp;vent connector passes through a wall and enters a&nbsp;chimney or vent.",
+            "THROAT":"Opening above a fireplace firebox through which&nbsp;flue gases pass from the firebox to the flue. The&nbsp;fireplace damper frame assembly is usually located&nbsp;at the throat of a fireplace.",
+            "THROAT DAMPERS":"Metal plates installed just above the firebox of a masonry chimney that are used for sealing the flue shut when the fireplace is not in use. Since they seal metal to metal, the seal is quite leaky even when the plates are new. Over time, the plates rust and deteriorate as they are exposed to heat and moisture. When this happens they lose almost their entire flue sealing capacity.",
+            "TOP-SEALING DAMPERS":"A device installed at the top of a chimney for the purpose of sealing the flue shut when the fireplace is not in use. They are often used as replacements for throat dampers that are installed just above the firebox when a masonry chimney is built. Lyemance and Lock-Top top-sealing dampers are as much as 90% more efficient than throat dampers because they provide a silicone rubber gasket seal rather than metal to metal.",
+            "TURBULENCE":"Areas of erratic pressure or flow.",
+            "TYPE B GAS VENT":"Listed, factory-built, oval shaped, double wall metal pipe for venting appliances with draft hoods and other appliances listed for use with Type B Gas Vent.",
+            "TYPE B-W GAS VENT":"A listed, factory-built, oval shaped, double wall metal pipe for venting (only) vented wall furnaces."
         }
 
     },
     {
-        "section":"",
+        "section":"U",
         "terms":{
-            
+            "UL":"Underwriters Laboratory, an independent,&nbsp;nonprofit, product safety certification organization.&nbsp;Manufacturers voluntarily submit products, devices,&nbsp;materials, and systems for evaluation of electrical,&nbsp;fire, burn, and casualty hazards. Products that meet&nbsp;UL&#8217;s safety requirements are eligible to bear the UL&nbsp;Mark and are subsequently covered by UL&#8217;s Followup&nbsp;Services program, which continuously monitors&nbsp;all UL Labeled products.",
+            "UNVENTED ROOM HEATER":"Category of unvented, self-contained, free standing, non-recessed (except as noted) fuel-gas burning appliance for furnishing warm air by gravity or fan without duct connection. Gas hearth appliances listed to ANSI Standard Z21.11.2 includes Gas Fireplaces and Fireplace Inserts.",
+            "UPDRAFT":"Normal direction of chimney draft caused by&nbsp;buoyant gases rising within a chimney."
         }
 
     },
     {
-        "section":"",
+        "section":"V",
         "terms":{
-            
+            "VALVE OPERATOR":"Part of electronic automatic gas control valve that activates the flow of gas to the main burner. Also known as operator head.",
+            "VENT":"A vertical or nearly vertical passageway composed&nbsp;of listed vent parts for conveying flue gases of&nbsp;certain gas or oil burning appliances to the outside&nbsp;atmosphere.",
+            "VENT CONNECTOR":"The pipe that connects a fuel-burning appliance to&nbsp;a gas vent or a Type L vent. (See also &#8220;Breeching&#8221;&nbsp;and &#8220;Chimney Connector:&#8217;)",
+            "VENT ORIFICE":"Part of a pressure regulator, located in the chamber above the diaphragm. An opening that allows for the free flow of air in and out in the area above the diaphragm. Also provides for the escape of fuel gas in the event of a diaphragm rupture.",
+            "VENTING SYSTEM":"A system that exhausts products of combustion to&nbsp;the atmosphere.",
+            "VENTLESS FIREPLACE":"Fireplaces that do not need to vent products of combustion to the outside environment. All electric and some gas fireplaces fall into this category.",
+            "VIDEO SCANNER":"System, incorporating a closed -circuit video camera&nbsp;and television or monitor, for inspecting the interior&nbsp;of flues and other inaccessible areas."
         }
 
     },
     {
-        "section":"",
+        "section":"W",
         "terms":{
-            
-        }
-
-    },
-    {
-        "section":"",
-        "terms":{
-            
-        }
-
-    },
-    {
-        "section":"",
-        "terms":{
-            
+            "WASHCOAT":"Material applied to the substrate of catalytic combustor to increase and maintain surface area. Chemically inert, usually a high surface area alumina.",
+            "WATER COLUMN (WC)":"Measurement in inches of pressure of gas. 28 inches WC equals one psi.",
+            "WET GAS":"Unprocessed natural gas containing more than 20% of impurities and heavier hydrocarbons.",
+            "WIND-INDUCED DOWNDRAFTS":"Downdrafts related to wind which force smoke down&nbsp;the chimney because of unusually high pressure at&nbsp;the top of the flue.",
+            "WOODSTOVES":"Enclosed appliances, most commonly constructed of steel or cast-iron, used for burning wood for the purpose of heating an indoor space.",
+            "WYTHE":"The masonry wall or partition seperating multiple&nbsp;flues in a masonry chimney."
         }
 
     }

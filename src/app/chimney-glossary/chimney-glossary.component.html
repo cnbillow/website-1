@@ -1,12 +1,14 @@
 <app-header></app-header>
 <app-action-buttons></app-action-buttons>
-<div *ngFor="let section of glossarySections" >
-  <a>{{section.section}}</a>  
+<h1 id="top">Chimney Glossary Terms</h1>
+<h3>Browse through our Glossary of Chimney Terms</h3>
+<div  *ngFor="let section of glossarySections" >
+  <a mdbPageScroll href="#{{section.section}}" >{{section.section}}</a>  
 </div>
 <div *ngFor="let section of glossarySections">
-  <h2>Section {{section.section}} |<a>Back to top</a></h2>  
+  <h2 id="{{section.section}}">Section {{section.section}} |<a mdbPageScroll href="#top">Back to top</a></h2>  
   <div *ngFor="let term of section.terms|keys">
-  <p><strong>{{term.key}} </strong>{{term.value}}</p>
+  <strong>{{term.key}} </strong>{{term.value}}
   </div>
 </div>
 <app-footer></app-footer>
