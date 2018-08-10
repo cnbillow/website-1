@@ -77,7 +77,7 @@ export class ActionButtonsComponent implements OnInit {
           { value: '', label: 'AWNINGS', group: true },
           { value: 'Retractable Patio Awnings', label: 'Retractable Patio Awnings' },
           { value: 'Drop Roll Sunscreens', label: 'Drop Roll Sunscreens' },
-          { value: 'Door and Window Awnings', label: 'Door and Window Awnings' },
+          
       ];
 
     //  this.growActionBtns();

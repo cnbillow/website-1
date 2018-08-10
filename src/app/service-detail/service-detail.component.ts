@@ -109,7 +109,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
         { value: '', label: 'AWNINGS', group: true },
         { value: '20', label: 'Retractable Patio Awnings' },
         { value: '21', label: 'Drop Roll Sunscreens' },
-        { value: '22', label: 'Door and Window Awnings' },
+        
     ];
     
   }

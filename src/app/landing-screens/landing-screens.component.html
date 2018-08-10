@@ -1,3 +1,15 @@
-<p>
-  landing-screens works!
-</p>
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+<ng-container *ngIf="region">
+<div> 
+  <h1>{{region.title}}</h1>
+  <h2>
+      {{region.description}}
+  </h2>
+</div>
+   <!-- /Screens ServiceList -->
+   <app-service-list [categories]="['Door and Window Screens','Awnings']"></app-service-list>
+   <h3 *ngFor="let city of cities">{{city}}</h3>
+
+</ng-container>
+<app-footer></app-footer>

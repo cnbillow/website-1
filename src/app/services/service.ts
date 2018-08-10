@@ -26,4 +26,7 @@ export class ServiceItem{
     extraImagesTitle?:string
     // For Grid Only
     description?:string
+    //Regional Pages only
+    region?:string
+    
 }

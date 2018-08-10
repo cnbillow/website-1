@@ -5,6 +5,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 const endpoint = '/assets/json/faq.json';
+
 @Injectable()
 export class FaqService {
 
@@ -13,7 +14,9 @@ export class FaqService {
   list(){
     return this.http.get(endpoint).map(response=>response.json()).catch(this.handleError)
   }
-
+	listInput(input){
+		return this.http.get(input).map(response=>response.json()).catch(this.handleError)
+	}
   get(slug){
 	  return this.http.get(endpoint).map(response=>{
 		  let data = response.json().filter(item=>{

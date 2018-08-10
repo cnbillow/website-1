@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 
@@ -11,7 +11,7 @@ import { ServicesService } from '../services/service.service';
 export class ServiceListComponent implements OnInit, OnDestroy {
 
 	title = 'View Our Top Selling Services'
-	categories = ['Door and Window Screens', 'Chimney Services', 'Security Doors and Windows', 'Awnings']
+	@Input() categories = ['Door and Window Screens', 'Chimney Services', 'Security Doors and Windows', 'Awnings']
 
 	private req:any
 	serviceList:[ServiceItem]
