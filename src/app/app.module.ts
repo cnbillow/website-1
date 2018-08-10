@@ -42,6 +42,7 @@ import { LandingSecurityComponent } from './landing-security/landing-security.co
 import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
 import { LandingScreensComponent } from './landing-screens/landing-screens.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
+import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
 
 
@@ -81,6 +82,7 @@ import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.co
     LandingChimneyComponent,
     LandingScreensComponent,
     ChimneyGlossaryComponent,
+    ChimneyFaqComponent,
  
   ],
   imports: [
