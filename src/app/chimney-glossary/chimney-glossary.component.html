@@ -6,7 +6,7 @@
 <div *ngFor="let section of glossarySections">
   <h2>Section {{section.section}} |<a>Back to top</a></h2>  
   <div *ngFor="let term of section.terms|keys">
-  <p><strong>{{term.key}}</strong>{{term.value}}</p>
+  <p><strong>{{term.key}} </strong>{{term.value}}</p>
   </div>
 </div>
 <app-footer></app-footer>
