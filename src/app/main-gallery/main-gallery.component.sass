@@ -3,9 +3,12 @@
 
 .modal-body
 
+.modal-open .modal 
+    overflow-x: hidden
+    overflow-y: auto
 
 .modal-dialog
-    max-width: 608px
+    max-width: 60%
     display:none
 
 .modalImg
@@ -14,6 +17,9 @@
 .modalImg img
     display: block
     width: 100%
+
+.modal-content
+    background-color: rgba(0, 0, 0, 0.3)
 
 .modal-content .close 
     position: relative
@@ -89,4 +95,15 @@
 
 
 .modal-footer > :not(:first-child)
-    margin-left: 22.25rem
+    position: absolute
+    right: 0
+    margin: 2px
+    padding: 1rem
+
+.modal-footer > :not(:last-child) 
+    padding: 1rem
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+    width: 10px
+    height: 10px
