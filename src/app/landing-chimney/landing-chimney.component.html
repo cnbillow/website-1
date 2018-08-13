@@ -1,15 +1,20 @@
 <app-navigation></app-navigation>
 <app-action-buttons></app-action-buttons>
-<ng-container *ngIf="region">
-<div> 
-  <h1>{{this.title}}</h1>
-  <h2>
-      {{region.description}}
-  </h2>
+<div class="container">
+  <ng-container *ngIf="region">
+    <div>
+      <h1 class="p-4 text-center">{{this.title}}</h1>
+      <hr>
+      <h2 class="p-3 text-center subTitle">{{region.description}}</h2>
+      <hr>
+    </div>
+    <!-- /Screens ServiceList -->
+    <app-flipcard-list class="p-4" [CardTexts]="region.cards" [categories]="['Chimney Services']"></app-flipcard-list>
+    <div class="m-3 row">
+      <div *ngFor="let city of cities" class="list-group col-3">
+        <h3 class="list-group-item">{{city}}</h3>
+      </div>
+    </div>
+  </ng-container>
 </div>
-   <!-- /Screens ServiceList -->
-   <app-flipcard-list [CardTexts]="region.cards" [categories]="['Chimney Services']"></app-flipcard-list>
-   <h3 *ngFor="let city of cities">{{city}}</h3>
-
-</ng-container>
 <app-footer></app-footer>
