@@ -28,9 +28,18 @@ img#doorImages2
             cursor: pointer
 
 .card-title
-    font-size: 1em
-    @include breakpoint(md)
-        font-size: 1.3em
+    font-size: 1em !important
+    text-align: center !important
+    padding: 0.3em !important
+    background-color: #ff9800 !important
+    color: white !important
+
+.card .back
+    font-size: 1em !important
+    text-align: center !important
+    padding: 0.3em !important
+    background-color: $mmblue !important
+    color: white !important
 
 /*  --------------------------------------------
     THIS IS FOR FLIP CARD STYLING AND ANIMATIONS 
@@ -113,7 +122,7 @@ img#servicesImages
 
 
 
-    .imageScrollBox
+.imageScrollBox
     //width: 100%
     overflow-x: auto
     overflow-y: hidden
@@ -133,3 +142,10 @@ ngx-gallery /deep/ .ngx-gallery-arrow
     border-radius: 5px
     box-shadow: 0px 0px 15px 1px $mmblue
     transition: 0.5s
+
+.card-back-titile
+    font-size: 1.2em !important
+    text-align: center !important
+    padding: 0.3em !important
+    background-color: $mmblue !important
+    color: white !important
