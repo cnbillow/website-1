@@ -43,6 +43,7 @@ import { LandingChimneyComponent } from './landing-chimney/landing-chimney.compo
 import { LandingScreensComponent } from './landing-screens/landing-screens.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
+import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
 
 
 
@@ -84,6 +85,7 @@ import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
     LandingScreensComponent,
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,
+    FlipcardListComponent,
     
  
   ],
