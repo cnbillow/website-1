@@ -29,7 +29,7 @@ const appRoutes: Routes = [
   { path: 'faq',                  component: FaqListComponent,                  data: { title:"Mike's Mobile FAQ"}},
   { path: 'about/:slug', 		      component: LandingPageComponent, 	  			    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'blog', 				        component: PostListComponent, 						    data: { title: "Mike's Mobile Blog" }},
-  { path:'chimney-glossary',      component: ChimneyGlossaryComponent,          data: {title:"Mike's Mobile Chimney Glossary"}},
+  { path: 'chimney-glossary',     component: ChimneyGlossaryComponent,          data: {title:"Mike's Mobile Chimney Glossary"}},
   { path: 'blog/:slug',           component: PostDetailComponent,               data: { title: "Mike's Mobile Blog Post"}},
   { path: 'contact', 			        component: ContactComponent,					        data: { title: "Contact Mike's Mobile" }},
   { path: 'grid/:slug', 		      component: GridComponent, 					  	      data: { title: "Mike's Mobile Screen and Chimney Service" }},
@@ -39,10 +39,9 @@ const appRoutes: Routes = [
   { path: 'sem/:slug', 			      component: SeoLocationLpComponent, 				    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
-  { path: 'chimney-questions',    component: ChimneyFaqComponent,               data: { title: "Chimney Frequently Asked Questions"}},
-
+  { path: 'chimney-faq',          component: ChimneyFaqComponent,               data: { title: "Chimney Frequently Asked Questions"}},
   { path:'chimneys/:slug',        component: LandingChimneyComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
-  { path:'windows/:slug',         component: LandingScreensComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
+  { path:'screens/:slug',         component: LandingScreensComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'security/:slug',        component: LandingSecurityComponent,          data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
   { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
