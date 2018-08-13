@@ -11,6 +11,7 @@ import { ActivatedRoute } from '../../../node_modules/@angular/router';
 })
 export class LandingChimneyComponent implements OnInit {
 	private req:any
+	title="Chimney Services in "
 	serviceList:[ServiceItem]
     private routeSub:any;
 	slug:string;
@@ -37,6 +38,8 @@ export class LandingChimneyComponent implements OnInit {
                     if(item.slug == this.slug){
                         this.region = item as ServiceItem;
 						console.log(this.region)
+						
+						this.title+=this.region.region
 						this.cities=this.regionList[this.region.region]
 						console.log(this.cities)
                         }

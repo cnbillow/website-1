@@ -14,7 +14,7 @@ export class LandingScreensComponent implements OnInit {
 	serviceList:[ServiceItem]
     private routeSub:any;
   slug:string;
-  title="Window Products and Services in"
+  title="Window Products and Services in "
 	cities:[string];
     region:ServiceItem;
 	constructor(private route: ActivatedRoute,private _service:ServicesService) { }
