@@ -8,7 +8,7 @@
   </h2>
 </div>
    <!-- /Screens ServiceList -->
-   <app-service-list [categories]="['Chimney Services']"></app-service-list>
+   <app-flipcard-list [CardTexts]="region.cards" [categories]="['Chimney Services']"></app-flipcard-list>
    <h3 *ngFor="let city of cities">{{city}}</h3>
 
 </ng-container>

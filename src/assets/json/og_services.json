@@ -2452,8 +2452,16 @@
         "title":"Chimney Services in Sacramento",
         "slug":"sacramento",
         "type":"landing-chimney",
-        "description": "Mike's Mobile Screen & Chimney Service serves customers in Danville and Walnut Creek with top of the line screen repairs and installations. We specialize in all varieties of window and door screens, and feature many customizable options. Our custom screen installation service allows for the best possible fit and finish to complement your home and your lifestyle. You’ll get a perfect fit everytime!",
-        "region":"Sacramento"
+        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full service to our customers including: chimney cleanings, inspections, repairs, rebuilds masonry work and much chimney cleanings, inspections, repairs, rebuilds masonry work and much more! Mike’s Mobile Screen & Chimney Service also serves surrounding areas including: West Sacramento, Davis, Carmichael, Citrus Heights, areas including: West Sacramento, Davis, Carmichael, Citrus Heights, Cameron Park, El Dorado Hills, Rocklin, Folsom and more!",
+        "region":"Sacramento",
+        "cards":{
+            "Inspections":"Mike's Mobile Screen & Chimney Service - Sacramento Inspections Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association).",
+            "Cleaning":"Mike's Mobile Screen & Chimney Service Sacramento With every chimney sweep, we include a full Level 1 Inspection report.",
+            "Repairs":"We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!",
+            "Accessories":"Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home.",
+            "Masonry Services":"Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!",
+            "Dryer Vent Cleaning":""
+        }
     },
         
 
