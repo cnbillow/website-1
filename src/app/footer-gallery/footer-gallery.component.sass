@@ -5,8 +5,15 @@
     text-align: center
 
 .modal-dialog
-    max-width: 608px
-    display:none
+    max-width: 100%
+    top: 50px
+    @include breakpoint(md)
+        max-width: 60%
+        display:none
+
+.modal-open .modal 
+    overflow-x: hidden
+    overflow-y: auto
         
 .img-tile
     margin: 5px 
@@ -20,6 +27,9 @@
 .modalImg img
     display: block
     width: 100%
+
+.modal-content
+    background-color: rgba(0, 0, 0, 0.3)
 
 .modalImg .btn-secondary 
     background-color:  !important
@@ -60,4 +70,15 @@
 
 
 .modal-footer > :not(:first-child)
-    margin-left: 22.25rem
+    position: absolute
+    right: 0
+    margin: 2px
+    padding: 1rem
+
+.modal-footer > :not(:last-child) 
+    padding: 1rem
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+    width: 10px
+    height: 10px
