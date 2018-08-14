@@ -2245,6 +2245,7 @@
         ],
         "tileImage":"/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
         "tileText":"CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+        "colorSet":["quickEscapeColors"],
         "thumbImages":[
             {
                 "alt":"",
