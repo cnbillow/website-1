@@ -16,7 +16,7 @@ export class ColorSwatchComponent implements OnInit {
     }
 }
 colorSetx4 = {
-    "name":"Custom Colors",
+    "name":"Frame Colors",
     "values":{
       "Almond":"#F3E7D3",
       "Anodized Bronze":"#2D3017",
@@ -73,7 +73,7 @@ slidingSecurityDoorColors ={
       }
     }
     screenFrameColors = {
-    "name":"Screen Frame Colors",
+    "name":"Screen Colors",
     "values":{
       Black:"/assets/images/colors/suntex-black.png",
       Brown:"/assets/images/colors/suntex-brown.png",
@@ -93,7 +93,7 @@ slidingSecurityDoorColors ={
   quickEscapeColors = {
     "name":"Custom Colors",
     "values":{
-      "AlabAlmond":"#f7debf",
+      "Almond":"#f7debf",
       "Black":"#000000",
       "Brown":"#7e5455",
       "Bronze":"#65524f",
