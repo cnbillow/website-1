@@ -22,6 +22,7 @@ ngOnInit() {
   this.req = this._service.list().subscribe(data=>{
     this.serviceList = data as [ServiceItem];
   })
+ 
 }
 
 }

@@ -103,8 +103,8 @@
     },
 
     {
-        "title":"Sliding Screen Door",
-        "slug":"sliding-screen-door",
+        "title":"Sliding Screen Doors",
+        "slug":"sliding-screen-doors",
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"products",
@@ -505,8 +505,8 @@
         "colorSet":["swingingDoorColors"]
     },
     {
-        "title":"Retractable Screen Door",
-        "slug":"retractable-screen-door",
+        "title":"Retractable Screen Doors",
+        "slug":"retractable-screen-doors",
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"products",
@@ -595,8 +595,8 @@
     },
 
     {
-        "title":"Pet doors",
-        "slug":"pet-door",
+        "title":"Pet Doors",
+        "slug":"pet-doors",
         "category":"Door and Window Screens",
         "subcategory":"Door",
         "type":"services",
@@ -2283,8 +2283,8 @@
         "warranty":"<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
     },
     {
-        "title":"Retractable Patio Awning",
-        "slug":"retractable-patio-awning",
+        "title":"Retractable Patio Awnings",
+        "slug":"retractable-patio-awnings",
         "category":"Awnings",
         "type":"services",
         "tileImage":"/assets/images/awnings/folding-arm-awning.jpg",
