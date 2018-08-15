@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
 import { ActivatedRoute } from '../../../node_modules/@angular/router';
@@ -7,7 +7,8 @@ import { ActivatedRoute } from '../../../node_modules/@angular/router';
   selector: 'app-landing-chimney',
   templateUrl: './landing-chimney.component.html',
   styleUrls: ['./landing-chimney.component.sass'],
-  providers: [ServicesService]
+  providers: [ServicesService],
+  encapsulation: ViewEncapsulation.None
 })
 export class LandingChimneyComponent implements OnInit {
 	private req:any
