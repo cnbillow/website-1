@@ -2556,7 +2556,7 @@
     },
     {
         "title":"Chimney Services in Napa, Vallejo",
-        "slug":"napa-allejo",
+        "slug":"napa-vallejo",
         "type":"landing-chimney",
         "description": "Mike's Mobile Chimney Service serves the areas of Vallejo and Napa. We are a full service company providing chimney sweeps, chimney inspections and chimney repairs. Our chimney repair service covers everything from small repairs to complete rebuilds.",
         "region":"Napa",
@@ -2601,6 +2601,24 @@
             "Drop Roll Sunscreens":"The Sunroll Retractacble Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
         }
     },
+    {
+        "title":"Security doors and window security for the greater Sacramento area",
+        "slug":"sacramento",
+        "type":"landing-security",
+        "description":"Mike's Mobile is your one-stop shop in the greater Sacramento area for all your home window and door security needs. Make sure you visit our showroom at 9941 Horn Rd., Suite A, Sacramento, Ca, 95827 to see all of our security products in person!",
+        "region":"Sacramento",
+        "cards":{
+            "Steel Security Doors":"Mike's Mobile steel security doors are the best around. Fully hand-made and 100% customizable our steel security doors come in a full range for every price point or home type.",
+            "Viewguard Security Doors":"The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!",
+            "TRU-View Security Doors":"The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay. ",
+            "TRU-Frame Security Doors":"The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay. ",
+            "Sliding Security Doors":"Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive. ",
+            "CRL Guarda™ Quick Escape":"Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release guarda security screens offer the ultimate in window protection and also meet all fire-egress code requirement. ",
+            "CRL Guarda™ Fixed":"CRL Guarda Fixed Security Screens are an ideal solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a concealed fastening system and blends with any architecture. Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses."
+            
+        }
+    },
+
 
     {
         "title":"Door and Window Screens",
