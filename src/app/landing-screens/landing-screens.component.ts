@@ -35,7 +35,7 @@ export class LandingScreensComponent implements OnInit {
 			this.slug = params['slug']
 			this.req = this._service.list().subscribe(data => {
 				data.filter(item => {
-					if (item.slug == this.slug) {
+					if (item.slug == this.slug&&item.type=='landing-screen') {
 						this.region = item as ServiceItem;
 						console.log(this.region)
 						this.cities = this.regionList[this.region.region]

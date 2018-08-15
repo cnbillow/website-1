@@ -15,6 +15,7 @@ export class LandingChimneyComponent implements OnInit {
 	serviceList:[ServiceItem]
     private routeSub:any;
 	slug:string;
+	cards:[{}]
 	cities:[string];
     region:ServiceItem;
 	constructor(private route: ActivatedRoute,private _service:ServicesService) { }
@@ -35,9 +36,10 @@ export class LandingChimneyComponent implements OnInit {
             this.slug = params['slug']
             this.req = this._service.list().subscribe(data => {
                 data.filter(item => {
-                    if(item.slug == this.slug){
+                    if(item.slug == this.slug&&item.type=='landing-chimney'){
                         this.region = item as ServiceItem;
-						console.log(this.region)
+						this.cards=this.region['cards']
+						console.log("bb",this.cards)
 						
 						this.title+=this.region.region
 						this.cities=this.regionList[this.region.region]
