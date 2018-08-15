@@ -41,7 +41,7 @@ export class SeoLocationLpComponent implements OnInit {
 			var num = i;
 			list.push(num)
 		}
-		console.log(list)
+		//console.log(list)
 		return list
 	}
 }

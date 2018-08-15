@@ -17,7 +17,7 @@ export class PostListComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.req = this._service.list().subscribe(data=>{
       this.blogPostList = data as [BlogPost];
-      console.log(this.blogPostList)
+      //console.log(this.blogPostList)
     })
 
   }

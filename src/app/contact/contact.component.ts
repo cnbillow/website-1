@@ -115,7 +115,7 @@ get option(){
 handleSubmit(event:any, emailDir:NgForm, emailForm:FormGroup){
   event.preventDefault()
   if (emailDir.submitted){
-      console.log(emailForm.value)
+      //console.log(emailForm.value)
       let name = emailForm.value['name']
       let city = emailForm.value['city']
       let phone = emailForm.value['phone']
@@ -123,7 +123,7 @@ handleSubmit(event:any, emailDir:NgForm, emailForm:FormGroup){
       let message = emailForm.value['message']
       let option = emailForm.value['option']
       this._service.create(name, city, phone, email, message, option).subscribe(data=>{
-        console.log(data)
+        //console.log(data)
       })
       emailDir.resetForm({})
   }

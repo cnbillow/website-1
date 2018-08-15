@@ -37,10 +37,10 @@ export class LandingScreensComponent implements OnInit {
 				data.filter(item => {
 					if (item.slug == this.slug&&item.type=='landing-screen') {
 						this.region = item as ServiceItem;
-						console.log(this.region)
+						//console.log(this.region)
 						this.cities = this.regionList[this.region.region]
 						this.title += this.region.region
-						console.log(this.cities)
+						//console.log(this.cities)
 					}
 				}
 				)

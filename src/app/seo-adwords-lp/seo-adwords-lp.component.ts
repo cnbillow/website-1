@@ -22,7 +22,7 @@ export class SeoAdwordsLpComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.routeSub = this.route.params.subscribe(params=>{
       this.slug = params['slug']
-      console.log(this.slug)
+      //console.log(this.slug)
       this.req = this._service.listAdwordsLPs().subscribe(data=>{
         data.filter(item=>{
           if(item.slug == this.slug){

@@ -18,7 +18,7 @@ export class FaqListComponent implements OnInit,AfterViewInit {
   ngOnInit() {
     this.req = this._service.list().subscribe(data=>{
       this.faqSections = data as [FaqSegment];
-      console.log(this.faqSections)
+      //console.log(this.faqSections)
     })
     this.route.fragment.subscribe(fragment =>{this.fragment = fragment});
   }

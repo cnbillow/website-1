@@ -18,7 +18,7 @@ export class ChimneyGlossaryComponent implements OnInit {
   ngOnInit() {
     this.req = this._service.listInput('/assets/json/chimney-glossary.json').subscribe(data=>{
       this.glossarySections = data as [FaqSegment];
-      console.log(this.glossarySections)
+      //console.log(this.glossarySections)
     })
     this.route.fragment.subscribe(fragment =>{this.fragment = fragment});
   }

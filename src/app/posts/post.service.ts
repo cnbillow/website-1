@@ -43,7 +43,7 @@ export class PostService {
   }
 
   handleError(error:any, caught:any):any{
-    console.log(error, caught)
+    //console.log(error, caught)
   }
 
 }

@@ -18,7 +18,7 @@ serviceList:[ServiceItem]
 constructor(private _service:ServicesService) { }
 
 ngOnInit() {
-  console.log("AAAAA" ,this.CardTexts)
+  //console.log("AAAAA" ,this.CardTexts)
   this.req = this._service.list().subscribe(data=>{
     this.serviceList = data as [ServiceItem];
   })

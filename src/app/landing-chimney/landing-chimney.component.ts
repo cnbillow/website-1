@@ -39,11 +39,11 @@ export class LandingChimneyComponent implements OnInit {
                     if(item.slug == this.slug&&item.type=='landing-chimney'){
                         this.region = item as ServiceItem;
 						this.cards=this.region['cards']
-						console.log("bb",this.cards)
+						//console.log("bb",this.cards)
 						
 						this.title+=this.region.region
 						this.cities=this.regionList[this.region.region]
-						console.log(this.cities)
+						//console.log(this.cities)
                         }
                     }
                 )

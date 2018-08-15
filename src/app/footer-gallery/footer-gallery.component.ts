@@ -17,24 +17,24 @@ export class FooterGalleryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // console.log(this.Images);
+    // //console.log(this.Images);
   }
   
 
     show(value:number){
         this.index = value;
-        // console.log(this.Images,this.index)
+        // //console.log(this.Images,this.index)
         this.name=this.Images[this.index].big
         this.footerModal.show();
-        // console.log(value);
+        // //console.log(value);
     }
 next(){
-    // console.log(this.index);
+    // //console.log(this.index);
     
 
-    // console.log(this.modalImage)
+    // //console.log(this.modalImage)
      this.modalImage.nativeElement.setAttribute('src',this.Images[(++this.index)%this.Images.length].big)
-    // console.log(this.index);
+    // //console.log(this.index);
   }
   previous(){
     this.index--;

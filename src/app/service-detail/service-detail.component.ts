@@ -46,7 +46,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
                     this.petImages = this.service.images;
                     this.gallery_images = this.service.recentInstallImages;
                     this.videoLink=this.sanitizer.bypassSecurityTrustUrl(this.service.video)
-                    console.log(this.videoLink)
+                    //console.log(this.videoLink)
                 }
             })
         })

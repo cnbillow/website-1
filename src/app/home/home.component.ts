@@ -74,17 +74,17 @@ var stateManager = (function () {
   };
   var displayMobile = function () {
     state = "mobile";
-    console.log("enter mobile");
+    //console.log("enter mobile");
   };
   var displayDesktop = function () {
     state = "desktop";
-    console.log("enter desktop");
+    //console.log("enter desktop");
   };
   var resizeMobile = function () {
-    console.log("resizing mobile");
+    //console.log("resizing mobile");
   };
   var resizeDesktop = function () {
-    console.log("resizing desktop");
+    //console.log("resizing desktop");
   };
   return {
     init: function () {

@@ -115,7 +115,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
     if (emailDir.submitted){
         let url = this.route.snapshot.url.pop();
         let option;
-        console.log("snapshot:"+this.route.snapshot.url.pop())
+        //console.log("snapshot:"+this.route.snapshot.url.pop())
         let name = emailForm.value['name']
         let city = emailForm.value['city']
         let phone = emailForm.value['phone']
@@ -126,7 +126,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
         else
           option = url.toString();   
         this._service.create(name, city, phone, email, message, option).subscribe(data=>{
-          console.log(data);
+          //console.log(data);
           this.router.navigate(['/thank-you']);
         })
         emailDir.resetForm({})

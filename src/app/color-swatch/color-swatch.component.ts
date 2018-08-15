@@ -110,7 +110,7 @@ slidingSecurityDoorColors ={
   }
 
   ngOnInit() {
-    console.log(this.swatchType,this.swatchType==="colorSetx4",this.colorSetx4)
+    //console.log(this.swatchType,this.swatchType==="colorSetx4",this.colorSetx4)
     switch(this.swatchType){
       case "stdColors":
         this.colors=this.stdColors;

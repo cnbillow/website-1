@@ -31,7 +31,7 @@ export class PostDetailComponent implements OnInit {
                   this.post = item as BlogPost;
                   if (this.post.images.length > 1){
                     this.blogGallery = true;
-                    console.log(this.blogGallery)
+                    //console.log(this.blogGallery)
                   }
               }
           })

@@ -18,7 +18,7 @@ export class ChimneyFaqComponent implements OnInit {
   ngOnInit() {
     this.req = this._service.listInput('/assets/json/chimney-faq.json').subscribe(data=>{
       this.faqs = data as [FaqSegment];
-      console.log(this.faqs)
+      //console.log(this.faqs)
     })
     this.route.fragment.subscribe(fragment =>{this.fragment = fragment});
   }
