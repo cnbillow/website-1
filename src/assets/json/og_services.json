@@ -2453,15 +2453,45 @@
         "title":"Chimney Services in Sacramento",
         "slug":"sacramento",
         "type":"landing-chimney",
-        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full service to our customers including: chimney cleanings, inspections, repairs, rebuilds masonry work and much chimney cleanings, inspections, repairs, rebuilds masonry work and much more! Mike’s Mobile Screen & Chimney Service also serves surrounding areas including: West Sacramento, Davis, Carmichael, Citrus Heights, areas including: West Sacramento, Davis, Carmichael, Citrus Heights, Cameron Park, El Dorado Hills, Rocklin, Folsom and more!",
+        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
         "region":"Sacramento",
         "cards":{
-            "Inspections":"Mike's Mobile Screen & Chimney Service - Sacramento Inspections Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association).",
-            "Cleaning":"Mike's Mobile Screen & Chimney Service Sacramento With every chimney sweep, we include a full Level 1 Inspection report.",
+            "Inspections":"Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association).",
+            "Cleaning":"Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here",
             "Repairs":"We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!",
             "Accessories":"Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home.",
             "Masonry Services":"Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!",
-            "Dryer Vent Cleaning":""
+            "Dryer Vent Cleaning":"Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+        }
+    },
+    {
+        "title":"Chimney Services in Auburn",
+        "slug":"auburn",
+        "type":"landing-chimney",
+        "description": "Did you know that chimneys need to be cleaned and inspected regularly in order for them to burn safely? Sooty buildup can lead to chimney fires that spread into the home. Even if you do not use your fireplace often, general deterioration or even animal nests can make it unsafe to use. Let Mike’s Mobile Chimney Service help you keep your fireplace safe and your home cozy.",
+        "region":"Auburn",
+        "cards":{
+            "Inspections":"We offer Level I, II, and III inspections for your home. All of our technicians have been tested and certified using the CSIA guidelines for cleaning and inspecting. For more information about the levels of inspections, click here.",
+            "Cleaning":"Maintain the health of your fireplace and chimney annually. According to the NFPA, chimney sweeps should be performed after each cord of wood or annually. We include a free level 1 inspection with all of our chimney cleanings.",
+            "Repairs":"If there are issues regarding your chimney or fireplace we can also do repairs! Mike’s Mobile is a full service chimney company. We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
+            "Accessories":"Mike’s Mobile Screen & Chimney Service offers a full line of chimney and fireplace related products. Please ask our trained techs any questions you have and they can recommend what will work best for your home.",
+            "Masonry Services":"Mike's Mobile is a full service masonry contractor offering new masonry work and repairs.",
+            "Dryer Vent Cleaning":"Is your dryer taking too long to dry your clothes? Schedule a dryer vent cleaning today!"
+        }
+    },
+    {
+        "title":"Chimney Services in Antioch and the East Bay Region",
+        "slug":"antioch-east-bay-region",
+        "type":"landing-chimney",
+        "description": "At Mike's Mobile, we take pride in successfully solving your chimney needs in a cost effective and timely manner. Our goal is to make sure that your trust in us develops into a lifelong working relationship. From the office to the field, our employees have been trained by CSIA and NFI standards to give you superior customer service and high-quality workmanship. Chimney maintenance is important as chimneys vent hazardous gasses out of your home. Chimneys that are not annually swept and or inspected can potentially be a hazard to you, your family and your home. Maintaining the interior and exterior of your chimney will not only help protect you, your family and your home, but annual maintenance will aid in finding smaller problems before they develop into costly, more extensive repairs.",
+        "region":"Antioch and the East Bay Region",
+        "cards":{
+            "Inspections":"Mike's Mobile offers level I, II, and III chimney inspections for your home. All of our technicians have been tested using CSIA and NFI guidelines for cleaning and inspecting. For more information about the levels of inspections, click here.",
+            "Cleaning":"Chimney sweeps and inspections should be done annually, that is according to the NFPA. They are the leading authority on all chimney safety and regulations in the United States. We include a free level 1 inspection report with all of our chimney sweeps.",
+            "Repairs":"We are a full service, chimney repair company in Antioch, California. Whether it's crown repair, a firebox rebuild or a full re-line, Mike's Mobile can tackle your chimney issues.",
+            "Accessories":"If you need chimney or fireplace related products in Antioch, Mike's Mobile has you covered!",
+            "Masonry Services":"Mike's Mobile is a full service masonry contractor in the Antioch area. Call us for a FREE quote today!",
+            "Dryer Vent Cleaning":"Mike's Mobile offers dryer vent cleaning services in Antioch, Ca. Call today for an appointment!"
         }
     },
     {
