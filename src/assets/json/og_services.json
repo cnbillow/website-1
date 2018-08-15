@@ -2484,7 +2484,7 @@
         "slug":"antioch-east-bay-region",
         "type":"landing-chimney",
         "description": "At Mike's Mobile, we take pride in successfully solving your chimney needs in a cost effective and timely manner. Our goal is to make sure that your trust in us develops into a lifelong working relationship. From the office to the field, our employees have been trained by CSIA and NFI standards to give you superior customer service and high-quality workmanship. Chimney maintenance is important as chimneys vent hazardous gasses out of your home. Chimneys that are not annually swept and or inspected can potentially be a hazard to you, your family and your home. Maintaining the interior and exterior of your chimney will not only help protect you, your family and your home, but annual maintenance will aid in finding smaller problems before they develop into costly, more extensive repairs.",
-        "region":"Antioch and the East Bay Region",
+        "region":"East Bay",
         "cards":{
             "Inspections":"Mike's Mobile offers level I, II, and III chimney inspections for your home. All of our technicians have been tested using CSIA and NFI guidelines for cleaning and inspecting. For more information about the levels of inspections, click here.",
             "Cleaning":"Chimney sweeps and inspections should be done annually, that is according to the NFPA. They are the leading authority on all chimney safety and regulations in the United States. We include a free level 1 inspection report with all of our chimney sweeps.",
@@ -2495,39 +2495,112 @@
         }
     },
     {
-        "title":"Window Screen Products and Services in Sacramento",
-        "slug":"sacramento",
-        "type":"landing-screen",
-        "description": "Mike’s Mobile Screen & Chimney Service makes repairing and installing screens fast and easy. Our customizable options for windows and doors ensure that your home gets the best possible fit and finish. Call Mike’s Mobile Screen & Chimney Service of Sacramento, CA to schedule your appointment today!",
-        "region":"Sacramento",
+        "title":"Chimney Services in Stockton",
+        "slug":"stockton",
+        "type":"landing-chimney",
+        "description": "Now, with over 16 years in the fireplace business, Mike's Mobile has become the premier chimney sweep and repair company here in Stockton. We also service San Joaquin county and surrounding areas. Give us a call today for all of your chimney and fireplace needs!.",
+        "region":"Stockton",
         "cards":{
-            "Window Screen Repair":"",
-            "Solar Screens":"",
-            "Swinging Screen Doors":"",
-            "Retractable Screen Doors":"",
-            "Pet Doors":"",
-            "Retractable Patio Awnings":"",
-            "Drop Roll Sunscreens":""
+            "Inspections":"Mike's Mobile fully trained chimney technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). We offer same-day digital reports for level I, II and III chimney inspections.",
+            "Cleaning":"With every chimney cleaning, we include a same-day, digital Level 1 Inspection report.",
+            "Repairs":"Mike's Mobile is Stockton's premier chimney service company. We can handle all chimney issues from start to finish including: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!",
+            "Accessories":"Need fireplace or chimney related products in Stockton? Mike's Mobile has you covered - call today!",
+            "Masonry Services":"Because of our exceptional quality, attention to detail and competitive pricing, our masonry services are in very high demand. Mike's Mobile is Stockton's premier masonry contractor.",
+            "Dryer Vent Cleaning":"Appliance manufacturers recommend that dryer vents are cleaned annually to prevent fire and other hazards to your health and property. Mike's Mobile's dryer vent cleaning services not only benefit your safety, but can also make a world of difference for your clothing, utility use, and laundry routine."
         }
     },
     {
-        "title":"Security Door Products and Services in Sacramento",
-        "slug":"sacramento",
-        "type":"landing-security",
-        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full service to our customers including: chimney cleanings, inspections, repairs, rebuilds masonry work and much chimney cleanings, inspections, repairs, rebuilds masonry work and much more! Mike’s Mobile Screen & Chimney Service also serves surrounding areas including: West Sacramento, Davis, Carmichael, Citrus Heights, areas including: West Sacramento, Davis, Carmichael, Citrus Heights, Cameron Park, El Dorado Hills, Rocklin, Folsom and more!",
-        "region":"Sacramento",
+        "title":"Chimney Services in Danville and Walnut Creek / South Bay",
+        "slug":"danville-and-walnut-creek-south-bay",
+        "type":"landing-chimney",
+        "description": "Mike’s Mobile Screen & Chimney Service is a full service chimney sweep company in Walnut Creek, California. We service the entire Counties of Contra Costa as well as Alameda. You will get top-notch service no matter the size of the job. Chimney cleanings, inspections, repairs and accessories are no problem!",
+        "region":"South Bay",
         "cards":{
-            "Steel Security Doors":"",
-            "Viewguard Security Doors":"",
-            "Tru-view Security Doors":"",
-            "Tru Frame Security Doors":"",
-            "Sliding Security Doors":"",
-            "CRL Guarda™ Quick Excape":"",
-             "CRL Guarda™ Fixed":""
+            "Inspections":"Obstructions or blockages in your chimney can cause toxic fumes such as carbon monoxide to enter your home. Regular chimney inspections can greatly reduce the risk of chimney fires and carbon monoxide poisoning in your home. Every Mike's Mobile chimney inspection meet level 2 NFPA requirements and are performed by our csia and nfi trained technicians.",
+            "Cleaning":"NFPA 211 standards dictate that residential properties should have an annual chimney cleaning and inspection. Mike's Mobile includes a free level 1 inspection with every sweep!",
+            "Repairs":"Mike's Mobile is the premier chimney service company in the Danville / Walnut creek area. We are fully licensed, bonded and insured to tackle any chimney repair you may need.",
+            "Accessories":"Mike’s Mobile Screen & Chimney Service offers damper chimney caps, replacement fireplace screens, hearth rugs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home.",
+            "Masonry Services":"Mike’s Mobile Screen & Chimney Service offers masonry services of any scale. Please call us today for a quote! From tuck-pointing to full chimney rebuilds and more, we are able to help you for any masonry job.",
+            "Dryer Vent Cleaning":"Mike's Mobile can help with your annual dryer vent cleaning in the Danville / Walnut Creek area."
         }
     },
-
-
+    {
+        "title":"Chimney Services in Oakland / North Bay",
+        "slug":"oakland-north-bay",
+        "type":"landing-chimney",
+        "description": "Mike's Mobile is Oakland's premier, full service chimney company. If there are issues regarding your chimney or fireplace we can also do any repairs! We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
+        "region":"North Bay",
+        "cards":{
+            "Inspections":"Click here to learn more about the different levels of chimney inspections. The internal portion of the inspection includes a video scan of the chimney, which includes the firebox, smoke chamber, smoke shelf, chimney flue and damper assembly. Our technicians are extermely meticulous, looking for obstructions, cracks in the clay tile liner, absence of liner, signs of moisture or anything else that would make the chimney unsafe for use.",
+            "Cleaning":"According to the NFPA, your chimney should have an annual cleaning and safety inspection. This is vital to your chimney and your home’s health. All of our technicians are certified and use the CSIA standards for chimney cleaning and inspections.",
+            "Repairs":"Mike’s Mobile Screen & Chimney offers chimney repairs on any scale. From minor repairs to major overhauls, you can count on us! Often times minor repairs can be done on-site after the inspection / cleaning and sometimes it requires a scheduled appointment.",
+            "Accessories":"Mike’s Mobile Screen & Chimney Service can take care of any custom chimney or fireplace accessories you may need. We can supply the parts and also install them for you!",
+            "Masonry Services":"Mike's Mobile is Oakland's premier masonry contractor. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!",
+            "Dryer Vent Cleaning":"You probably clean your dryer’s lint trap, but did you know lint and other debris get past that screen and clogs the dryer vent itself? Clogged dryer vents can cause many issues including fire, carbon monoxide accumulation, extra wear to clothing, excessive energy use, and mold growth."
+        }
+    },
+    {
+        "title":"Chimney Services in Modesto",
+        "slug":"modesto",
+        "type":"landing-chimney",
+        "description": "Whether you're a real estate agent, prospective homebuyer, property manager or new homeowner, Mike's Mobile Chimney Service can give you peace of mind when it comes to your fireplace.",
+        "region":"Modesto",
+        "cards":{
+            "Inspections":"Mike's Mobile is the premier chimney service company in the Modesto area. We are the only company that offers same-day digital inspections reports. Contact us today for a level 1, 2 or 3 chimney inspection!",
+            "Cleaning":"Mike's Mobile is the leading chimney service company in the Modesto area. We offer same-day digital inspection reports and can quote for any repairs needed.",
+            "Repairs":"Mike's Mobile is Modesto's premier chimney service company. We offer competitive rates with industry leading repairs. We are fully licensed, bonded and insured for peace of mind.",
+            "Accessories":"If you need fireplace or chimney related parts or accessories in Modesto, call Mike's Mobile today! We offer custom accessories and also installation services.",
+            "Masonry Services":"Mike's Mobile is Modesto's premier masonry contractor. Whether it's new construction or masonry repair, call us today for a FREE quote!",
+            "Dryer Vent Cleaning":"Our dryer vent cleaning removes lint, clogs and debris to ensure proper airflow. Mike's Mobile's cleaning services not only protect you from hazards such as fire and carbon monoxide buildup, but also provide many added benefits such as energy savings, shorter drying cycles and less damage to clothing."
+        }
+    },
+    {
+        "title":"Chimney Services in Napa, Vallejo",
+        "slug":"napa-allejo",
+        "type":"landing-chimney",
+        "description": "Mike's Mobile Chimney Service serves the areas of Vallejo and Napa. We are a full service company providing chimney sweeps, chimney inspections and chimney repairs. Our chimney repair service covers everything from small repairs to complete rebuilds.",
+        "region":"Napa",
+        "cards":{
+            "Inspections":"Mike's Mobile is the premier chimney service company in the Napa / Vallejo area. Utilizing a full video scan, Mike's Mobile is the only company that offers same-day digital inspections reports. Contact us today for a professional chimney inspection!",
+            "Cleaning":"Our chimney sweeps always include a free Level I inspection. This will ensure a complete service and inform you of anything that needs attention. The NFPA (National Fire Protection Agency) recommends an annual cleaning and safety inspection.",
+            "Repairs":"Call Mike’s Mobile for Chimney Sweep services today! We are a full service chimney company in Vacaville, Vallejo, and Napa that can handle any repair your chimney may need. From minor repairs to full rebuilds, we have you covered.",
+            "Accessories":"Mike’s Mobile Screen & Chimney Service offers a full line of custom chimney accessories to fit your needs! Need ti installed? We can do that too!",
+            "Masonry Services":"Mike’s Mobile Screen & Chimney Service offers masonry services of any scale. Call us today for a quote! From tuck-pointing to full chimney rebuilds, we are able to help.",
+            "Dryer Vent Cleaning":"Need that dryer vent cleaning crossed off your honey-do list? Mike's Mobile can help! Call us today!"
+        }
+    },
+    {
+        "title":"Chimney Services in Fairfield, Vacaville",
+        "slug":"fairfield-vacaville",
+        "type":"landing-chimney",
+        "description": "Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. Utilizing a full video scan, Mike's Mobile is the only company that offers same-day digital inspections reports. Contact Mike's Mobile today for any of you fireplace or chimney needs!",
+        "region":"Vacaville",
+        "cards":{
+            "Inspections":"Whether you are a realtor, property manager new homeowner or just someone that wants a safe fireplace for the holidays, Mike's Mobile is here to help! We are the only chimney service company that offers same-day digital reports.",
+            "Cleaning":"Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. We offer FREE level 1 inspetion reports with every chimney sweep and we are the only company to offer same-day digital reports.",
+            "Repairs":"Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. We offer before and after pictures of any issues and repairs. We are equipped to handle any chimney issue from a minor crown seal to a full masonry chimney rebuild.",
+            "Accessories":"Mike's Mobile is the premier fireplace resource for the Vacaville / Fairfield area. Call today for any fireplace or chimney related accessories!",
+            "Masonry Services":"Mike's Mobile is a full service masonry repair contractor for the Vacaville / Vallejo area. Brick, block, stone, we can do it all!",
+            "Dryer Vent Cleaning":"Clogged dryer vents are a leading cause of residential house fires. Mike's Mobile can get your dryer vent back in tip top shape and get your clothes dryer back to working efficiently!"
+        }
+    },
+    {
+        "title":"Door Screens, Window Screens and Awnings in Sacramento",
+        "slug":"sacramento",
+        "type":"landing-screen",
+        "description":"Mike's Mobile is Sacramento's premier window and door screen contractor! Most screens are built on-site for that perfect fit!",
+        "region":"Sacramento",
+        "cards":{
+            "Window Screen Repair":"Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!",
+            "Solar Screens":"Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays.",
+            "Sliding Screen Doors":"Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!",
+            "Swinging Screen Doors":"After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!",
+            "Retractable Screen Doors":"Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!",
+            "Pet Doors":"Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem. ",
+            "Retractable Patio Awnings":"There is nothing like the relaxation and comfort a motorized retractable awning brings to your deck or patio.",
+            "Drop Roll Sunscreens":"The Sunroll Retractacble Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
+        }
+    },
 
     {
         "title":"Door and Window Screens",
