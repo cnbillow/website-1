@@ -24,6 +24,7 @@ import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
 
 const appRoutes: Routes = [
+  
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
   { path: 'faq',                  component: FaqListComponent,                  data: { title:"Mike's Mobile FAQ"}},
@@ -40,13 +41,42 @@ const appRoutes: Routes = [
   { path: 'sem/:slug', 			      component: SeoLocationLpComponent, 				    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
- 
+  
   { path:'chimneys/:slug',        component: LandingChimneyComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'screens/:slug',         component: LandingScreensComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'security/:slug',        component: LandingSecurityComponent,          data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
-  { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
+  {path:'about/chimney-services/chimney-service-in-sacramento', redirectTo:"/chimneys/sacramento"},
+  {path:'about/chimney-services/chimney-services-in-antioch', redirectTo:"/chimneys/antioch-east-bay-region"},
+  {path:'about/awnings/awnings-in-antioch', redirectTo:"/screens/antioch-east-bay-region"},
+  {path:'about/awnings/awnings-in-danville', redirectTo:"/screens/danville-and-walnut-creek-south-bay"},
+  {path:'about/awnings/awnings-in-hayward', redirectTo:"/screens/oakland-north-bay"},
+  {path:'about/awnings/awnings-in-napa', redirectTo:"/screens/napa-vallejo"},
+  {path:'about/awnings/awnings-in-sacramento', redirectTo:"/screens/sacramento"},
+  {path:'about/awnings/awnings-in-stockton', redirectTo:"/screens/sacramento"},
+  {path:'about/chimney-services/chimney-services-in-auburn', redirectTo:"/chimneys/auburn"},
+  {path:'about/chimney-services/chimney-services-in-hayward-and-oakland', redirectTo:"/chimneys/oakland-north-bay"},
+  {path:'about/chimney-services/chimney-services-in-pleasanton', redirectTo:"/chimneys/antioch-east-bay-region"},
+  {path:'about/chimney-services/chimney-services-in-san-ramon', redirectTo:"/chimneys/antioch-east-bay-region"},
+  {path:'about/chimney-services/chimney-services-in-stockton', redirectTo:"/chimneys/stockton"},
+  {path:'about/chimney-services/chimney-services-in-vacaville-vallejo-and-napa', redirectTo:"/chimneys/napa-vallejo"},
+  {path:'about/chimney-services/chimney-services-in-walnut-creek', redirectTo:"/chimneys/danville-and-walnut-creek-south-bay"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-danville-walnut-creek', redirectTo:"/screens/danville-and-walnut-creek-south-bay"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-in-auburn', redirectTo:"/screens/auburn"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-in-hayward-and-oakland', redirectTo:"/screens/oakland-north-bay"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-in-sacramento', redirectTo:"/screens/sacramento"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-in-stockton', redirectTo:"/screens/stockton"},
+  {path:'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa', redirectTo:"/screens/fairfield-vacaville"},
+  {path:'window-door-screens-modesto', redirectTo:"/screens/modesto"},
+  
 
+
+
+
+
+
+  { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
+  
 
 ];
 
