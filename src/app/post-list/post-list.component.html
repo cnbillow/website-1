@@ -33,7 +33,7 @@
                     <div class="col-md-10">
                         <p>{{ (post.content[0].length>75)? (post.content[0] | slice:0:75)+'...':(post.content[0]) }}</p>
                         <!-- <a [routerLink]="[post.slug]" class="orange-text"><h6 class="pb-1"><i class="fa fa-folder"></i><strong>{{post.category}}</strong></h6></a> -->
-                        <p>by <a><strong>{{post.user}}</strong></a>, {{post.postdate}}</p>
+                        <p>by: <a>{{post.user}}</a><br>Date: {{post.postdate}}</p>
                     </div>
                     <div class="col-md-2">
                         <a class="btn-floating blue-gradient" [routerLink]="[post.slug]"><i class="fa fa-reorder"></i></a>
