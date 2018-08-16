@@ -16,6 +16,7 @@ export class LandingSecurityComponent implements OnInit {
 	private routeSub: any;
 	slug: string;
 	title = "Security Screen services and products in "
+	images:{};
 	cities: [string];
 	region: ServiceItem;
 	constructor(private route: ActivatedRoute, private _service: ServicesService) { }
@@ -41,6 +42,8 @@ export class LandingSecurityComponent implements OnInit {
 						//console.log(this.region)
 						this.cities = this.regionList[this.region.region]
 						this.title += this.region.region
+						if(this.region.hasOwnProperty('images'))
+						this.images=this.region['images'];	
 						//console.log(this.cities)
 					}
 				}

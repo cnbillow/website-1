@@ -11,7 +11,7 @@ import { ServicesService } from '../services/service.service';
 export class FlipcardListComponent implements OnInit {
 @Input() CardTexts
 @Input()  categories = ['Door and Window Screens', 'Chimney Services', 'Security Doors and Windows', 'Awnings']
-
+@Input() images?
 private req:any
 serviceList:[ServiceItem]
 

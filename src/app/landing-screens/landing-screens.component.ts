@@ -17,6 +17,7 @@ export class LandingScreensComponent implements OnInit {
 	title = "Window Products and Services in "
 	cities: [string];
 	region: ServiceItem;
+	images:{};
 	constructor(private route: ActivatedRoute, private _service: ServicesService) { }
 	regionList = {
 		"Sacramento": ["Antelope", "Arden Arcade", "Brooks", "Cameron Park", "Capay", "Carbondale", "Carmichael", "Citrus Heights", "Clarksburg", "Clay", "Conaway", "Courtland", "Davis", "El Dorado Hills", "El Macero", "Elk Grove", "Elverta", "Esparto", "Fair Oaks", "Florin", "Folsom", "Foothill Farms", "Granite Bay", "Knights Landing", "Lincoln", "Loomis", "Madison", "Monument Hills", "Newcastle", "Penryn", "Plainfield", "Sacramento", "West Sacramento", "Woodland", "Yolo", "Zamora"],
@@ -37,7 +38,9 @@ export class LandingScreensComponent implements OnInit {
 				data.filter(item => {
 					if (item.slug == this.slug&&item.type=='landing-screen') {
 						this.region = item as ServiceItem;
-						//console.log(this.region)
+						
+						if(this.region.hasOwnProperty('images'))
+							this.images=this.region['images'];	
 						this.cities = this.regionList[this.region.region]
 						this.title += this.region.region
 						//console.log(this.cities)

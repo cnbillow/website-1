@@ -18,6 +18,7 @@ export class LandingChimneyComponent implements OnInit {
 	slug:string;
 	cards:[{}]
 	cities:[string];
+	images:{};
     region:ServiceItem;
 	constructor(private route: ActivatedRoute,private _service:ServicesService) { }
 	regionList={
@@ -41,10 +42,11 @@ export class LandingChimneyComponent implements OnInit {
                         this.region = item as ServiceItem;
 						this.cards=this.region['cards']
 						//console.log("bb",this.cards)
-						
+						if(this.region.hasOwnProperty('images'))
+							this.images=this.region['images'];	
 						this.title+=this.region.region
 						this.cities=this.regionList[this.region.region]
-						//console.log(this.cities)
+						
                         }
                     }
                 )
