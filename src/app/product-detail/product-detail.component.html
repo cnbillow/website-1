@@ -106,9 +106,14 @@
 				<ul class="pb-3">
 					<li *ngFor="let bullet of product.bullets" id="l2">{{bullet}}</li>
 				</ul>
-				<div class="flex-row" (click)="toggleQuoteForm()">
-					<h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Get a Quote Now!</h4>
+				<div class="flex-row d-none d-md-block" (click)="toggleQuoteForm()">
+					<h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"> &nbsp; Get a Quote Now!</h4>
 				</div>
+				<div class="flex-row  d-md-none" >
+						<a class="white-text" href="tel:+1-916-372-8783"><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!</h4></a>
+				</div>
+					
+			
 				<div class="row" *ngIf="product.colorSet">
 					<div class="col-12">
 						<h4>Color Selection &nbsp; <span class="small">(click to zoom)</span></h4>

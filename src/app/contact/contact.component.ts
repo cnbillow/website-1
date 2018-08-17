@@ -89,6 +89,7 @@ export class ContactComponent implements OnInit {
 //    this.growActionBtns();
 
     if (screen.width < 992) {
+        if(document.getElementById('desktop-only'))
         document.getElementById('desktop-only').style.display="none";
     }
 }
