@@ -11,15 +11,15 @@
 </mdb-carousel>
 <div mdbModal #mainContent="mdb-modal" class="modal fade"  id="mainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true" (onHidden)="hideCheck($event)">
-    <div class=" modal-dialog" role="img">
-        <div class="modal-content w-100">
+    <div class=" modal-dialog gallery-dialog" role="img">
+        <div class="modal-content gallery-content w-100">
             <div class="modal-header">
                 <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainContent.hide()" mdbWavesEffect>X</button>
                 <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="mainContent.hide()">
                       <span aria-hidden="true">×</span>
                   </button> -->
             </div>
-            <div class="text-center modalImg">
+            <div class="text-center modalImg galleryImg">
                 <img #mainModalImage  src="{{name}}">
             </div>
             <div class="modal-footer">
