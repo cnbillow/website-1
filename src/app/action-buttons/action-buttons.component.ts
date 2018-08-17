@@ -11,7 +11,7 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
 })
 export class ActionButtonsComponent implements OnInit {
   toppings = new FormControl();
-  toppingList = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
+
   optionsSelect=[]
   groupOptionsSelect=[]
   emailForm:FormGroup
