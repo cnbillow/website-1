@@ -58,43 +58,43 @@
         },
         "recentInstallImages": [
             {
-                "alt":"",
+                "alt":"Almond Solar Screens",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Almond-Grid-Solar-Screens.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Almond-Grid-Solar-Screens.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Almond-Grid-Solar-Screens.jpg"
             },
             {
-                "alt":"",
-                "small": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens-.jpg",
-                "medium": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens-.jpg",
-                "big": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens-.jpg"
+                "alt":"Solar Screens with almond color",
+                "small": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens.jpg",
+                "medium": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens.jpg",
+                "big": "/assets/images/screens/solar-screens/recent-installs/Almond-Solar-Screens.jpg"
             },
             {
-                "alt":"",
+                "alt":"black Solar Screens",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Black-Grid-Solar-Screens.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Black-Grid-Solar-Screens.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Black-Grid-Solar-Screens.jpg"
             },
             {
-                "alt":"",
+                "alt":"Solar Screens shaped with black color",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Black-Shaped-Solar-Screens.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Black-Shaped-Solar-Screens.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Black-Shaped-Solar-Screens.jpg"
             },
             {
-                "alt":"",
+                "alt":"Solar Screens black color",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Black-Solar-Screens.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Black-Solar-Screens.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Black-Solar-Screens.jpg"
             },
             {
-                "alt":"",
+                "alt":"Front Window Solar Screens",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Front-Window-Gray-Solar-Screen.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Front-Window-Gray-Solar-Screen.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Front-Window-Gray-Solar-Screen.jpg"
             },
             {
-                "alt":"",
+                "alt":"Solar Screens gray colored",
                 "small": "/assets/images/screens/solar-screens/recent-installs/Gray-Solar-Screens.jpg",
                 "medium": "/assets/images/screens/solar-screens/recent-installs/Gray-Solar-Screens.jpg",
                 "big": "/assets/images/screens/solar-screens/recent-installs/Gray-Solar-Screens.jpg"
@@ -113,25 +113,29 @@
         "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"white Sliding Screen Door",
+                "badAlt":"",
                 "small": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Screen Door",
+                "badAlt":"",
                 "small":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Screen Door",
+                "badAlt":"",
                 "small":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Screen Door",
+                "badAlt":"",
                 "small": "/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg"
@@ -165,43 +169,43 @@
         "description":"Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Swinging Screen Door colored with Almond",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-Craftsman-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-Craftsman-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-Craftsman-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door El Dorado colored with Almond",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-El-Dorado-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-El-Dorado-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/Almond-El-Dorado-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door colored with Bronze",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/Bronze-Clearview-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/Bronze-Clearview-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/Bronze-Clearview-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door colored with Dark Almond",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/Dark-Almond-Safeguard-Double-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/Dark-Almond-Safeguard-Double-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/Dark-Almond-Safeguard-Double-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door colored with Double Bronze",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/Double-Bronze-Clearview-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/Double-Bronze-Clearview-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/Double-Bronze-Clearview-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door Safeguard colored with White",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Safeguard-Swinging-Screen-Door.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Safeguard-Swinging-Screen-Door.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Safeguard-Swinging-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Swinging Screen Door Craftsman colored with White",
                 "small":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Craftsman-Swinging-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Craftsman-Swinging-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/swinging-screen-doors/recent-installs/White-Craftsman-Swinging-Screen-Door-2.jpg"
@@ -222,7 +226,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen el dorado doors",
                 "small":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png",
                 "big":"/assets/images/screens/swinging-screen-doors/el-dorado/el-dorado.png"
@@ -262,7 +266,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen fiesta doors",
                 "small":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png",
                 "big":"/assets/images/screens/swinging-screen-doors/fiesta/fiesta.png"
@@ -298,7 +302,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen safeguard doors",
                 "small":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png",
                 "big":"/assets/images/screens/swinging-screen-doors/safeguard/safeguard.png"
@@ -332,7 +336,7 @@
         "bullets":["The Santa Cruz Swinging Screen Door is a classic style screen door with a bottom half grille.","This grille is an extruded aluminum amplimesh style grille that adds character and charm to this awesome screen door.","This door comes in Standard and custom sizes. Customize your door today and add a pet door!"],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen santa cruz doors",
                 "small":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png",
                 "big":"/assets/images/screens/swinging-screen-doors/santa-cruz/santa-cruz.png"
@@ -370,7 +374,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen brighton doors",
                 "small":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png",
                 "big":"/assets/images/screens/swinging-screen-doors/brighton/brighton.png"
@@ -406,7 +410,7 @@
         "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen clearview doors",
                 "small":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png",
                 "big":"/assets/images/screens/swinging-screen-doors/clearview/clearview.png"
@@ -441,7 +445,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen colonade doors",
                 "small":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png",
                 "big":"/assets/images/screens/swinging-screen-doors/colonade/colonade.png"
@@ -479,7 +483,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"swinging screen craftsman doors",
                 "small":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
                 "medium":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png",
                 "big":"/assets/images/screens/swinging-screen-doors/craftsman/craftsman.png"
@@ -515,25 +519,25 @@
         "tileImage":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Retractable Screen Double Door",
                 "small":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
                 "medium":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
                 "big":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Screen Single Door",
                 "small":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg",
                 "medium":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg",
                 "big":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Screen Door Single",
                 "small":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/retractable/main-display/Single-Retractable-Screen-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Screen Door Double",
                 "small":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg",
                 "medium":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg",
                 "big":"/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door-3.jpg"
@@ -555,37 +559,37 @@
         "warranty":"<strong>10 Year Limited Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Single Retractable Screen Door",
                 "small":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-3.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Single Screen Door",
                 "small":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Single-Retractable-Screen-Door-4.jpg"
             },
             {
-                "alt":"",
+                "alt":"Double Retractable Screen Door",
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-3.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Double Screen Door",
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-4.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Screen Double Door",
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-5.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Screen Door Double",
                 "small":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "medium":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg",
                 "big":"/assets/images/screens/retractable/recent-installs/Double-Retractable-Screen-Door-6.jpg"
@@ -808,15 +812,7 @@
         "category":"Chimney Services",
         "type":"grid",
         "tileImage":"/assets/images/chimneys/fireplace-screen.jpg",
-        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
-        "thumbImages":[
-            {
-                "alt":"",
-                "small":"",
-                "medium":"",
-                "big":""
-            }
-        ]
+        "tileText":"Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
     },
     {
         "title":"Chimney Caps and Spark Arrestor",
@@ -1118,85 +1114,85 @@
         "tileText":"Custom Steel Security Doors can take your home to the next level of style and security.",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Black Steel Security Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Garden Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Door Bronze colored",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Vino Door Bronze",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Bronze Steel Vino Security Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Gold Steel Security Door Artisan",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Green Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Light Blue Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Olive Green Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Red French Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Red Zen Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security Silver Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security White French Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Steel Security White Sunrise Door",
                 "small":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
                 "medium":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
                 "big":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg"
@@ -1218,7 +1214,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security artisan Door",
                 "small":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
                 "medium":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
                 "big":"/assets/images/security/steel-security-doors/artisan/door-387x810.png"
@@ -1251,7 +1247,7 @@
         ],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security garden Door",
                 "small":"/assets/images/security/steel-security-doors/garden/garden.jpg",
                 "medium":"/assets/images/security/steel-security-doors/garden/garden.jpg",
                 "big":"/assets/images/security/steel-security-doors/garden/garden.jpg"
@@ -1286,7 +1282,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Artisan View Steel Security Door",
                 "small":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
                 "medium":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
                 "big":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg"
@@ -1320,7 +1316,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/vino/vino.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security vino Door",
                 "small":"/assets/images/security/steel-security-doors/vino/vino.jpg",
                 "medium":"/assets/images/security/steel-security-doors/vino/vino.jpg",
                 "big":"/assets/images/security/steel-security-doors/vino/vino.jpg"
@@ -1354,7 +1350,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security lanai Door",
                 "small":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
                 "medium":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
                 "big":"/assets/images/security/steel-security-doors/lanai/lanai.jpg"
@@ -1382,7 +1378,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security vino welcome Door",
                 "small":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
                 "medium":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
                 "big":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg"
@@ -1422,7 +1418,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security park avenue Door",
                 "small":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
                 "medium":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
                 "big":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png"
@@ -1450,7 +1446,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Sunrise Steel Security Door",
                 "small":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
                 "medium":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
                 "big":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
@@ -1484,7 +1480,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security arbor Door",
                 "small":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
                 "medium":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
                 "big":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
@@ -1518,7 +1514,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/zen/zen.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security zen Door",
                 "small":"/assets/images/security/steel-security-doors/zen/zen.jpg",
                 "medium":"/assets/images/security/steel-security-doors/zen/zen.jpg",
                 "big":"/assets/images/security/steel-security-doors/zen/zen.jpg"
@@ -1552,7 +1548,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security palladio Door",
                 "small":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
                 "medium":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
                 "big":"/assets/images/security/steel-security-doors/palladio/palladio.jpg"
@@ -1586,7 +1582,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/estate/estate.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security estate Door",
                 "small":"/assets/images/security/steel-security-doors/estate/estate.jpg",
                 "medium":"/assets/images/security/steel-security-doors/estate/estate.jpg",
                 "big":"/assets/images/security/steel-security-doors/estate/estate.jpg"
@@ -1620,7 +1616,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security plantation Door",
                 "small":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
                 "medium":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
                 "big":"/assets/images/security/steel-security-doors/plantation/plantation.jpg"
@@ -1654,7 +1650,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/villa/villa.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Villa Steel Security Door",
                 "small":"/assets/images/security/steel-security-doors/villa/villa.jpg",
                 "medium":"/assets/images/security/steel-security-doors/villa/villa.jpg",
                 "big":"/assets/images/security/steel-security-doors/villa/villa.jpg"
@@ -1688,7 +1684,7 @@
         "tileImage":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Steel Security santa fe Door",
                 "small":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
                 "medium":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
                 "big":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
@@ -1827,25 +1823,25 @@
         "tileText":"With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Tru View Security White Triple Door",
                 "small":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
                 "big":"/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg"
             },
             {
-                "alt":"",
+                "alt":"Tru View Security Single Beig Door",
                 "small":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
                 "big":"/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Tru View Security Green Door",
                 "small":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
                 "big":"/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Tru View Security Black Door",
                 "small":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "medium":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
                 "big":"/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg"
@@ -1866,49 +1862,49 @@
 
 
         {  
-            "alt":"",
+            "alt":"Tru View Security Double White Door",
             "small": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Single Beige Door",
             "small": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Single Black Door",
             "small": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Single Brown Door",
             "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Door Brown colored",
             "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Single White Door",
             "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Tru View Security Door White",
             "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg"
         },
         {   
-            "alt":"",
+            "alt":"Single Tru View Security Door",
             "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg", 
             "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg", 
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg"
@@ -1929,37 +1925,43 @@
         "tileText":"Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/1.png",
                 "medium":"/assets/images/security/tru-frame/1.png",
                 "big":"/assets/images/security/tru-frame/1.png"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/2.png",
                 "medium":"/assets/images/security/tru-frame/2.png",
                 "big":"/assets/images/security/tru-frame/2.png"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/3.png",
                 "medium":"/assets/images/security/tru-frame/3.png",
                 "big":"/assets/images/security/tru-frame/3.png"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/4.png",
                 "medium":"/assets/images/security/tru-frame/4.png",
                 "big":"/assets/images/security/tru-frame/4.png"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/5.png",
                 "medium":"/assets/images/security/tru-frame/5.png",
                 "big":"/assets/images/security/tru-frame/5.png"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/6.png",
                 "medium":"/assets/images/security/tru-frame/6.png",
                 "big":"/assets/images/security/tru-frame/6.png"
@@ -1977,19 +1979,22 @@
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/1.jpg",
                 "medium":"/assets/images/security/tru-frame/1.jpg",
                 "big":"/assets/images/security/tru-frame/1.jpg"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/2.jpg",
                 "medium":"/assets/images/security/tru-frame/2.jpg",
                 "big":"/assets/images/security/tru-frame/2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Tru-Frame security screen doors",
+                "badAlt":"",
                 "small":"/assets/images/security/tru-frame/3.jpg",
                 "medium":"/assets/images/security/tru-frame/3.jpg",
                 "big":"/assets/images/security/tru-frame/3.jpg"
@@ -2008,61 +2013,61 @@
         "tileText":"Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Stainless Sliding Security Single Door Beige",
                 "small":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Stainless Sliding Security Bronze Double Door",
                 "small":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Bronze Sliding Security Single Door",
                 "small":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Sliding Security Double Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Stainless Sliding Security White Double Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Double White Door Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Stainless Sliding Security Double Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door White Single Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door Single White Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door Single",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
@@ -2080,61 +2085,61 @@
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Sliding Security Door Beige Single Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Bronze Double Stainless Sliding Security Door",
                 "small":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door Bronze Single Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door Stainless White Double",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door White Double Stainless",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security White Double Stainless Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding White Double Stainless Security Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Double Stainless Sliding Security Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
             },
             {
-                "alt":"",
+                "alt":"Sliding Security Door White Single",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Single Sliding Security Door",
                 "small":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "medium":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
                 "big":"/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
@@ -2161,25 +2166,25 @@
         "tileText":"CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security Windows White",
                 "small":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
                 "big":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security Bronze Windows",
                 "small":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
                 "big":"/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security White Windows",
                 "small":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
                 "big":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape White Security Windows",
                 "small":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
                 "medium":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
                 "big":"/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
@@ -2196,31 +2201,31 @@
         "warranty":"<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>",
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security Windows Bronze",
                 "small":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
                 "medium":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security Bronze Windows",
                 "small":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
                 "medium":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Bronze Security Windows",
                 "small":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
                 "medium":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Guarda Quick Escape Security Windows",
                 "small":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
                 "medium":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Quick Escape Security White Windows",
                 "small":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
                 "medium":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
                 "big":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg"
@@ -2248,25 +2253,25 @@
         "colorSet":["quickEscapeColors"],
         "thumbImages":[
             {
-                "alt":"",
+                "alt":"Guarda Fixed Security Black Windows",
                 "small":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
                 "medium":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
                 "big":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Fixed Security Windows Black",
                 "small":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
                 "medium":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
                 "big":"/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Fixed Security Windows White",
                 "small":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
                 "medium":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
                 "big":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg"
             },
             {
-                "alt":"",
+                "alt":"Guarda Fixed Security White Windows",
                 "small":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
                 "medium":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
                 "big":"/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg"
@@ -2289,14 +2294,6 @@
         "type":"services",
         "tileImage":"/assets/images/awnings/folding-arm-awning.jpg",
         "tileText":"Increase your home’s livable area and create the perfect day with Retractable Patio and Deck Awnings.",
-        "thumbImages":[
-            {
-                "alt":"",
-                "small":"",
-                "medium":"",
-                "big":""
-            }
-        ],
         "textList":[
             {
                 "title":"Custom Made Shade For Perfect Days",
@@ -2313,67 +2310,67 @@
         ],
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Retractable Patio Beige Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Beige-Retractable-Patio-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Beige-Retractable-Patio-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Beige-Retractable-Patio-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Black Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Black-Retractable-Car-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Black-Retractable-Car-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Black-Retractable-Car-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Blue and White Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-and-White-Striped-Retractable-Patio-Awning-2.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-and-White-Striped-Retractable-Patio-Awning-2.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-and-White-Striped-Retractable-Patio-Awning-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Blue Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-Retractable-Patio-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-Retractable-Patio-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Blue-Retractable-Patio-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Red Striped Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Red-Striped-Retractable-Patio-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Red-Striped-Retractable-Patio-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Red-Striped-Retractable-Patio-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Striped Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Horse-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Horse-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Horse-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Awnings Striped",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Patio-Awning-2.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Patio-Awning-2.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/Striped-Retractable-Patio-Awning-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio Awnings White and Beige Striped",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning.jpg"
             },
             {
-                "alt":"",
+                "alt":"Retractable Patio White and Beige Striped Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-1.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-1.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-1.jpg"
             },
             {
-                "alt":"",
+                "alt":"White and Beige Striped Retractable Patio Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-2.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-2.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-and-Beige-Striped-Retractable-Patio-Awning-2.jpg"
             },
             {
-                "alt":"",
+                "alt":"White Retractable Patio Awnings",
                 "small":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-Retractable-Patio-Awning.jpg",
                 "medium":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-Retractable-Patio-Awning.jpg",
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-Retractable-Patio-Awning.jpg"
@@ -2405,43 +2402,50 @@
         ],
         "recentInstallImages":[
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/1.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/1.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/2.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/2.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/3.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/3.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/4.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/4.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/5.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/5.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/6.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/6.jpg"
             },
             {
-                "alt":"",
+                "alt":"Drop Roll Sunscreens",
+                "badAlt":"",
                 "small":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
                 "medium":"/assets/images/awnings/drop-roll-sunscreens/7.jpg",
                 "big":"/assets/images/awnings/drop-roll-sunscreens/7.jpg"
