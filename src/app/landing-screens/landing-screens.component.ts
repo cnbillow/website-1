@@ -30,7 +30,17 @@ export class LandingScreensComponent implements OnInit {
 		"Napa": ["American Canyon", "Atlas", "Batoo", "Benicia", "Imola", "Napa", "Oak Knoll", "Schellville", "Sonoma", "Union", "Vallejo", "Vineburg", "Yountville"],
 		"Vacaville": ["Allendale", "Bahia", "Birds Landing", "Bucktown", "Collinsville", "Cordelia", "Dixon", "Elmira", "Fairfield", "Green Valley", "Hartley", "Maine Prairie", "Rio Vista", "Rockville", "Terminous", "Suisun City", "Vacaville", "Scandia Family Center", "Winters"]
 	}
-
+	regionNumbers={
+		"Sacramento":"(916)823-3388",
+		"Auburn":"(530)692-5680",
+		"Antioch and the East Bay Region":"(925) 350-0501",
+		"Stockton":"(209)815-6085",
+		"South Bay":"(925)443-0700",
+		"North Bay":"(510)277-5694*",
+		"Modesto":"(209)957-9700",
+		"Napa":"(707) 812-1935",
+		"Vacaville":"(707)542-0626"
+	}
 	ngOnInit() {
 		this.routeSub = this.route.params.subscribe(params => {
 			this.slug = params['slug']

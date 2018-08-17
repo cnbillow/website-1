@@ -53,7 +53,7 @@ const appRoutes: Routes = [
   {path:'about/awnings/awnings-in-hayward', redirectTo:"/screens/oakland-north-bay"},
   {path:'about/awnings/awnings-in-napa', redirectTo:"/screens/napa-vallejo"},
   {path:'about/awnings/awnings-in-sacramento', redirectTo:"/screens/sacramento"},
-  {path:'about/awnings/awnings-in-stockton', redirectTo:"/screens/sacramento"},
+  {path:'about/awnings/awnings-in-stockton', redirectTo:"/screens/stockton"},
   {path:'about/chimney-services/chimney-services-in-auburn', redirectTo:"/chimneys/auburn"},
   {path:'about/chimney-services/chimney-services-in-hayward-and-oakland', redirectTo:"/chimneys/oakland-north-bay"},
   {path:'about/chimney-services/chimney-services-in-pleasanton', redirectTo:"/chimneys/antioch-east-bay-region"},
