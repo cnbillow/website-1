@@ -4,7 +4,7 @@
 .bd-example
     text-align: center
 
-.modal-dialog
+.gallery-dialog
     max-width: 100%
     top: 50px
     @include breakpoint(md)
@@ -21,17 +21,17 @@
     float: left
     width: 180px
 
-.modalImg
+.galleryImg
     float: left
 
-.modalImg img
+.galleryImg img
     display: block
     width: 100%
 
-.modal-content
+.gallery-content
     background-color: rgba(0, 0, 0, 0.3)
 
-.modalImg .btn-secondary 
+.galleryImg .btn-secondary 
     background-color:  !important
     color: #fff !important
 
@@ -43,7 +43,7 @@
     border: 2px solid
     border-radius: 3px
  
-.modal-header 
+.gallery-header 
     justify-content: flex-end
     display: -webkit-box
     display: -ms-flexbox
@@ -55,7 +55,7 @@
     border: none
     padding: 0
 
-.modal-footer 
+.gallery-footer 
     display: -webkit-box
     display: -ms-flexbox
     display: flex
@@ -69,13 +69,13 @@
     border: none
 
 
-.modal-footer > :not(:first-child)
+.gallery-footer > :not(:first-child)
     position: absolute
     right: 0
     margin: 2px
     padding: 1rem
 
-.modal-footer > :not(:last-child) 
+.gallery-footer > :not(:last-child) 
     padding: 1rem
 
 
