@@ -75,8 +75,8 @@ const appRoutes: Routes = [
 
 
 
-  { path: '**', 				          component: PageNotFoundComponent,				      data: { title: "Page Not Found on Mike's Mobile" }}
-  
+  { path: '**', 				          component: HomeComponent, 	data: { title: "Mike's Mobile Screen and Chimney Service"}
+  }
 
 ];
 
