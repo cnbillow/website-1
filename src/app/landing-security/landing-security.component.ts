@@ -15,7 +15,7 @@ export class LandingSecurityComponent implements OnInit {
 	serviceList: [ServiceItem]
 	private routeSub: any;
 	slug: string;
-	title = "Security Screen services and products in "
+	title = "Security doors and window security for "
 	images:{};
 	cities: [string];
 	region: ServiceItem;

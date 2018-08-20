@@ -14,7 +14,7 @@ export class LandingScreensComponent implements OnInit {
 	serviceList: [ServiceItem]
 	private routeSub: any;
 	slug: string;
-	title = "Window Products and Services in "
+	title = "Door Screens, Window Screens and Awnings in "
 	cities: [string];
 	region: ServiceItem;
 	images:{};
