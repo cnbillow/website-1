@@ -147,11 +147,7 @@ slidingSecurityDoorColors ={
 
     for (var i=6; i<19; i++){
         var el = document.getElementById("square-" + i);            
-        el.style.display = 'block';
-        if (screen.width < 992){
-            var ello = document.getElementById("square-p-" + i);
-            ello.style.display = 'block';
-        }            
+        el.style.display = 'block';            
     }
     
   }
@@ -161,11 +157,7 @@ slidingSecurityDoorColors ={
 
       for (var i=6; i<19; i++){
           var el = document.getElementById("square-" + i);            
-          el.style.display = 'none';
-          if (screen.width < 992){
-              var ello = document.getElementById("square-p-" + i);
-              ello.style.display = 'none';
-          }            
+          el.style.display = 'none';          
       }     
   }
   moreSteelToggle(){
