@@ -4,6 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 
+
+
+
+
+
+import { StorageServiceModule} from 'angular-webstorage-service';
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
@@ -98,7 +104,7 @@ import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
     HttpClientModule,
     Ng2PageScrollModule,
     NgxGalleryModule,
-
+    StorageServiceModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     }),

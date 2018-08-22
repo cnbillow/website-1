@@ -1,8 +1,9 @@
-import { Component, OnInit, ViewChild, Input, OnDestroy } from '@angular/core';
+import { Component, OnInit, ViewChild, Input, OnDestroy, Inject } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from '../../../node_modules/ng-mdb-pro/free';
 import { ActivatedRoute, Router } from '../../../node_modules/@angular/router';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
@@ -18,12 +19,13 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
   hide(){
     this.basicModal.hide();
   }
-  constructor(private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
+  constructor(@Inject(SESSION_STORAGE) private storage:WebStorageService, private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
 
   optionsSelect=[]
   groupOptionsSelect=[]
   emailForm:FormGroup
   ngOnInit() {
+    console.log(this.storage);
       this.emailForm = new FormGroup({
         'name': new FormControl("",[
             Validators.required,
@@ -42,10 +44,22 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
             Validators.required,
             Validators.maxLength(150)
         ]),
+        
+        'utm_source':new FormControl("",[
+          
+        ]),
+        'utm_medium':new FormControl("",[
+          
+        ]),
+        'utm_campaign':new FormControl("",[
+          
+        ]),
+
         'message': new FormControl("",[
             Validators.required,
             Validators.maxLength(280)
         ])
+
       })
 
       this.groupOptionsSelect = [
@@ -122,11 +136,14 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
         let phone = emailForm.value['phone']
         let email = emailForm.value['email']
         let message = emailForm.value['message']
+        let utm_source = emailForm.value['utm_source']
+        let utm_medium  = emailForm.value['utm_medium']
+        let utm_campaign = emailForm.value['utm_campaign']
         if(url === undefined)
           option = 'Homepage';
         else
           option = url.toString();   
-        this._service.create(name, city, phone, email, message, option).subscribe(data=>{
+        this._service.create(name, city, phone, email, message, option,this.storage.get('utm_source'),this.storage.get('utm_medium'),this.storage.get('utm_campaign')).subscribe(data=>{
           //console.log(data);
           this.router.navigate(['/thank-you']);
         })

@@ -79,7 +79,9 @@
                           <label for="form7">How can we help</label>
                       </div>
                   </div>
-
+                  <input type="hidden" name="utm_source" class="form-control" formControlName='utm_source' id="utm_source" value="">
+                  <input type="hidden" name="utm_medium" class="form-control" formControlName='utm_medium' id="utm_medium" value="">
+                  <input type="hidden" name="utm_campaign" class="form-control" formControlName='utm_campaign' id="utm_campaign" value="">
                   <div class="d-flex flex-row">
                       <button type="reset" class="btn gray waves-light w-100" mdbRippleRadius (click)='emailDir.resetForm({})'>Reset</button>
                       <button type="submit" class="btn blue relative waves-light w-100" mdbRippleRadius [disabled]='emailForm.invalid'>Submit</button>

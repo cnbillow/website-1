@@ -2,10 +2,10 @@ import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
 
-import { Component, OnInit } 							from '@angular/core';
+import { Component, OnInit, Inject } 							from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute }		from '@angular/router';
 import { Title }     									from '@angular/platform-browser';
-
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 declare let ga: Function;
 
 @Component({
@@ -16,14 +16,14 @@ declare let ga: Function;
 export class AppComponent {
   title = 'Mikes Mobile';
   
-  constructor(public router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {
+  constructor(@Inject(SESSION_STORAGE) private storage:WebStorageService, public router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {
     this.router.events.subscribe(event => {
         if (event instanceof NavigationEnd) {
           ga('set', 'page', event.urlAfterRedirects);
           ga('send', 'pageview');
         }
 			});
-	
+		
 	}
 	
 	ngOnInit(){
@@ -44,7 +44,14 @@ export class AppComponent {
 					}
 					window.scrollTo(0, 0)
 			});
-
+			this.activatedRoute.queryParams.subscribe((params)=>{
+				if(params)
+				for (var key in params) {
+					if (params.hasOwnProperty(key)) {
+						 this.storage.set(key, params[key]);
+					}
+			 }
+			});
 	}
 
 }
