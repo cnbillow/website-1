@@ -10,8 +10,9 @@
 				<h1 *ngIf="category === 'Screen Doors'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/door-screens']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Window Screens'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/window-screens']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Chimney Services'" class="text-center py-3" id="chimney-services"><a class="orange-text" [routerLink]="['/about/chimney-services']">{{category}}</a></h1>
-				<h1 *ngIf="category === 'Security Doors and Windows'" class="text-center py-3" id="Security-Doors-and-Windows"><a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">{{category}}</a></h1>
-				<h1 *ngIf="category === 'Security Doors'" class="text-center py-3"><a class="orange-text"[routerLink]="['/about/security-doors']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Security Doors and Windows'" class="text-center py-3" id="Security-Doors-and-Windows"><a class="orange-text"
+					 [routerLink]="['/about/security-doors-and-windows']">{{category}}</a></h1>
+				<h1 *ngIf="category === 'Security Doors'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-doors']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Security Windows'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-windows']">{{category}}</a></h1>
 				<h1 *ngIf="category === 'Awnings'" class="text-center py-3" id="awnings"><a class="orange-text" [routerLink]="['/about/awnings']">{{category}}</a></h1>
 			</div>
@@ -22,34 +23,29 @@
 				<ng-container *ngIf="service.category === categories[i]">
 					<!-- ServiceItem -->
 					<div class="col-6 col-md-4 col-lg-3">
-
 						<!-- Flip Card -->
 						<div class="flip-container">
-						  <div class="flipper">
-						    <!-- front content -->
-						    <div class="front">
-						      <!--Card image-->
-						      <div class="view waves-light" mdbRippleRadius>
-						          <img src="{{service.tileImage}}" class="img-fluid" alt="{{service.title}}">
-						      </div>
-						      <!--Title-->
-						      <h4 class="card-title">{{service.title}}</h4>
-						    </div>
-						    <!--/ front content -->
-
-						    <!-- back content -->
-						    <a routerLink="/{{service.type}}/{{service.slug}}">
-						      <div class="back">
-						        <h4 class="text-center card-back-titile">{{service.title}}</h4>
-						        <div class="divider dropdown-divider pt-0 mt-0"></div>
-						        <p class="mb-0 text-center">{{service.tileText}}</p>
-						      </div>
-						    </a>
-						    <!--/ back content -->
-						  </div>
+							<div class="flipper">
+								<!-- front content -->
+								<div class="front">
+									<!--Card image-->
+									<div class="view waves-light" mdbRippleRadius>
+										<img src="{{service.tileImage}}" class="img-fluid" alt="{{service.title}}">
+									</div>
+									<!--Title-->
+									<h4 class="card-title">{{service.title}}</h4>
+								</div>
+								<!--/ front content -->
+								<!-- back content -->
+								<div class="back" routerLink="/{{service.type}}/{{service.slug}}">
+									<h4 class="text-center card-back-titile">{{service.title}}</h4>
+									<div class="divider dropdown-divider pt-0 mt-0"></div>
+									<p class="mb-0 text-center">{{service.tileText}}</p>
+								</div>
+								<!--/ back content -->
+							</div>
 						</div>
 						<!-- /Flip Card -->
-
 					</div>
 					<!-- /ServiceItem -->
 				</ng-container>
@@ -61,6 +57,7 @@
 	</div>
 	<!-- /Screens ServiceList -->
 </ng-container>
+
 
 <!-- this was in og_services.jason file moved it here to be useed in the future -->
 <!--{
