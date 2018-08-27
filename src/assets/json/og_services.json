@@ -24,7 +24,27 @@
         ],
         "tileImage":"/assets/images/screens/window-screen-repair/car-logo-2.jpg",
         "tileText":"We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-        "video":""
+        "video":"",
+        "recentInstallImages":[
+            {
+                "alt":"repair damaged screen",
+                "small":"/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+                "medium":"/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+                "big":"/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+            },
+            {
+                "alt":"bent window screen",
+                "small":"/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
+                "medium":"/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
+                "big":"/assets/images/screens/window-screen-repair/Screen-Repair.jpg"
+            },
+            {
+                "alt":"Worker fixing screen",
+                "small":"/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
+                "medium":"/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
+                "big":"/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
+            }
+        ]
     },
 
     {
@@ -631,7 +651,21 @@
                 "title":"Measuring Guide",
                 "description":"Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary"
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Pet door with dog",
+                "small": "/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg", 
+                "medium":"/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg", 
+                "big":"/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg"
+            },
+            {   
+                "alt":"pet door small dog",
+                "small": "/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg", 
+                "medium":"/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg", 
+                "big":"/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg"
+            }
+    ]
     },
     {
         "title":"Inspections",
@@ -653,7 +687,21 @@
                 "title":"Level Three Chimney Inspection",
                 "description":"Level 1 and 2 methods are included with Level 3 chimney inspections, but with this type of chimney inspection, portions of the structure or chimney will be required to fully investigate the deficiencies that exist. Many areas that are concealed from visual examination may need to be opened up by removing bricks, masonry, metal flue pipes, interior chimney walls, chimney crowns or other components of your system. These chimney inspections are only required when the earlier chimney inspection Level 1 or 2 reveals a serious problem and we need to gain access to the problem areas hidden from view. Level 3 chimney inspections are needed on less than 2% of all chimney inspections when serious problems are suspected that require immediate action."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Metal chimney inspection",
+                "small": "/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg", 
+                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg", 
+                "big":"/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg"
+            },
+            {   
+                "alt":"Fireplace inspection",
+                "small": "/assets/images/chimneys/inspections/Chimney-Inspection.jpg", 
+                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection.jpg", 
+                "big":"/assets/images/chimneys/inspections/Chimney-Inspection.jpg"
+            }
+    ]
     },
     {
         "title":"Cleaning",
@@ -676,7 +724,27 @@
                 "title":"How often should you have your chimney cleaned?",
                 "description":"Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg", 
+                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg", 
+                "big":"/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg", 
+                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg", 
+                "big":"/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg", 
+                "medium":"/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg", 
+                "big":"/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg"
+            }
+    ]
     },
     {
         "title":"Repairs",
@@ -941,7 +1009,7 @@
         "slug":"masonry-services",
         "category":"Chimney Services",
         "type":"grid",
-        "tileImage":"/assets/images/chimneys/masonry.jpeg",
+        "tileImage":"/assets/images/chimneys/Masonry-services.jpg",
         "tileText":"Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
     },
     {
@@ -1925,46 +1993,28 @@
         "tileText":"Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door.",
         "thumbImages":[
             {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/1.png",
-                "medium":"/assets/images/security/tru-frame/1.png",
-                "big":"/assets/images/security/tru-frame/1.png"
+                "alt":"Bronze Security Door",
+                "small":"/assets/images/security/tru-frame/main/French-Bronze-Tru-Frame-Security-Door.jpg",
+                "medium":"/assets/images/security/tru-frame/main/French-Bronze-Tru-Frame-Security-Door.jpg",
+                "big":"/assets/images/security/tru-frame/main/French-Bronze-Tru-Frame-Security-Door.jpg"
             },
             {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/2.png",
-                "medium":"/assets/images/security/tru-frame/2.png",
-                "big":"/assets/images/security/tru-frame/2.png"
+                "alt":"Red security door",
+                "small":"/assets/images/security/tru-frame/main/Red-Tru-Frame-Security-Door.jpg",
+                "medium":"/assets/images/security/tru-frame/main/Red-Tru-Frame-Security-Door.jpg",
+                "big":"/assets/images/security/tru-frame/main/Red-Tru-Frame-Security-Door.jpg"
             },
             {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/3.png",
-                "medium":"/assets/images/security/tru-frame/3.png",
-                "big":"/assets/images/security/tru-frame/3.png"
+                "alt":"White Tru Frame Door",
+                "small":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door-2.jpg",
+                "medium":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door-2.jpg",
+                "big":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door-2.jpg"
             },
             {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/4.png",
-                "medium":"/assets/images/security/tru-frame/4.png",
-                "big":"/assets/images/security/tru-frame/4.png"
-            },
-            {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/5.png",
-                "medium":"/assets/images/security/tru-frame/5.png",
-                "big":"/assets/images/security/tru-frame/5.png"
-            },
-            {
-                "alt":"Tru-Frame security screen doors",
-                "badAlt":"",
-                "small":"/assets/images/security/tru-frame/6.png",
-                "medium":"/assets/images/security/tru-frame/6.png",
-                "big":"/assets/images/security/tru-frame/6.png"
+                "alt":"Security Door white",
+                "small":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door.jpg",
+                "medium":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door.jpg",
+                "big":"/assets/images/security/tru-frame/main/White-Tru-Frame-Security-Door.jpg"
             }
         ],
         "productOverview":"Aluminum Frame:<br/>The high tensile strength aluminum construction withstands bending, breaking, smashing, and pulling.<br/><br/>Ventilation and Visibility:<br/>Feel safe and secure leaving your front door open.<br/><br/>Deadbolt Security:<br/>With a poly carbonate sheet to prevent tampering from the outside, the deadbolt lock cannot be pried open by a metal or plastic insert. Even if the face plate and handle are jimmied, the concealed mechanism and main bolt remain in the locked position.<br/><br/>Rust Free:<br/>With a heavy gauge extruded aluminum frame, the Tru-Frame Security Door is resistant to rust and made for lasting durability.",
@@ -1979,25 +2029,32 @@
         "warranty":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective.",
         "recentInstallImages":[
             {
-                "alt":"Tru-Frame security screen doors",
+                "alt":"Bronze Security Door",
                 "badAlt":"",
-                "small":"/assets/images/security/tru-frame/1.jpg",
-                "medium":"/assets/images/security/tru-frame/1.jpg",
-                "big":"/assets/images/security/tru-frame/1.jpg"
+                "small":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door.jpg",
+                "medium":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door.jpg",
+                "big":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door.jpg"
             },
             {
-                "alt":"Tru-Frame security screen doors",
+                "alt":"Tru Frame Bronze",
                 "badAlt":"",
-                "small":"/assets/images/security/tru-frame/2.jpg",
-                "medium":"/assets/images/security/tru-frame/2.jpg",
-                "big":"/assets/images/security/tru-frame/2.jpg"
+                "small":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-2.jpg",
+                "medium":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-2.jpg",
+                "big":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-2.jpg"
             },
             {
-                "alt":"Tru-Frame security screen doors",
+                "alt":"Bronze Security Door",
                 "badAlt":"",
-                "small":"/assets/images/security/tru-frame/3.jpg",
-                "medium":"/assets/images/security/tru-frame/3.jpg",
-                "big":"/assets/images/security/tru-frame/3.jpg"
+                "small":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-3.jpg",
+                "medium":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-3.jpg",
+                "big":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-3.jpg"
+            },
+            {
+                "alt":"Bronze door sunflowers",
+                "badAlt":"",
+                "small":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-4.jpg",
+                "medium":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-4.jpg",
+                "big":"/assets/images/security/tru-frame/recent-installs/Bronze-Tru-Frame-Security-Door-4.jpg"
             }
         ],
         "colorSet":["stdColors", "slidingSecurityDoorColors"]
