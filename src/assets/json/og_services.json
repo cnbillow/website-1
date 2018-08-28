@@ -133,29 +133,25 @@
         "tileText":"Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
         "thumbImages":[
             {
-                "alt":"white Sliding Screen Door",
-                "badAlt":"",
+                "alt":"Sliding Screen Door Open",
                 "small": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg"
             },
             {
-                "alt":"Sliding Screen Door",
-                "badAlt":"",
+                "alt":"Sliding Screen Door white color",
                 "small":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Screen-Door.jpg"
             },
             {
-                "alt":"Sliding Screen Door",
-                "badAlt":"",
+                "alt":"Solar Sliding Screen Door",
                 "small":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door.jpg"
             },
             {
-                "alt":"Sliding Screen Door",
-                "badAlt":"",
+                "alt":"white Sliding Screen Solar Door",
                 "small": "/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg",
                 "medium":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg",
                 "big":"/assets/images/screens/sliding/main-display/Sliding-Solar-Screen-Door-2.jpg"
@@ -774,7 +770,39 @@
                 "title":"Call us today and repair your chimney crown",
                 "description":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late. Some masons will simply use mortar mix to create a new top for the chimney. The problem with that is, mortar mix will crack and leak very quickly and is not a weather resistant material. A cement chimney crown that is properly designed to overhang the outside dimensions of the chimney structure is the best solution. When your chimney crown becomes cracked or has lost pieces of its original shape it no longer is doing the job that it needs to. Once your chimney crown begins deteriorating and falling apart, it won’t be long before serious damage will set in to your entire chimney. It may be worth a visit to your roof once in a while to do your own inspection of the chimney crown. Don’t take our word for it – just take a quick drive around downtown and look up at the older masonry chimneys. Most of them are literally falling apart from the top down. The last thing someone needs is bricks falling down or costly repairs. When we service our customers with their annual inspection and chimney cleaning, the chimney crown is a key area that we look at. If there are any defects at all, we suggest an immediate crown seal to prevent more damage."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg", 
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg", 
+                "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg", 
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg", 
+                "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg", 
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg", 
+                "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg", 
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg", 
+                "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg", 
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg", 
+                "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg"
+            }
+    ]
     },
     {
         "title":"Rear Firewall Heat Damage",
@@ -792,7 +820,33 @@
                 "title":"Don't wait until you need your chimney rebuilt",
                 "description":"80% of the heat generated by most fires gets absorbed into the rear firewall. Over time, cracks and deterioration can form. This used to mean that a firewall rebuild was needed to prevent a serious fire hazard. Now, for a fraction of the price of a rebuild, we can usually patch these cracks and install a radiant fireback which radiates heat into your home making your fireplace more efficient while at the same time protecting your home from further damage. Another source of damage to the rear firewall is when water leaks come down from the top of the fireplace chimney. Firewalls and firebrick are very porous as they are intended to withstand the very high temperatures of combustion."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg", 
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg", 
+                "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg", 
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg", 
+                "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg", 
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg", 
+                "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg", 
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg", 
+                "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg"
+            }
+    ]
     },
     {
         "title":"Masonry Repair",
@@ -814,7 +868,33 @@
                 "title":"Call us today and get started",
                 "description":"Towards the top of the chimney you should make sure to have your stack inspected. A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside. As with the firebox, the chimney stack is something that should be looked at and if anything seems off, its better safe than sorry so have it checked out! If you are thinking about switching to a wood-burning insert for your masonry chimney we highly recommend giving us a call so that we can make sure your chimney is ready to burn. Make sure when you decide on who you go with for your masonry repairs that they are licensed, bonded, and insured. Any amateur can promise you low prices, but it takes a professional to get the job done right."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg", 
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg", 
+                "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg", 
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg", 
+                "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg", 
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg", 
+                "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg", 
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg", 
+                "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg"
+            }
+    ]
     },
     {
         "title":"Chimney Liner",
@@ -832,7 +912,39 @@
                 "title":"How Do I Know If I May Need A New Chimney Lining?",
                 "description":"If your chimney is not pulling smoke up and out of your home, you may have problems with the chimney lining. Smelly fireplaces can also mean that your creosote and soot is building up quickly and may indicate other problems with chimney liners. The inside of your chimney needs to be cleaned regularly and a qualified chimney sweep may see potential chimney lining problems during routine cleaning. Sulfur in smoke when mixed with moisture can cause a corrosive reaction and eat small holes in metal liners over time. Clay tile liners always deteriorate and develop cracks that open up the chimney to moisture and will eventually create structural problems that require expensive repairs or even rebuilding. If you see pieces or chips of your clay tiles in your firebox, you can be sure that you need to have your liner inspected for serious defects. Any time that a customer converts to a new type of heating system, installs a new wood stove, fireplace insert or other heating appliance they need to make sure that the chimney liner matches the output requirements of the new system. Wind, snow and rain combined with freeze and thaw cycles can take a toll on your chimney. Make sure things are buttoned up and tight when it comes to your chimney lining on the inside, and you will have much longer life of the chimney structure on the outside. The number one reason for chimney fires is because of a faulty chimney liner. Actually many older homes had chimneys built with no chimney liner at all! There are ways to upgrade these historic homes by adding chimney liners that will add years to the life of the chimney and make for a much safer operation. Today the NFPA (National Fire Protection Association) requires in their code that all masonry chimneys have a liner."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg", 
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg", 
+                "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg", 
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg", 
+                "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg", 
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg", 
+                "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg", 
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg", 
+                "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg", 
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg", 
+                "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg"
+            }
+    ]
     },
     {
         "title":"Refractory Panels",
@@ -850,7 +962,39 @@
                 "title":"Replacing Refractory Panels",
                 "description":"How do you know when replacement is necessary? The rule of thumb (suggested by most manufacturers) is that once you can either get the edge of a credit card into the crack or once the panel is cracked all the way through (it flexes when you press on it lightly), it must be replaced. Also, if no cracks are visible, but chunks of the cement have fallen off (spalling) picture, it should be replaced, as well. Continued fires with damaged panels is risky business, so don’t risk it! If your panels need replacement, do not continue to burn fires until damaged panels have been replaced by a qualified professional."
             }
-        ]
+        ],
+        "recentInstallImages":[
+            {  
+                "alt":"Vacuuming Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg", 
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg", 
+                "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg"
+            },
+            {   
+                "alt":"Inside Chimney Cleaning",
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg", 
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg", 
+                "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg", 
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg", 
+                "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg", 
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg", 
+                "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg"
+            },
+            {   
+                "alt":"Brushing Chimney Clean",
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg", 
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg", 
+                "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg"
+            }
+    ]
     },
     {
         "title":"Chimney De-Glazing",
