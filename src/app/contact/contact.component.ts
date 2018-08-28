@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
   scrollwheel = false;
 
   mapClicked($event: MouseEvent) {
-    this.scrollwheel =true
+    this.scrollwheel = true;
     };
   
 
