@@ -14,9 +14,18 @@ export class ContactComponent implements OnInit {
     toggleQuoteForm(){
       this.quoteForm.show()
     }
-  public map: any = { lat: 38.577009, lng: -121.324027 };
-  public mapp: any = { lat: 38.023547, lng: -121.280482 };
+
+  //  center position of the map
+  map: any = { lat: 38.577009, lng: -121.324027 };
   zoom: number = 12;
+  scrollwheel = false;
+
+  mapClicked($event: MouseEvent) {
+    this.scrollwheel =true
+    };
+  
+
+
 
   toppings = new FormControl();
   toppingList = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
