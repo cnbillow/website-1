@@ -619,10 +619,22 @@
         "slug":"pet-doors",
         "category":"Door and Window Screens",
         "subcategory":"Door",
-        "type":"services",
+        "type":"products-extended",
         "tileImage":"/assets/images/screens/pet-door/Pet-Door-Main-Page-Flipcard.jpg",
         "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
         "colorSet":["petDoorColors"],
+        "options":"Comes in Bronze, Black, Brushed Aluminum, Tan, White, and Adobe.",
+        "relatedProducts":{
+            "Viewguard Security Door": "/products/viewguard-security-doors",
+            "Steel Security Doors": "/grid/steel-security-doors",
+            "TRU View Security Doors":"/products/tru-view-security-doors"
+            
+
+        },
+        "warranty":"Pride Pet Doors Limited Warranty:<br/>To the original purchaser, Z Industries warrants this product and its component parts to be free of defects on materials and workmanship for a period of one year from the date of purchase. Damage caused by accident, improper installation or abuse, including damage caused by pets, is specifically excluded from this warranty. Manufacturer's liability on any claim shall not exceed the cost of the product. In no instance shall manufacturer be responsible for consequential damage resulting from the use of this product. For a period of one year from the date of purchase, any defective product or part may be sent, freight prepaid, to Z Industries for replacement or repair at no charge. Proof of purchase date must accompany any returned item. This warranty replaces any and all previous warranties, either written, oral, or implied, and is the only warranty made by this company. This warranty gives you specific legal rights. You may have other rights which vary from state to state.<br/>SAVE THIS DOCUMENT AND PROOF OF PURCHASE",
+        "video":"//fast.wistia.net/embed/iframe/6mbg8bf1cv" ,
+        "productOverview":"PRIDE PET DOOR<br/>  If you like a trusted name on your products, the Pride Pet Door is the way to go. Pride offers sturdy, reliable products, and some of our customers have used this pet door with multiple pets for over 20 years! <br/> Features of the Pride Doors: <br/> The flap is a heavy, black rubber that is particularly durable. Incorporates a two piece design which includes an inner flap and an outer “U” shape for better sealing and insulating value. <br/> The locking cover is particle board enameled bright white on one side for greater visibility to the pet. For safety reasons it is designed to be breakable in case the pet crashes into it from the wrong side. It can be installed on either side of the pet door.<br/> All sizes can be installed through screens using Pride screen adapter kits.<br/> Perfect Time for a Pride Pet Door <br/> Affordable yet durable solution that blocks out sunlight due to its solid color. A sturdy dog door to install through a screen enclosure. Large selection of frame color choices to match your home. This pet door can be installed pretty much anywhere.",
+        "technicalSpecs":"<li>WEIGHT    4.0000</li><li>YOUR MAXIMUM PET SIZE    Cats, Large Cats, Small Dogs, Medium Dogs, Large Dogs</li><li>CLIMATE SUITABILITY   Temperate-3 Season</li><li>WIND RESISTANCE  High</li><li>SEALING VALUE        Average</li><li>FRAME MATERIAL        Light Weight Aluminum</li><li>INSULATION VALUE        Low</li><li>FLAP MATERIAL        Rubber</li><li>FLAP DESIGN        Single, Two Part , Flexible, Thin Flap</li><li>FLAP COLORS        Black</li><li>FLAP THICKNESS        1/8\"</li><li>REPLACEMENT FLAPS AVAILABLE        Yes</li><li>ABILITY TO LOCK FLAP        Separate Locking Cover-Loads from Top</li><li>LOCKING COVER MATERIAL        Fiberboard</li><li>CAN BE INSTALLED IN        Solid Core Door, sliding screen doors, Viewguard, Truview, Steel Security Doors</li><li>ADAPTER AVAILABLE FOR INSTALLATION IN SCREEN        Yes</li>",
         "images":{
             "Almond":"/assets/images/screens/pet-door/almond-frame.jpg",
             "Bronze":"/assets/images/screens/pet-door/bronze-frame.jpg",
