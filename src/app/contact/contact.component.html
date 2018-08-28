@@ -18,7 +18,7 @@
     </div>
 </div>
 <!--/info box above the map-->
-<agm-map [latitude]="map.lat" [longitude]="map.lng" [zoom]="zoom" style="height: 600px">
+<agm-map [latitude]="map.lat" [longitude]="map.lng" [zoom]="zoom" style="height: 600px" [scrollwheel]="false">
     <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
 </agm-map>
 <div class="container pt-md-4">
