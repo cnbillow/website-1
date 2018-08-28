@@ -21,6 +21,7 @@ import { LandingScreensComponent } from './landing-screens/landing-screens.compo
 import { LandingSecurityComponent } from './landing-security/landing-security.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
+import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
 
 
 const appRoutes: Routes = [
@@ -35,6 +36,7 @@ const appRoutes: Routes = [
   { path: 'blog/:slug',           component: PostDetailComponent,               data: { title: "Mike's Mobile Blog Post"}},
   { path: 'contact', 			        component: ContactComponent,					        data: { title: "Contact Mike's Mobile" }},
   { path: 'grid/:slug', 		      component: GridComponent, 					  	      data: { title: "Mike's Mobile Screen and Chimney Service" }},
+  { path: 'product-ext/:slug',    component: ProductDetailExtendedComponent,            data: {title: "Mike's Mobile Screen and Chimney Service"}},
   { path: 'products/:slug', 	    component: ProductDetailComponent, 		  		  data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'services/:slug', 	    component: ServiceDetailComponent, 			    	data: { title: "Mike's Mobile Services" }},
   { path: 'landingpages/:slug',   component: SeoAdwordsLpComponent,             data: { title: "Mike's Mobile Adwords Landing Pages"}},
@@ -68,6 +70,7 @@ const appRoutes: Routes = [
   {path:'about/window-and-door-coverings/window-and-door-screens-in-stockton', redirectTo:"/screens/stockton"},
   {path:'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa', redirectTo:"/screens/fairfield-vacaville"},
   {path:'window-door-screens-modesto', redirectTo:"/screens/modesto"},
+  {path:'sitemap',redirectTo:"/sitemap.xml"},
   
 
 

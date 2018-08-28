@@ -50,6 +50,7 @@ import { LandingScreensComponent } from './landing-screens/landing-screens.compo
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
+import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
 
 
 
@@ -92,6 +93,7 @@ import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,
     FlipcardListComponent,
+    ProductDetailExtendedComponent,
     
  
   ],
