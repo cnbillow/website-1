@@ -8,7 +8,6 @@ import { AgmCoreModule } from '@agm/core';
 
 
 
-
 import { StorageServiceModule} from 'angular-webstorage-service';
 import { MDBBootstrapModules } from 'ng-mdb-pro';
 import { MDBSpinningPreloader } from 'ng-mdb-pro';
@@ -50,7 +49,7 @@ import { LandingScreensComponent } from './landing-screens/landing-screens.compo
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
-
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 
 
@@ -105,6 +104,7 @@ import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
     Ng2PageScrollModule,
     NgxGalleryModule,
     StorageServiceModule,
+    LazyLoadImageModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     }),
