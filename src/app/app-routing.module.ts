@@ -22,10 +22,11 @@ import { LandingSecurityComponent } from './landing-security/landing-security.co
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 const appRoutes: Routes = [
-  
+  { path: 'privacy',              component:PrivacyComponent,                   data: { title: "Mike's Mobile Screen and Chimney Service"}},  
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
   { path: 'faq',                  component: FaqListComponent,                  data: { title:"Mike's Mobile FAQ"}},
@@ -43,7 +44,7 @@ const appRoutes: Routes = [
   { path: 'sem/:slug', 			      component: SeoLocationLpComponent, 				    data: { title: "Mike's Mobile Screen and Chimney Service" }},
   { path: 'search', 			        component: SearchDetailComponent, 				    data: { title: "Search Mike's Mobile" }},
   { path: '', 					          component: HomeComponent, pathMatch: 'full', 	data: { title: "Mike's Mobile Screen and Chimney Service" }},
-  
+
   { path:'chimneys/:slug',        component: LandingChimneyComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'screens/:slug',         component: LandingScreensComponent,           data: {title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'security/:slug',        component: LandingSecurityComponent,          data: {title:" Mikes Mobile Screen and Chimney Service"}                  },

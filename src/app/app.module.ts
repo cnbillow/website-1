@@ -51,6 +51,7 @@ import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.co
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
 import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 
@@ -94,6 +95,7 @@ import { ProductDetailExtendedComponent } from './product-detail-extended/produc
     ChimneyFaqComponent,
     FlipcardListComponent,
     ProductDetailExtendedComponent,
+    PrivacyComponent,
     
  
   ],
