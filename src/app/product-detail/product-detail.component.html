@@ -3,22 +3,33 @@
 
 <ng-container *ngIf="product">
 	<div class="container pb-4">
-    	<!-- Breadcrumb Navigation -->		
+		<!-- Breadcrumb Navigation -->
 		<nav class="breadcrumb mt-2">
 			<a class="breadcrumb-item" routerLink="/">Home</a>
-			<a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item" [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Doors</a>
-			<a *ngIf="product.category === 'Steel Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/steel-security-doors']">Steel Security Doors</a>	
-			<a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Security Doors and Windows</a>
+			<a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item" [routerLink]="['/grid/swinging-screen-doors']">Swinging
+				Screen Doors</a>
+			<a *ngIf="product.category === 'Steel Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/steel-security-doors']">Steel
+				Security Doors</a>
+			<a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Security
+				Doors and Windows</a>
 			<a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" [routerLink]="['/about/door']">Security Doors</a>
-			<a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" [routerLink]="['/about/window-screens']">Security Windows</a>
-			<a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item" [routerLink]="['/about/chimney-services']">Security Doors and Windows</a>
-			<a *ngIf="product.category === 'Security Doors and Windows'" class="breadcrumb-item" [routerLink]="['/about/security-doors-and-windows']">Security Doors and Windows</a>
-			<a *ngIf="product.category === 'Security Doors'" class="breadcrumb-item" [routerLink]="['/about/security-doors']">Security Doors</a>
-			<a *ngIf="product.category === 'Security Windows'" class="breadcrumb-item" [routerLink]="['/about/security-windows']">Security Windows</a>
+			<a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" [routerLink]="['/about/window-screens']">Security
+				Windows
+			</a>
+			<a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item" [routerLink]="['/about/chimney-services']">Security
+				Doors and Windows</a>
+			<a *ngIf="product.category === 'Security Doors and Windows'" class="breadcrumb-item" [routerLink]="['/about/security-doors-and-windows']">Security
+				Doors and Windows</a>
+			<a *ngIf="product.category === 'Security Doors'" class="breadcrumb-item" [routerLink]="['/about/security-doors']">Security
+				Doors
+			</a>
+			<a *ngIf="product.category === 'Security Windows'" class="breadcrumb-item" [routerLink]="['/about/security-windows']">Security
+				Windows
+			</a>
 			<a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" [routerLink]="['/about/awnings']">Awnings</a>
 			<span class="breadcrumb-item active">{{product.title}}</span>
 		</nav>
-    	<!-- /Breadcrumb Navigation -->
+		<!-- /Breadcrumb Navigation -->
 		<div class="row">
 			<!-- GALLERY SECTION -->
 			<div class="col-12 col-md-7 pb-3">
@@ -30,49 +41,53 @@
 							<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
 								<!--Panel 1-->
 								<mdb-tab heading="Single Stainless Steel Mesh">
-									<div class="row"> 
+									<div class="row">
 										<div class="col-12">
-											<img src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"/>
-										</div> 
+											<img src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+											/>
+										</div>
 									</div>
 								</mdb-tab>
-								<!--Panel 2--> 
+								<!--Panel 2-->
 								<mdb-tab heading="Double Stainless Steel Mesh">
-									<div class="row"> 
+									<div class="row">
 										<div class="col-12">
-											<img src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"/>
-										</div> 
+											<img src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+											/>
+										</div>
 									</div>
 								</mdb-tab>
 							</mdb-tabset>
-						</div>									
+						</div>
 					</div>
 					<div class="col-12">
 						<!-- Nav tabs -->
 						<mdb-tabset #staticTabs [buttonClass]="'nav-tabs tabs-2 blue'" [contentClass]="''">
 							<!--Panel 1-->
 							<mdb-tab heading="Single Amplimesh">
-								<div class="row"> 
+								<div class="row">
 									<div class="col-12">
-										<img src="/assets/images/security/sliding/display-photos/Single-Amplimesh-Sliding-Security-Door.jpg" class="img-fluid centered-sq"/>
-									</div> 
+										<img src="/assets/images/security/sliding/display-photos/Single-Amplimesh-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+										/>
+									</div>
 								</div>
 							</mdb-tab>
 							<!--Panel 2-->
 							<mdb-tab heading="Double Amplimesh">
-								<div class="row"> 
+								<div class="row">
 									<div class="col-12">
-										<img src="/assets/images/security/sliding/display-photos/Double-Amplimesh-Sliding-Security-Door.jpg" class="img-fluid centered-sq"/>
-									</div> 
+										<img src="/assets/images/security/sliding/display-photos/Double-Amplimesh-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+										/>
+									</div>
 								</div>
 							</mdb-tab>
 						</mdb-tabset>
 					</div>
 				</ng-container>
-				
+
 				<ng-container *ngIf="product.category === 'Steel Security Doors' || product.category === 'Swinging Screen Door'">
-					<!-- Modal Image for Swinging Screen Doors and Steel Security Doors -->				
-					<img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()"/>
+					<!-- Modal Image for Swinging Screen Doors and Steel Security Doors -->
+					<img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()" />
 					<p class="text-center p-2">(Click Image to Enlarge)</p>
 					<div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doorModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
@@ -91,7 +106,7 @@
 					</div>
 				</ng-container>
 
-				<!-- Normal Gallery for most Product Pages -->					
+				<!-- Normal Gallery for most Product Pages -->
 				<ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
 					<!--Carousel Wrapper-->
 					<app-main-gallery [Images]="gallery_images"></app-main-gallery>
@@ -99,78 +114,108 @@
 				</ng-container>
 			</div>
 			<!-- /GALLERY SECTION -->
-
 			<div class="col-12 col-md-5" id="productInfo">
 				<h5 class="text-left">{{product.category}}</h5>
 				<h3 class="text-left">{{product.title}}</h3>
-				<ul class="pb-3">
-					<li *ngFor="let bullet of product.bullets" id="l2">{{bullet}}</li>
-				</ul>
-				<div class="flex-row d-none d-md-block" (click)="toggleQuoteForm()">
+				<!--Accordion wrapper-->
+				<div class="container my-4" *ngIf="product.textList">
+					<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+						<mdb-item *ngFor="let item of product.textList; index as i">
+							<mdb-item-head>{{ item.title }}</mdb-item-head>
+							<mdb-item-body>{{ item.description }}</mdb-item-body>
+						</mdb-item>
+					</mdb-squeezebox>
+				</div>
+				<!--/.Accordion wrapper-->
+				<div class="container" *ngIf="product.bullets">
+					<ul class="pb-3">
+						<li *ngFor="let bullet of product.bullets" id="l2">{{bullet}}</li>
+					</ul>
+				</div>
+				<div class="flex-row d-none d-md-block my-4" (click)="toggleQuoteForm()">
 					<h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"> &nbsp; Get a Free Quote Now!</h4>
 				</div>
-				<div class="flex-row  d-md-none" >
-						<a class="white-text" href="tel:+1-877-520-3595"><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!</h4></a>
+				<div class="flex-row  d-md-none">
+					<a class="white-text" href="tel:+1-877-520-3595"><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i
+							 class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!</h4></a>
 				</div>
-					
-			
 				<div class="row" *ngIf="product.colorSet">
 					<div class="col-12">
 						<h4>Color Selection &nbsp; <span class="small">(click to zoom)</span></h4>
 						<!-- See color-swatch.component.ts, this iterates over all colors in og_services.json and builds a color-swatch component for it -->
 						<ng-container *ngFor="let i of product.colorSet">
-							<app-color-swatch  [swatchType]="i"></app-color-swatch>
-						</ng-container>	
-
-
-
+							<app-color-swatch [swatchType]="i"></app-color-swatch>
+						</ng-container>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<div class="container py-4" id="tab-section">
-		<div class="row">
-			<div class="col-md-12">
-				<nav>
-					<div class="nav blue nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab" href="#nav-overview" role="tab" aria-controls="nav-overview" aria-selected="true">Product Overview</a>
-						<a class="nav-item nav-link" id="nav-specs-tab" data-toggle="tab" href="#nav-specs" role="tab" aria-controls="nav-specs" aria-selected="false">Technical Specs</a>
-						<a class="nav-item nav-link" id="nav-options-tab" data-toggle="tab" href="#nav-options" role="tab" aria-controls="nav-options" aria-selected="false">Options</a>
-						<a class="nav-item nav-link" id="nav-related-tab" data-toggle="tab" href="#nav-related" role="tab" aria-controls="nav-related" aria-selected="false">Related Products</a>
-						<a class="nav-item nav-link" id="nav-warranty-tab" data-toggle="tab" href="#nav-warranty" role="tab" aria-controls="nav-warranty" aria-selected="false">Warranty</a>
+		<div class="container">
+			<mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
+				<mdb-tab *ngFor="let info of product.details; let i = index" heading="{{info.title}}">
+					<div class="row content">
+						<div *ngIf="info.description">
+							<p class="p-4" [innerHTML]="info.description"></p>
+						</div>
+						<div *ngIf="info.links">
+							<ul class="p-4">
+								<li *ngFor="let i of info.links | keys">
+									<a [routerLink]="[i.value]">{{i.key}}</a>
+								</li>
+							</ul>
+						</div>
+						<div *ngIf="info.video" class="w-100">
+							<iframe *ngIf="info.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(info.video)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
 					</div>
-				</nav>
-				<div class="tab-content" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-						<p class="p-4" [innerHTML]="product.productOverview"></p>
-					</div>
-					<div class="tab-pane fade" id="nav-specs" role="tabpanel" aria-labelledby="nav-specs-tab">
-						<div class="p-4" [innerHTML]="product.technicalSpecs"></div>
-					</div>
-					<div class="tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab">
-						<div class="p-4" [innerHTML]="product.options"></div>
-					</div>
-					<div class="tab-pane fade" id="nav-related" role="tabpanel" aria-labelledby="nav-related-tab">
-						<ul class="p-4">
-							<li *ngFor="let i of product.relatedProducts | keys">
-								<a [routerLink]="[i.value]" >{{i.key}}</a>
-							</li>
-						</ul>
-					</div>
-					<div class="tab-pane fade" id="nav-warranty" role="tabpanel" aria-labelledby="nav-warranty-tab">
-						<div class="p-4" [innerHTML]="product.warranty"></div>
+		</mdb-tab>
+		</mdb-tabset>
+	</div>
+	<!-- <div class="row">
+				<div class="col-md-12">
+					<nav>
+						<div class="nav blue nav-tabs" id="nav-tab" role="tablist">
+							<a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab" href="#nav-overview" role="tab" aria-controls="nav-overview"
+							 aria-selected="true">Product Overview</a>
+							<a class="nav-item nav-link" id="nav-specs-tab" data-toggle="tab" href="#nav-specs" role="tab" aria-controls="nav-specs"
+							 aria-selected="false">Technical Specs</a>
+							<a class="nav-item nav-link" id="nav-options-tab" data-toggle="tab" href="#nav-options" role="tab" aria-controls="nav-options"
+							 aria-selected="false">Options</a>
+							<a class="nav-item nav-link" id="nav-related-tab" data-toggle="tab" href="#nav-related" role="tab" aria-controls="nav-related"
+							 aria-selected="false">Related Products</a>
+							<a class="nav-item nav-link" id="nav-warranty-tab" data-toggle="tab" href="#nav-warranty" role="tab" aria-controls="nav-warranty"
+							 aria-selected="false">Warranty</a>
+						</div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
+							<p class="p-4" [innerHTML]="product.productOverview"></p>
+						</div>
+						<div class="tab-pane fade" id="nav-specs" role="tabpanel" aria-labelledby="nav-specs-tab">
+							<div class="p-4" [innerHTML]="product.technicalSpecs"></div>
+						</div>
+						<div class="tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab">
+							<div class="p-4" [innerHTML]="product.options"></div>
+						</div>
+						<div class="tab-pane fade" id="nav-related" role="tabpanel" aria-labelledby="nav-related-tab">
+							<ul class="p-4">
+								<li *ngFor="let i of product.relatedProducts | keys">
+									<a [routerLink]="[i.value]">{{i.key}}</a>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="nav-warranty" role="tabpanel" aria-labelledby="nav-warranty-tab">
+							<div class="p-4" [innerHTML]="product.warranty"></div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div> -->
 	</div>
 
-<app-footer-gallery [Images] ="product.recentInstallImages"></app-footer-gallery>
+	<app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
 </ng-container>
 
 <app-footer></app-footer>
-<app-quote-form ></app-quote-form>
-
-	
+<app-quote-form></app-quote-form>

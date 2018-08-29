@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
+import { DomSanitizer } from '@angular/platform-browser';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
 
 import * as $ from 'jquery';
@@ -27,7 +28,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
 
     slug:string;
     product:ServiceItem;
-
+    videoLink=null
     colorList = ['stdColors', 'colorSetx4', 'colorSetx6', 'swingingDoorColors', 'securityDoorColors'];
 
     stdColors = {
@@ -83,7 +84,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     toggleQuoteForm(){
       this.quoteForm.show()
     }
-    constructor(private route: ActivatedRoute, private _service:ServicesService) { }
+    constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
     
     ngOnInit() {
         this.routeSub = this.route.params.subscribe(params => {
@@ -92,7 +93,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 data.filter(item => {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
-
+                        this.videoLink=this.sanitizer.bypassSecurityTrustUrl(this.product.video)
                         this.recent_install_images = this.product.recentInstallImages;                        
                         if (this.product.thumbImages && this.product.thumbImages.length > 1){
                             this.gallery_images = this.product.thumbImages;
