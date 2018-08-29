@@ -49,13 +49,10 @@ import { LandingScreensComponent } from './landing-screens/landing-screens.compo
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
-<<<<<<< HEAD
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-=======
 import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 
->>>>>>> 47ec26c533ad6ddfdd9f04b33efcc6f2afa823b5
 
 
 
