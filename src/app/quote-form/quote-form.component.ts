@@ -25,7 +25,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
   groupOptionsSelect=[]
   emailForm:FormGroup
   ngOnInit() {
-    console.log(this.storage);
+    //console.log(this.storage);
       this.emailForm = new FormGroup({
         'name': new FormControl("",[
             Validators.required,

@@ -43,7 +43,7 @@ export class ServicesService {
 			'utm_medium':utm_medium,
 			'utm_campaign':utm_campaign
     }
-		console.log("S",utm_source,"M",utm_medium,"C:",utm_campaign)
+		//console.log("S",utm_source,"M",utm_medium,"C:",utm_campaign)
 		return this.httpClient.post(apiSendMessageEndpoint, data, {
 			headers: new HttpHeaders().set("content-type","application/json")
 			})
