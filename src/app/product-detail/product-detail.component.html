@@ -120,7 +120,7 @@
 					<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
 						<mdb-item *ngFor="let item of product.textList; index as i">
 							<mdb-item-head>{{ item.title }}</mdb-item-head>
-							<mdb-item-body>{{ item.description }}</mdb-item-body>
+							<mdb-item-body><p [innerHTML]="item.description"></p></mdb-item-body>
 						</mdb-item>
 					</mdb-squeezebox>
 				</div>
@@ -176,6 +176,9 @@
 								</li>
 							</ul>
 						</div>
+					</div>
+					<div *ngIf="info.image" class="text-center pb-4 shadowbox w-100">
+						<img class="img-fluid z-depth-2 " src="{{info.image}}" (click)="doorModal.show()" />
 					</div>
 				</mdb-tab>
 			</mdb-tabset>
