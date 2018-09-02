@@ -948,7 +948,9 @@
             },
             {
                 "title":"Video",
-                "video":"https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
+                "video":{
+                    "Pet Doors":"https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
+                }
             }
             
         ],
