@@ -116,11 +116,13 @@
 				<h5 class="text-left">{{product.category}}</h5>
 				<h3 class="text-left">{{product.title}}</h3>
 				<!--Accordion wrapper-->
-				<div class="container my-4 shadowbox" *ngIf="product.textList" >
+				<div class="container my-4 shadowbox" *ngIf="product.textList">
 					<mdb-squeezebox [multiple]="false" aria-multiselectable="true">
 						<mdb-item *ngFor="let item of product.textList; index as i">
 							<mdb-item-head>{{ item.title }}</mdb-item-head>
-							<mdb-item-body><p [innerHTML]="item.description"></p></mdb-item-body>
+							<mdb-item-body>
+								<p [innerHTML]="item.description"></p>
+							</mdb-item-body>
 						</mdb-item>
 					</mdb-squeezebox>
 				</div>
@@ -156,17 +158,24 @@
 					<div class="row content">
 						<div *ngIf="info.description" class="shadowbox w-100">
 							<p class="p-4" [innerHTML]="info.description"></p>
+							<div *ngIf="info.image" class="text-center pb-4 w-100">
+								<img class="img-fluid z-depth-2 " src="{{info.image}}" (click)="doorModal.show()"/>
+							</div>
 						</div>
 						<div *ngIf="info.links" class="shadowbox w-100">
-							<ul class="p-4" >
+							<ul class="p-4">
 								<li *ngFor="let i of info.links | keys">
 									<a [routerLink]="[i.value]">{{i.key}}</a>
 								</li>
 							</ul>
 						</div>
 						<div *ngIf="info.video" class="w-100">
-							<iframe *ngIf="info.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(info.video)" frameborder="0"
-							 allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<div *ngFor="let i of info.video | keys" class="text-center py-4">
+								<h3 >{{i.key}}</h3>
+								<hr>
+								<iframe *ngIf="info.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)" frameborder="0"
+							 	allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
 						</div>
 						<div *ngIf="info.questions" class="w-100">
 							<ul class="p-4">
@@ -176,9 +185,6 @@
 								</li>
 							</ul>
 						</div>
-					</div>
-					<div *ngIf="info.image" class="text-center pb-4 shadowbox w-100">
-						<img class="img-fluid z-depth-2 " src="{{info.image}}" (click)="doorModal.show()" />
 					</div>
 				</mdb-tab>
 			</mdb-tabset>
