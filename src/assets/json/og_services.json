@@ -52,30 +52,123 @@
         "slug":"solar-screens",
         "category":"Door and Window Screens",
         "subcategory":"Window",
-        "type":"services",
+        "type":"products",
         "tileImage":"/assets/images/screens/solar-screens/solar-screen2.jpg",
         "tileText":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
         "serviceImgCaption":"Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
-        "video":"https://www.youtube.com/embed/WtENSdKQL5k",
         "colorSet":["screenFrameColors","colorSetx4" ],
         "textList":[
             {
-                "title":"Pet proof- no need for a pet guard on your patio door.",
-                "description":"Suntex solar screen generally covers the entire window and also provides insect protection like regular screening. Suntex solar screen exterior shading is made of strong vinyl-coated polyester fabric. Suntex solar screen is mildew and fade resistant and needs only an occasional cleaning with mild soap and water."
+                "title":"Pet proof",
+                "description":"Being 'Pet Proof' is a bold claim and Mike's Moble will stand behind it 100% so there is no need for an addtional pet guard on any door you upgrade with solar screen."
             },
             {
-                "title":"10 Year Warranty on Materials and Installation.",
-                "description":"Our Solar Screens come with strength enhancing and aesthetic spreader bars or we can even do custom grid patterns to match your windows. Solar Screens are framed in 7/16 x 1” extruded aluminum- mitered with hidden corners (We NEVER use the weaker plastic corners that become brittle and break after a few years) Frame colors are White, Bronze, Mill (raw aluminum) or Beige."
+                "title":"Daytime Privacy",
+                "description":"Solar screen generally covers your entire window and in addition to the UV blockage, also offers excellent privacy from prying neighbors for a more secure feeling inside your home."
             },
             {
-                "title":"Solar Screens offer daytime privacy",
-                "description":"Suntex solar screen affords full vision from the inside looking out. Suntex solar screen comes in two grades of sun protection and 5 colors to enhance the aesthetic values of any exterior. Custom shapes and arches are no problem for us! Can lower the inside temperature in the summer 15-20 degrees."
+                "title":"Grade comparison 80 VS 90",
+                "description":"80% = Cuts heat and allows sunlight and ventilation (recommended for most residential applications)<br/><br/> 90% = Cuts more heat than 80% but blocks more natural light and almost all ventilation (recommended for non-opening windows or some commercial applications)"
             }
         ],
-        "extraImagesTitle":"Save in the Shade!",
-        "extraImages": {
-            "img":"/assets/images/screens/solar-screens/main-display/solar-screens-infographic.png"
-        },
+        "thumbImages":[
+            {
+                "alt":"Solar Window Screen",
+                "small": "/assets/images/screens/solar-screens/main-display/Solar-Screen-1.jpg",
+                "medium":"/assets/images/screens/solar-screens/main-display/Solar-Screen-1.jpg",
+                "big":"/assets/images/screens/solar-screens/main-display/Solar-Screen-1.jpg"
+            },
+            {
+                "alt":"Verticle Solar Screen",
+                "small":"/assets/images/screens/solar-screens/main-display/Solar-Screen-2.jpg",
+                "medium":"/assets/images/screens/solar-screens/main-display/Solar-Screen-2.jpg",
+                "big":"/assets/images/screens/solar-screens/main-display/Solar-Screen-2.jpg"
+            },
+            {
+                "alt":"Dark solar screen",
+                "small":"/assets/images/screens/solar-screens/main-display/Solar-Screen-3.jpg",
+                "medium":"/assets/images/screens/solar-screens/main-display/Solar-Screen-3.jpg",
+                "big":"/assets/images/screens/solar-screens/main-display/Solar-Screen-3.jpg"
+            },
+            {
+                "alt":"Door Solar Screen",
+                "small": "/assets/images/screens/solar-screens/main-display/Solar-Screen-4.jpg",
+                "medium":"/assets/images/screens/solar-screens/main-display/Solar-Screen-4.jpg",
+                "big":"/assets/images/screens/solar-screens/main-display/Solar-Screen-4.jpg"
+            },
+            {
+                "alt":"Light Solar Screen",
+                "small": "/assets/images/screens/solar-screens/main-display/Solar-Screen-5.jpg",
+                "medium":"/assets/images/screens/solar-screens/main-display/Solar-Screen-5.jpg",
+                "big":"/assets/images/screens/solar-screens/main-display/Solar-Screen-5.jpg"
+            }
+
+        ],
+        "details": [
+            {
+                "title": "Product Overview",
+                "description": "Suntex solar screen generally covers the entire window and also provides insect protection like standard fiberglass screen material.<br/><br/> Suntex solar screen exterior shading is made of strong vinyl-coated polyester fabric.<br/><br/>Phifer suntex is mildew and fade resistant and needs only an occasional cleaning with mild soap and water.<br/><br/>Solar screen is a weave instead of a mesh, making it extremely durable against pets, UV rays and normal wear and tear.<br/><br/>",
+                "image": "/assets/images/screens/solar-screens/main-display/solar-screens-infographic.png"
+            },
+            {
+                "title": "Technical Specs",
+                "description": "<p><span class='font-weight-bold'>Style:</span> Suntex 80, Suntex 90</p><p><span class='font-weight-bold'>SunTex 80/90 Colors:</span> Beige, Black, Brown, Dark Bronze, Grey, Stucco</p><p><span class='font-weight-bold'>Fire Classification</span></p><p><span class='font-weight-bold'>Suntex 80:</span> California Technical Bulletin 117, NFPA 101 (Class B Rating), IBC Section 803.1.1 (Class B Rating), CAN/ULC-S 109-03 (large scale) and CFR 49V 571.302 (FMVSS 302)</p><p><span class='font-weight-bold'>Suntex 90:</span> NFPA 101 (Class A Rating), IBC Section 803.1.1 (Class A Rating), CFR 49V 571.302 (FMVSS 302), California Techincal Bulletin 117, CAN/ULC S-109 (large scale) and ASTM E-662</p><p><span class='font-weight-bold'>Bacteria and Fungal Resistance:</span> ASTM E 2180 and ASTM G21; includes Microban antimicrobial additives</p><p><span class='font-weight-bold'>Environmental Certification:</span> Certified to GREENGUARD and GREENGUARD Gold standards for low chemical emissions into indoor air during product usage</p><p><span class='font-weight-bold'>Lead Free:</span> RoHS/Directive 2002/95/EC, US Consumer Product Safety Commission Section 101, ANSI/WCMA A 100.1-2007 for lead content and REACH (EC 1907/2006) compliant</p><p><span class='font-weight-bold'>UV Protection:</span> Seal of Approval by the Melanoma International Foundation (MIF) for effectiveness in preventing sun damage to the skin or eyes (SunTex 90)</p><p><span class='font-weight-bold'>Warranty:</span> 10-year exterior</p><p><span class='font-weight-bold'>Breaking Strength</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 400 Warp, 380 Fill (lb)</p><p><span class='font-weight-bold'>Suntex 90:</span> 480 Warp, 340 Fill (lb)</p><p><span class='font-weight-bold'>Stiffness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 500 Warp, 300 Fill (mg)</p><p><span class='font-weight-bold'>Suntex 90:</span> 400 Warp, 310 Fill (mg)</p><p><span class='font-weight-bold'>Standard Widths</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 24 in to 96 in (60.9cm to 243.8cm)</p><p><span class='font-weight-bold'>Suntex 90:</span> 36 in to 96 in (91.4cm to 243.8cm); 120 in (304.8cm) in all colors except Grey.</p><p><span class='font-weight-bold'>Standard Roll Length 80 and 90:</span> 84 in to 100' (213.4cm to 30.48m)</p><p><span class='font-weight-bold'>Composition 80 and 90:</span> 31% Polyester, 69% Vinyl on Polyester</p><p><span class='font-weight-bold'>Mesh Weight</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 13.5 oz/yd2 (457.73 g/m2)</p><p><span class='font-weight-bold'>Suntex 90:</span> 17.2 oz/yd2 (583.18 g/m2)</p><p><span class='font-weight-bold'>Fabric Thickness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 0.040 in (1.016 mm</p><p><span class='font-weight-bold'>Suntex 90:</span> 0.039 in (0.991 mm)</p><p><span class='font-weight-bold'>Openness Factor</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 25%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 10%</p><p><span class='font-weight-bold'>UV Blockage</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 75%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 90%</p><br><p><span class='font-weight-bold'>Microban</span></p><p>Phifer sun control fabrics are the only shade fabrics in the world to include Microban protection. Microban antimicrobial protection works continuously to inhibit the growth of bacteria, mold and mildew that can cause stains, odors and product deterioration.</p><p>Microban antimicrobial protection is infused into Phifer SunTex fabrics for lasting protection that won't wash off or wear away for the lifetime of the shade.</p><p>SunTex fabrics infused with Microban antimicrobial technology are ideal for any commercial or residential environment where microbes are a concern, including: Healthcare, Hospitality, Home, Office, Schools and Institutions.</p><p>All SunTex fabrics include Microban antimicrobial product protection.</p><p>Microban is the leading technology in antibacterial/antifungal protection.</p><p>Look for the Microban logo in your fabric specifications.</p>"
+            },
+            {
+                "title": "Options",
+                "description": "<p><span class='font-weight-bold'>Frame Colors:</span> Bronze, white, almond</p><br/><p><span class='font-weight-bold'>Screen UV blockage ratings:</span> 80, 90</p><br/><p><span class='font-weight-bold'>Solar Screen Color Options:</span> Black, Brown, Grey, Stucco, Beige</p><br/><p><span class='font-weight-bold'>Sizes:</span> Aside from traditional rectangular window shapes we can also custom make solar screens in the following shapes:</span> Triangle, Pentagon, Trapezoid, Hexagon, Pentagon, Octagon, Hexagon, Isoscles Triangle, Quarter Circle, Quarter Circle w/ Extended Legs, Half Circle, Half Circle w/ Extended Legs, Full Circle, Quarter Archtop w/ Extended Legs, Archtop w/ Extended Legs, Archtop, Quarter Archtop</p><br/><p><span class='font-weight-bold'>Pass Through Wickets Available</p><br/><p><span class='font-weight-bold'>Spreader Bars or Grids are Available</p><br/>"
+            },
+            {
+                "title": "Related Products",
+                "links": {
+                    "Sliding Screen Doors": "/products/sliding-screen-door",
+                    "Swinging Screen Doors": "/products/swinging-screen-doors",
+                    "Tru-Frame Security Doors":"/products/tru-frame-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title": "Warranty",
+                "description": "Mike's Mobile offers a 10 year warranty on all solar screen including materials and labor from the date of purchase."
+            },
+            {
+                "title":"Faq",
+                "questions":{
+                    "How does exterior shading work":"Exterior Sun Control Screens absorb and dissipate a large percentage of solar heat and glare before it reaches windows and doors. This results in a more comfortable indoor temperature, more efficient air conditioning and ultimately energy conservation.",
+                    "Are Sun Control Screens easy to clean":"Yes, they only need an occasional cleaning with mild soap and water. They are also mildew and fade resistant.",
+                    "Do Sun Control Screens come with a warranty":"Yes, Phifer offers a warranty on Exterior Sun Control Products. Contact us to request warranty information",
+                    "Do Sun Control Screens block airflow":"Exterior sun control products still allow good airflow.",
+                    "How are Sun Control Screens at insect protection":"These products protect against insects and can replace regular insect screening on windows, doors and porches.",
+                    "Does Sun Control Screening look like standard insect screening":"Sun Control Screening is available in a wider range of colors than regular insect screening. From the outside, sun control screening offers a uniform look to windows and doors, providing a more aesthetically pleasing overall look to home and building exteriors than regular insect screening. Outward visibility remains good through exterior sun control.",
+                    "​If I am replacing my insect screens with Sun Control Screening, what spline size should I use":"The product that is being installed and the screen frame opening determine spline size. Measure across the opening of the screen frame spline groove and use one size smaller spline for fabrication.",
+                    "​Do Sun Control Screens provide privacy":"Solar screens can provide daytime privacy. Visibility through Sun Control Screens depends on light location. Lighted interiors allow inward visibility at night, while sunlight during the daytime diminishes inward visibility, offering more privacy.",
+                    "Which products provide extra strength":"SunTex: Heavy-duty mesh is tear and puncture resistant.",
+                    "Will Sun Control Screens affect houseplants":"No. Most houseplants require filtered light. Shading reduces yellowing and water loss. In most cases, plants do better with shading than without but will require some amounts of direct sunlight.",
+                    "Can Sun Control Screens be installed over different shapes of windows":"Yes. All shapes and sizes of windows can be shaded with sun control products including rakes, octagons, circles, etc.",
+                    "What should be the payback period from utility savings after installing Sun Control Screens":"Many Sun Control Screen payback period estimates fall between two and three cooling seasons. Studies have shown that shaded windows can save up to 25% of the cost of air conditioning when compared to unshaded windows.",
+                    "How do Sun Control Screens compare to glass tinting":"Glass tinting filters the light along with the UV rays. Sun Control Screens reduce the volume of light without filtering. As the glass filters sunlight through the tint, it will maintain heat, which dissipates into the house, making sun control screens more effective than glass tinting for energy savings.",
+                    "If I have reflective light-colored drapes or blinds, are Sun Control Screens still beneficial":" Yes, along with the heat that is absorbed by the drapes/blinds, they are also subject to UV damage. The combination of light-colored interior shades and dark exterior screens will provide optimum results.",
+                    "Should Sun Control Screens be removed in the winter":"To protect carpets, drapes and furniture from damaging UV rays, the Sun Control Screens should remain in place even during cooler months. However, if passive solar heat gain is desired in the winter months the screens can be removed and stored until springtime.",
+                    "Can Sun Control Screens be removed to clean the windows":"Yes, although windows and doors are kept cleaner with the Sun Control Screens installed, they are removable just like insect screening for ease in washing screens and window glass.",
+                    "​How much will Sun Control Screens darken the interior":"While UV blockage is 65% to 90%, the Visual Transmittance is 14% to 40% depending on the screening fabric selected. Light through the Sun Control Screen is not tinted, but it is reduced in volume, allowing good light with reduced glare.",
+                    "What color Sun Control Screen is more effective for heat reduction":"All colors provide significant heat reduction when installed on the exterior but dark colors are better at reducing glare and improving outward visibility.",
+                    "How much ultraviolet light do Sun Control Screens block":"UV blockage depends on the fabric’s weave and openness. In general, the UV blockage percentage will be the reciprocal of the openness factor.",
+                    "What is the GREENGUARD® Certification":"GREENGUARD is an indoor air quality certification program for low emitting products. GREENGUARD tests products’ chemical emissions by evaluating over 75,000 chemicals, including volatile organic compounds, carcinogens and reproductive toxins. All Exterior Sun Control fabrics are GREENGUARD certified.",
+                    "What is Microban®":"Microban antimicrobial protection is infused into SunTex fabrics to inhibit the growth of bacteria, mold, and mildew."
+                    }
+            },
+            {
+                "title": "Video",
+                "video":{
+                    "Phifer Exterior Sun Control Overview":"https://www.youtube.com/embed/tLk0T-TUV9w",
+                    "Phifer Product Spotlight: SunTex 80/90":"https://www.youtube.com/embed/3p0T0mJWbjM",
+                    "Phifer Sun Control Screening Demonstration":"https://www.youtube.com/embed/R6MHLvwl5d4",
+                    "Microban Overview Video":"https://www.youtube.com/embed/0I3b2g5QdLw",
+                    "GREENGUARD Overview":"https://www.youtube.com/embed/K0sBE2IIX-o",
+                    "Phifer Solar Screen Testimonial":"https://www.youtube.com/embed/WtENSdKQL5k"
+                }
+            }
+            ],
         "recentInstallImages": [
             {
                 "alt":"Almond Solar Screens",
@@ -815,7 +908,7 @@
         "details":[
             {
                 "title":"Product Overview",
-                "description":"PRIDE PET DOOR<br/>  If you like a trusted name on your products, the Pride Pet Door is the way to go. Pride offers sturdy, reliable products, and some of our customers have used this pet door with multiple pets for over 20 years! <br/> Features of the Pride Doors: <br/> The flap is a heavy, black rubber that is particularly durable. Incorporates a two piece design which includes an inner flap and an outer “U” shape for better sealing and insulating value. <br/> The locking cover is particle board enameled bright white on one side for greater visibility to the pet. For safety reasons it is designed to be breakable in case the pet crashes into it from the wrong side. It can be installed on either side of the pet door.<br/> All sizes can be installed through screens using Pride screen adapter kits.<br/> Perfect Time for a Pride Pet Door <br/> Affordable yet durable solution that blocks out sunlight due to its solid color. A sturdy dog door to install through a screen enclosure. Large selection of frame color choices to match your home. This pet door can be installed pretty much anywhere."
+                "description":"<p><span class='font-weight-bold'>PRIDE PET DOOR</span><br />If you like a trusted name on your products, the Pride Pet Door is the way to go. Pride offers sturdy, reliable products, and some of our customers have used this pet door with multiple pets for over 20 years!&nbsp;<br />Features of the Pride Doors:&nbsp;<br />The flap is a heavy, black rubber that is particularly durable. Incorporates a two piece design which includes an inner flap and an outer &ldquo;U&rdquo; shape for better sealing and insulating value.&nbsp;<br />The locking cover is particle board enameled bright white on one side for greater visibility to the pet. For safety reasons it is designed to be breakable in case the pet crashes into it from the wrong side. It can be installed on either side of the pet door.<br />All sizes can be installed through screens using Pride screen adapter kits.<br />Perfect Time for a Pride Pet Door&nbsp;<br />Affordable yet durable solution that blocks out sunlight due to its solid color. A sturdy dog door to install through a screen enclosure. Large selection of frame color choices to match your home. This pet door can be installed pretty much anywhere.</p> <hr /> <p><br />If you like a trusted name on your products, the Pride Pet Door is the way to go. Pride offers sturdy, reliable products, and some of our customers have used this pet door with multiple pets for over 20 years!&nbsp;</p> <p><br /><span class='font-weight-bold'>Features of the Pride Doors:</span>&nbsp;<br />The flap is a heavy, black rubber that is particularly durable. Incorporates a two piece design which includes an inner flap and an outer &ldquo;U&rdquo; shape for better sealing and insulating value.&nbsp;<br />The locking cover is particle board enameled bright white on one side for greater visibility to the pet. For safety reasons it is designed to be breakable in case the pet crashes into it from the wrong side. It can be installed on either side of the pet door.<br />All sizes can be installed through screens using Pride screen adapter kits.</p> <p><br /><span class='font-weight-bold'>Perfect Time for a Pride Pet Door</span>&nbsp;<br />Affordable yet durable solution that blocks out sunlight due to its solid color. A sturdy dog door to install through a screen enclosure. Large selection of frame color choices to match your home. This pet door can be installed pretty much anywhere.</p> <ul> <li>WEIGHT 4.0000</li> <li>YOUR MAXIMUM PET SIZE Cats, Large Cats, Small Dogs, Medium Dogs, Large Dogs</li> <li>CLIMATE SUITABILITY Temperate-3 Season</li> <li>WIND RESISTANCE High</li> </ul>"
             },
             {
                 "title":"Technical Specs",
@@ -838,8 +931,26 @@
                 "description":"Pride Pet Doors Limited Warranty:<br/>To the original purchaser, Z Industries warrants this product and its component parts to be free of defects on materials and workmanship for a period of one year from the date of purchase. Damage caused by accident, improper installation or abuse, including damage caused by pets, is specifically excluded from this warranty. Manufacturer's liability on any claim shall not exceed the cost of the product. In no instance shall manufacturer be responsible for consequential damage resulting from the use of this product. For a period of one year from the date of purchase, any defective product or part may be sent, freight prepaid, to Z Industries for replacement or repair at no charge. Proof of purchase date must accompany any returned item. This warranty replaces any and all previous warranties, either written, oral, or implied, and is the only warranty made by this company. This warranty gives you specific legal rights. You may have other rights which vary from state to state.<br/>SAVE THIS DOCUMENT AND PROOF OF PURCHASE"
             },
             {
+                "title":"Faq",
+                "questions":{
+                    "If I would like to use the Pride door through my screen do I just have to purchase the adapter":"If you do not have the pet door yet you must purchase the door and the adapter separately. If you already own a Pride Deluxe Pet Door, then yes, you only need to purchase the Pride Door Screen Adapter. We also have the Pride Pet Door for Screens that includes both.",
+                    "Is there a clear version of the flap available":"Currently, there is no clear flap available. The solid black is a durable solution that blocks out sunlight.",
+                    "My Johnson model had side magnets, does this have side magnets too":"This replacement for the Johnson models does not have side magnets in the Small, Medium, and Large.",
+                    "How do I lock this at night or when I am out of town":"A locking cover comes with every purchase. You can slide it on either side of the frame to let your pet know they cannot enter from outside or the inside",
+                    "What is the flap made out of":"The flap is made out of recycled tire rubber. This does make it heavier, so smaller pets may need training in order to use the door.",
+                    "How thick does my door have to be in order to install this":"There is no thickness required since it is not self framing. You or a contractor will have to frame out the door or wall.",
+                    "Can I get the U shaped piece by itself":"The U shaped piece is not sold separately, it comes with the replacement flap should you need another one.",
+                    "What kind of weather does this work against":"The insulation value is moderate, so it might not be the best choice for climates with extreme wind, cold or hot weather.",
+                    "What is the locking cover made out of":"The cover to secure the opening is made of fiberboard. It is prone to damage from rain so be sure to keep it away from extreme moisture.",
+                    "Can I install this in a steel door":"Yes! This can be installed almost anywhere, although we suggest installing in solid core materials.",
+                    "I would like to purchase this in replacement of my Johnson frame, are they going to fit the hole in my door exactly the same":"The dimensions should be pretty close. We would suggest double checking your existing rough cut to make sure this new item will fit. For any flap size, the rough cut dimension is included in the size chart."
+                }
+            },
+            {
                 "title":"Video",
-                "video":"https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
+                "video":{
+                    "Pet Doors":"https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
+                }
             }
             
         ],
@@ -868,21 +979,7 @@
                 "title":"Measuring Guide",
                 "description":"Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary"
             }
-        ],
-        "recentInstallImages":[
-            {  
-                "alt":"Pet door with dog",
-                "small": "/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg", 
-                "medium":"/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg", 
-                "big":"/assets/images/screens/pet-door/recent-installs/Pet-screen-door.jpg"
-            },
-            {   
-                "alt":"pet door small dog",
-                "small": "/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg", 
-                "medium":"/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg", 
-                "big":"/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg"
-            }
-    ]
+        ]
     },
     {
         "title":"Inspections",
