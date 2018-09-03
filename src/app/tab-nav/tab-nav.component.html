@@ -45,10 +45,10 @@
         <ng-container #navwrap *ngFor="let info of details; let i = index">
         <mdb-tab *ngIf="info!='' "  heading="{{info.title }} ">
           <div class="row content">
-            <div *ngIf="info.description">
+            <div *ngIf="info.description" class="shadowbox w-100">
               <p class="p-4" [innerHTML]="info.description"></p>
             </div>
-            <div *ngIf="info.links">
+            <div *ngIf="info.links" class="shadowbox w-100">
               <ul class="p-4">
                 <li *ngFor="let i of info.links | keys">
                   <a [routerLink]="[i.value]">{{i.key}}</a>
