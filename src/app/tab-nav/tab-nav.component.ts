@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input, SimpleChanges, OnChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
@@ -9,7 +9,7 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
   templateUrl: './tab-nav.component.html',
   styleUrls: ['./tab-nav.component.sass']
 })
-export class TabNavComponent implements OnInit {
+export class TabNavComponent implements OnInit, OnChanges {
   @Input() details;
   counter = 0;
   constructor(private sanitizer:DomSanitizer) { }
@@ -20,5 +20,6 @@ export class TabNavComponent implements OnInit {
     //Called before any other lifecycle hook. Use it to inject dependencies, but avoid any serious work here.
     //Add '${implements OnChanges}' to the class.
     this.counter++;
+    // console.log(this.counter);
   }
 }
