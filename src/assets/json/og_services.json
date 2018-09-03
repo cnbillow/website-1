@@ -1128,7 +1128,7 @@
         "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/rear-firewall-heat-damage/rear-firewall-heat-damage.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"Now, for a fraction of the price of a rebuild, we can usually patch these cracks and install a radiant fireback which radiates heat into your home making your fireplace more efficient while at the same time protecting your home from further damage!",
         "textList":[
             {
                 "title":"Protect your rear firewall from further heat damage",
@@ -1172,7 +1172,7 @@
         "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside!",
         "textList":[
             {
                 "title":"With every masonry chimney comes deterioration over time",
@@ -1220,7 +1220,7 @@
         "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/chimney-liner/chimney-liner.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"If gases or combustible materials escape into attics, walls or ceiling spaces that are next to the chimney a fire may start or smolder causing damage and life-threatening conditions!",
         "textList":[
             {
                 "title":"Keep your chimney burning properly and home safe!",
@@ -1270,7 +1270,7 @@
         "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/refractory-panels/Fireplace-Refractory-Panels.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"Continued fires with damaged panels is risky business, so don’t risk it!",
         "textList":[
             {
                 "title":"About Refractory Panels",
@@ -1320,7 +1320,7 @@
         "category":"Repair",
         "type":"services",
         "tileImage":"assets/images/chimneys/repairs/de-glazing/Chimney-DeGlazing.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"Glazed creosote is impossible to remove with Standard cleaning. It requires a comprehensive chimney de-glazing solution that allows the glaze to be removed without damaging your chimney stack!",
         "textList":[
             {
                 "title":"About Chimney De-Glazing",
@@ -1350,7 +1350,7 @@
         "category":"Accessories",
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "tileText":"A chimney cap does a great job of protecting your chimney from water damage!",
         "serviceImgCaption":"Keep animals and leaves out of your chimney.",
         "textList":[
             {
@@ -1359,7 +1359,7 @@
             },
             {
                 "title":"Animal Protection",
-                "description":"Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, swuirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
+                "description":"Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, squirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
             },
             {
                 "title":"Spark Protection",
@@ -1373,12 +1373,12 @@
         "category":"Accessories",
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/fireplace-grate/1.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "tileText":"The fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient!",
         "serviceImgCaption":"One of the most overlooked chimney parts is a quality fireplace grate. ",
         "textList":[
             {
                 "title":"Better Quality Burn",
-                "description":"Better quality burn – The  fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient."
+                "description":"Better quality burn – The fireplace grate lifts wood off of the floor allowing air to be pulled in from underneath the wood, your fire will be supercharged with air making it hotter and more efficient."
             },
             {
                 "title":"More Complete Burn",
@@ -1408,7 +1408,7 @@
         "category":"Accessories",
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/fireplace-glass-doors/black.png",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "tileText":"We have many suppliers and can get custom sets made up for a fraction of the price you may find elsewhere!",
         "textList":[
             {
                 "title":"Masonry Fireplace Glass Door Sets",
@@ -1422,7 +1422,7 @@
         "category":"Accessories",
         "type":"services",
         "tileImage":"/assets/images/chimneys/accessories/radiant-firebacks/radiant-fireback.jpg",
-        "tileText":"Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+        "tileText":"If you are looking for your fireplace to put out more heat in the winter time and serve as a bit more than just decoration, we highly recommend asking us about having a fireplace insert installed in your home!",
         "serviceImgCaption":"Keep more of the heat from your fire back in your home",
         "textList":[
             {
@@ -1480,7 +1480,7 @@
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"If your chimney crown is showing its age, it may be time to replace it with a new concrete chimney cap before it is too late!",
         "textList":[
             {
                 "title":"A chimney crown seal protects the chimney crown from damage over time.",
@@ -1502,7 +1502,7 @@
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/fireplace-hearth/fireplace-hearth.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"With age and use, a chimney hearth will start to degrade over time. These bricks however can be replaced so that you can enjoy the look of a fresh new fireplace or change the look of bricks that never appealed to you!",
         "textList":[
             {
                 "title":"Keep your fireplace looking fresh and clean!",
@@ -1524,7 +1524,7 @@
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/chimney-rebuild/chimney-rebuild.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"A chimney rebuild removes any question of the stability of your chimney stack and will improve the value of your home compared to a leaning or broken chimney stack.",
         "textList":[
             {
                 "title":"A neglected chimney stack can be an accident waiting to happen",
@@ -1546,7 +1546,7 @@
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/hardscape/hardscape-services.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"Mike's Mobile offers complete outdoor living additions (hardscape) to your home: fireplaces, kitchens, bars, decorative and retaining walls, living areas, fire pits, patios, decks, elevated patios, pools, ponds and much more!",
         "textList":[
             {
                 "title":"Give your backyard a beautiful makeover",
@@ -1568,7 +1568,7 @@
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/tuckpointing/tuckpointing.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"When mortar joints become damaged, the most cost-effective action that a homeowner can take is to repair affected areas via tuckpointing!",
         "textList":[
             {
                 "title":"Keep your chimney in tip-top shape",
@@ -1585,12 +1585,12 @@
         ]
     },
     {
-        "title":"waterproofing",
+        "title":"Waterproofing",
         "slug":"waterproofing",
         "category":"Masonry",
         "type":"services",
         "tileImage":"assets/images/chimneys/masonry-services/waterproofing/waterproofing.jpg",
-        "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!",
+        "tileText":"Although brick is very durable, extreme weather can have an adverse effect on it over time. Waterproofing your brick/veneer structure will help ensure that your brick work lasts as long as possible!",
         "textList":[
             {
                 "title":"What is Efflorescence?",
