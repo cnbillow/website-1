@@ -7,7 +7,7 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
 
 import * as $ from 'jquery';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-
+import {TabNavComponent} from '../tab-nav/tab-nav.component';
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
@@ -20,8 +20,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     gallery_images: NgxGalleryImage[];
     recent_install_images_options: NgxGalleryOptions[];
     recent_install_images:NgxGalleryImage[];
-
-    groupOptionsSelect=[]
+    details:any
+    groupOptionsSelect=[{}]
 
     private req:any;
     private routeSub:any;
@@ -84,6 +84,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     toggleQuoteForm(){
       this.quoteForm.show()
     }
+    @ViewChild('navwrap') private navwrap;
+
     constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
     
     ngOnInit() {
@@ -94,7 +96,11 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                     if(item.slug == this.slug){
                         this.product = item as ServiceItem;
                         this.videoLink=this.sanitizer.bypassSecurityTrustUrl(this.product.video)
-                        this.recent_install_images = this.product.recentInstallImages;                        
+                        this.recent_install_images = this.product.recentInstallImages;
+                        if(this.details != undefined){
+                            this.details = undefined    
+                        }                        
+                        this.details=this.product.details
                         if (this.product.thumbImages && this.product.thumbImages.length > 1){
                             this.gallery_images = this.product.thumbImages;
                             let galleryImages = true;
@@ -102,9 +108,10 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                             let modalImage = true;
                         }
 
-                        if (this.product.bullets.length > 5){
+                        if (this.product.bullets!=undefined &&this.product.bullets.length > 5){
                             let smallLi = true;
                         }
+                        
                     }
                 })
             })

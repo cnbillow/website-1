@@ -28,5 +28,6 @@ export class ServiceItem{
     description?:string
     //Regional Pages only
     region?:string
+    details?: any;
     
 }

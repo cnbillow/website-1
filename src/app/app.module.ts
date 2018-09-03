@@ -50,8 +50,9 @@ import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.co
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { ProductDetailExtendedComponent } from './product-detail-extended/product-detail-extended.component';
+
 import { PrivacyComponent } from './privacy/privacy.component';
+import { TabNavComponent } from './tab-nav/tab-nav.component';
 
 
 
@@ -94,8 +95,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,
     FlipcardListComponent,
-    ProductDetailExtendedComponent,
     PrivacyComponent,
+    TabNavComponent,
     
  
   ],

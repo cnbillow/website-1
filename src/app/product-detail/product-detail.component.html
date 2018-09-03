@@ -151,28 +151,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container py-4" id="tab-section">
-		<div class="container">
-			<mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
-				<mdb-tab *ngFor="let info of product.details; let i = index" heading="{{info.title}}">
-					<div class="row content">
-						<div *ngIf="info.description">
-							<p class="p-4" [innerHTML]="info.description"></p>
-						</div>
-						<div *ngIf="info.links">
-							<ul class="p-4">
-								<li *ngFor="let i of info.links | keys">
-									<a [routerLink]="[i.value]">{{i.key}}</a>
-								</li>
-							</ul>
-						</div>
-						<div *ngIf="info.video" class="w-100">
-							<iframe *ngIf="info.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(info.video)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						</div>
-					</div>
-		</mdb-tab>
-		</mdb-tabset>
-	</div>
+	<app-tab-nav [details]="details"></app-tab-nav>
 	<!-- <div class="row">
 				<div class="col-md-12">
 					<nav>
@@ -212,7 +191,7 @@
 					</div>
 				</div>
 			</div> -->
-	</div>
+	
 
 	<app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
 </ng-container>
