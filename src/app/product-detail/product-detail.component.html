@@ -151,7 +151,6 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
 	<app-tab-nav [details]="details"></app-tab-nav>
 	<!-- <div class="row">
 				<div class="col-md-12">
@@ -178,33 +177,6 @@
 						</div>
 						<div class="tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab">
 							<div class="p-4" [innerHTML]="product.options"></div>
-=======
-	<div class="container py-4" id="tab-section">
-		<div class="container">
-			<mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
-				<mdb-tab *ngFor="let info of product.details; let i = index" heading="{{info.title}}">
-					<div class="row content">
-						<div *ngIf="info.description" class="shadowbox w-100">
-							<p class="p-4" [innerHTML]="info.description"></p>
-							<div *ngIf="info.image" class="text-center pb-4 w-100">
-								<img class="img-fluid z-depth-2 " src="{{info.image}}" (click)="doorModal.show()"/>
-							</div>
-						</div>
-						<div *ngIf="info.links" class="shadowbox w-100">
-							<ul class="p-4">
-								<li *ngFor="let i of info.links | keys">
-									<a [routerLink]="[i.value]">{{i.key}}</a>
-								</li>
-							</ul>
-						</div>
-						<div *ngIf="info.video" class="w-100">
-							<div *ngFor="let i of info.video | keys" class="text-center py-4">
-								<h3 >{{i.key}}</h3>
-								<hr>
-								<iframe *ngIf="info.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)" frameborder="0"
-							 	allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							</div>
->>>>>>> 690b385c37cb5d333261252c8dad91e12f5fca3f
 						</div>
 						<div *ngIf="info.questions" class="w-100">
 							<ul class="p-4">
@@ -215,17 +187,10 @@
 							</ul>
 						</div>
 					</div>
-<<<<<<< HEAD
 				</div>
 			</div> -->
 	
 
-=======
-				</mdb-tab>
-			</mdb-tabset>
-		</div>
-	</div>
->>>>>>> 690b385c37cb5d333261252c8dad91e12f5fca3f
 	<app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
 </ng-container>
 <app-footer></app-footer>

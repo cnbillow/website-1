@@ -3,7 +3,7 @@
   <div class="container">
     <mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
       <ng-container #navwrap *ngFor="let info of details; let i = index">
-      <mdb-tab *ngIf="info!='' "  heading="{{info.title + i}} ">
+      <mdb-tab *ngIf="info!='' "  heading="{{info.title }} ">
         <div class="row content">
           <div *ngIf="info.description">
             <p class="p-4" [innerHTML]="info.description"></p>
@@ -30,7 +30,7 @@
     <div class="container">
       <mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
         <ng-container #navwrap *ngFor="let info of details; let i = index">
-        <mdb-tab *ngIf="info!='' "  heading="{{info.title + i}} ">
+        <mdb-tab *ngIf="info!='' "  heading="{{info.title }} ">
           <div class="row content">
             <div *ngIf="info.description">
               <p class="p-4" [innerHTML]="info.description"></p>
