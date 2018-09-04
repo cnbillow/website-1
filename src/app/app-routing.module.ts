@@ -23,9 +23,11 @@ import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.co
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
 import { PrivacyComponent } from './privacy/privacy.component';
+import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
 
 
 const appRoutes: Routes = [
+  { path: 'fireplace-manuals',    component:FireplaceManualsComponent,          data: { title: "Mike's Mobile Screen and Chimney Service"}},  
   { path: 'privacy',              component:PrivacyComponent,                   data: { title: "Mike's Mobile Screen and Chimney Service"}},  
   { path: 'about', 				        component: AboutComponent, 						        data: { title: "About Mike's Mobile" }},
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},

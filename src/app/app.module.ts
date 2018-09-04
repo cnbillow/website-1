@@ -53,6 +53,7 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 import { PrivacyComponent } from './privacy/privacy.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
+import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
 
 
 
@@ -97,6 +98,7 @@ import { TabNavComponent } from './tab-nav/tab-nav.component';
     FlipcardListComponent,
     PrivacyComponent,
     TabNavComponent,
+    FireplaceManualsComponent,
     
  
   ],
