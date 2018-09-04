@@ -1,0 +1,22 @@
+<app-navigation></app-navigation>
+<app-action-buttons></app-action-buttons>
+<h1 class="py-5 font-weight-bold text-center title">Fireplace Manuals</h1>
+<h5 class="text-center">Select To display the Manuals as a "PDF"</h5>
+<div class="container">
+  <mdb-tabset class="menu" [buttonClass]="'nav-tabs tab light-blue accent-3'" content-class="'card'">
+    <mdb-tab *ngFor="let section of manulasSections; let i = index" heading="{{section.category}}">
+      <div *ngFor="let sub of section.subcategory" class="row content">
+        <h2>{{ sub.subcategory }}</h2>
+        <div *ngFor="let pdf of section.pdf | keys" class="col-12 question and answer">
+          <div *ngIf="section"></div>
+          <ul class="p-4">
+            <li *ngFor="let i of section.pdf | keys">
+              <a [routerLink]="[i.value]">{{i.key}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </mdb-tab>
+  </mdb-tabset>
+</div>
+<app-footer></app-footer>
