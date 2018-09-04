@@ -18,7 +18,7 @@
           <div *ngIf="info.questions" class="w-100">
             <ul class="p-4">
               <li *ngFor="let i of info.questions | keys">
-                <p class="question">ََQ: {{i.key}} ?</p>
+                <p class = "question">Q: {{i.key}}</p>
                 <p class="shadowbox">A: {{i.value}} </p>
               </li>
             </ul>
