@@ -1,15 +1,534 @@
 [
     {
-        "category":"Napoleon",
-        "subcategory":"Direct Vent Gas Fireplaces  ",
-        "pdf":[
+        "category": "Napoleon",
+        "manuals": [
             {
-                        "Napoleon BGD36CFNTR Manhattan":"/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
-                        "Napoleon BGD40GN":"/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
-                        "Napoleon BGD90NT Dream":"/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
-                        "Napoleon GD19N Vittoria":"/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean Face.pdf"
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
             }
-        ]       
+        ]
+    },
+    {
+        "category": "Kingsman",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Majestic",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Monessen",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Quadra",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Regency",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Westgate",
+        "manuals": [
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas",
+                "pdf": {
+                    "GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+                    "GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+                    "GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+                    "GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf"
+                }
+            },
+            {
+                "subcategory": "Electric Fireplaces",
+                "pdf": {
+                    "EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+                    "EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+                    "EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+                    "EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf"
+                }
+            },
+            {
+                "subcategory": "Thanol Burning",
+                "pdf": {
+                    "WMFE1 Corner Unit": "/assets/manuals/napolean/direct-vent/WMFE1-Corner-Unit.pdf",
+                    "WMFE2 Square Unit": "/assets/manuals/napolean/direct-vent/WMFE2-Square-Unit.pdf",
+                    "WMFE3 Linear Unit": "/assets/manuals/napolean/direct-vent/WMFE3-Linear-Unit.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            },
+            {
+                "subcategory": "Direct Vent Gas Fireplaces ",
+                "pdf": {
+                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+                    "Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+                    "Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf"
+                }
+            }
+        ]
     }
-    
 ]
